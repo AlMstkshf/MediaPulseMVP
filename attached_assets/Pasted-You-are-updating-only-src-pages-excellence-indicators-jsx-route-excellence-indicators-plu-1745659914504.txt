@@ -1,0 +1,65 @@
+You are updating **only** `src/pages/excellence-indicators.jsx` (route `/excellence-indicators`) plus the two locale files. Do **not** create new pages or extra components.
+
+---
+
+## 1. Fix Government Communication
+- Currently shows “No data…”.  
+- Under its accordion, render **all six** sub-indicators (Arabic & English labels via `t(…)`), with real values from `kpiService`:
+  1. Coverage Volume  
+  2. Positive Coverage Rate  
+  3. Media Sentiment Index  
+  4. Social Media Engagement Rate  
+  5. Response Time to Media Inquiries  
+  6. Share of Voice in Media  
+- Remove any placeholder or empty table.
+
+## 2. Correct Innovation sub-indicators
+- Now you see three Arabic metrics + six English rows with “Data not available.”  
+- Replace placeholders:
+  - Map the three Arabic rows to the first three sub-indicators (Implemented Innovations, Idea Rate, Employee Participation) and bind them to real data keys.
+  - For the remaining three (Innovation Awards Count, Operational Efficiency Improvement, Innovation Media Coverage), call the correct endpoints or service methods so they display actual values rather than “Data not available.”
+
+## 3. Overhaul Smart Empowerment (“Smart Transformation”)
+- Remove the three unrelated Arabic rows (`معدل النقر`, `معدل التحويل`, `مدة المشاهدة`).
+- Under its accordion, render exactly these five sub-indicators with live data:
+  1. Digital Services %  
+  2. Digital Services Adoption Rate  
+  3. Smart Services User Satisfaction  
+  4. Internal Processes Automation %  
+  5. No. of Smart Initiatives Implemented  
+
+## 4. Build Data & Knowledge section
+- Rename “Data Management” header to **“Data & Knowledge”**.
+- Under its accordion, fetch and display these five sub-indicators:
+  1. Knowledge Sharing Sessions Count  
+  2. Avg. Training Hours per Employee  
+  3. Core Data Accuracy Rate  
+  4. Statistical Reports Published  
+  5. Data-Driven Decision Index  
+
+## 5. Data binding
+- Ensure each sub-indicator uses the correct `kpiService.getXxx()` or API call.
+- Do not leave any “Data not available”: if the API returns `null` or `undefined`, display `0` (or “0 %” for percentages).
+
+## 6. Inputs & Controls
+- Keep the date‐range picker and axis dropdown at top. They must re-fetch **all** values on change.
+
+## 7. UI & i18n
+- Continue using Tailwind (`#f9f4e9`, `#cba344`, `p-4`, `rounded-2xl`), shared components (`<KpiTable>`, `<Accordion>`, etc.).
+- Wrap **every** label in `t('excellence.<key>')`.
+- Update only `/locales/en/excellence.json` and `/locales/ar/excellence.json` with the new keys for the six Communication metrics, six Innovation metrics, five Smart metrics, and five Data & Knowledge metrics.
+
+## 8. Testing
+- In `__tests__/excellence-indicators.test.jsx`, add assertions to verify:
+  - The Communication accordion lists exactly six items with correct values.  
+  - Innovation lists exactly six sub-indicators with non-empty values.  
+  - Smart lists exactly five sub-indicators (no placeholders).  
+  - Data & Knowledge lists exactly five sub-indicators.  
+
+---
+
+**Output:** a unified diff patch for:
+- `src/pages/excellence-indicators.jsx`
+- `/locales/en/excellence.json`
+- `/locales/ar/excellence.json`
+- `__tests__/excellence-indicators.test.jsx`

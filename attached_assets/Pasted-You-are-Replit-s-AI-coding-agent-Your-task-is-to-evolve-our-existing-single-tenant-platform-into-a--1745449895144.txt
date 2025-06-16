@@ -1,0 +1,73 @@
+You are Replit’s AI coding agent. Your task is to evolve our existing single-tenant platform into a full multitenant SaaS:
+	• Per-tenant environments: each organization gets its own customizable sandbox—unique URL (subdomain or path), isolated database connection, dedicated storage backend, and independent API integration settings.
+	• Central admin plane: build a “system-owner” dashboard to onboard/offboard tenants, manage their profiles, URLs, user permissions, databases, storage configs, API keys and all other administrative functions.
+	• Hybrid hosting support: account for tenants who host parts on-premises or leverage external storage solutions (e.g. S3, Azure Blob, on-prem NAS).
+Be critical of single-schema vs. physical DB isolation, challenge assumptions about secret management, and propose scalable, secure patterns throughout.
+
+
+
+🔎 Context
+You’re extending an existing single-tenant platform into a full multitenant SaaS. Tenants range from government agencies to private enterprises, each needing logical isolation yet sharing a common codebase.
+🎯 Objective
+Design and implement a multitenant architecture where:
+	1. Per-tenant isolation: each tenant has its own database/schema, file storage space, and API credentials.
+	2. Unique endpoints: tenants access via custom subdomains or path prefixes (e.g. tenantA.myapp.com or myapp.com/tenantA).
+	3. Central admin: a “system-owner” environment to onboard/offboard tenants, manage profiles, customize branding, view usage reports, and revoke access.
+	4. Flexible hosting: support fully cloud-hosted tenants, hybrid (some components on-prem), or external storage integrations (S3, Azure Blob, on-prem NAS).
+
+1. Requirements
+	1. Database
+		○ One database per tenant (logical or physical), or shared DB with tenant-scoped schemas/row-level security.
+		○ Migration scripts that detect and provision new schemas automatically.
+	2. Storage
+		○ Per-tenant buckets/folders.
+		○ Configurable backends (local disk for dev, S3-compatible or on-prem NFS in prod).
+	3. Routing & URLs
+		○ DNS/subdomain provisioning automation (Replit secrets or DNS API).
+		○ Fallback/default tenant if no match.
+	4. Configs & Secrets
+		○ Use environment variables or vault (e.g. HashiCorp Vault) per-tenant.
+		○ Support rotating keys without downtime.
+	5. Central Admin UI
+		○ Tenant onboarding wizard (URL, DB, storage, initial admin user).
+		○ Dashboard: active tenants, resource usage, health checks.
+		○ Audit log of tenant-scoped operations.
+	6. API Integration
+		○ Each tenant can plug in third-party APIs (e.g. Slack alerts, OpenAI, payment gateways) with isolated credentials.
+	7. Security & Compliance
+		○ Strict data partitioning.
+		○ Role-based access control (RBAC) inside each tenant.
+		○ Encryption-at-rest and in-transit.
+	8. Scalability & Performance
+		○ Tenant sharding strategies for high-traffic clients.
+		○ Autoscaling considerations on Replit or external Kubernetes.
+	9. Testing & CI/CD
+		○ Automated tests per-tenant scenario.
+		○ Pipelines that validate spinning up a sandbox tenant end-to-end.
+
+2. Deliverables
+	1. Architecture diagram showing DB, storage, API gateway, admin plane vs. tenant plane.
+	2. Code scaffolding / stubs for:
+		○ Tenant model and provisioning logic
+		○ Routing middleware for subdomain/path resolution
+		○ Storage adapter interface with at least two implementations (local + S3)
+	3. Automated migration tool
+	4. Admin dashboard screens (React/Vue or plain HTML)
+	5. Unit & integration tests covering:
+		○ New tenant provisioning
+		○ Data isolation
+		○ On-prem storage fallback
+	6. README with setup instructions, environment variables, and “Getting Started” for adding a new tenant.
+
+3. Agent Instructions
+	1. First, propose high-level architecture and folder structure.
+	2. Next, generate code stubs for core components (tenant model, provisioning).
+	3. Then, implement routing middleware with examples.
+	4. After, write storage adapter classes.
+	5. Finally, sketch out the admin-UI pages and test cases.
+At each step, ask any clarifying questions (e.g. “Do you prefer physical DB isolation or schema-based?”).
+
+4. Acceptance Criteria
+	• Proof of concept: spin up two dummy tenants in a dev Replit instance.
+	• Isolation verification: tenant A can’t see tenant B’s data or secrets.
+	• Documentation: clear instructions to onboard a third tenant.

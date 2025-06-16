@@ -1,0 +1,45 @@
+You are given an existing React page at `src/pages/excellence-indicators.jsx` (route `/excellence-indicators`). **DO NOT create a new page**—you must update this file in place.
+
+1. **Internationalization**  
+   - Use our i18n setup with JSON translation files:
+     - `/locales/en/excellence.json`
+     - `/locales/ar/excellence.json`
+   - Wrap all user-facing strings in the `t('key')` function.
+   - Do **not** duplicate Arabic content into the English file; instead, provide proper translations in each JSON.
+
+2. **Data Structure & Sub-Indicators**  
+   - Fetch and compute **both** main KPIs and their **sub-indicators** (the nested metrics) from the existing `kpiService`.
+   - Render sub-indicators as expandable rows (e.g. an accordion under each main KPI) showing:
+     - Name (translated)
+     - Current value
+     - Target value
+     - Status icon (✔️/⚠️/❌)
+
+3. **Inputs & Outputs UI**  
+   - Add at the top of the page:
+     - A **date range picker** (`startDate`, `endDate`).
+     - A **dropdown** to select the strategic “axis” (Communication, Innovation, Smart, Data).
+   - When the user changes inputs, **refetch** and **recompute** all KPIs.
+   - At the bottom of each KPI section, include:
+     - A **“Refresh”** button to manually reload data.
+     - An **“Export CSV”** button that downloads the current table (main + sub-indicators).
+     - An **“Export PDF”** button that prints the section.
+
+4. **Design & Styling**  
+   - Follow existing Tailwind theme (`#f9f4e9`, `#cba344`); use 2xl rounded corners, soft shadows, padding `p-4`.
+   - Use our shared components: `<KpiTable>`, `<Accordion>`, `<DatePicker>`, `<Dropdown>`, `<Button>`.
+   - Keep header: `t('excellence.title')`.
+   - Ensure the page remains a **single** JSX file update—no new pages, no duplicate code.
+
+5. **Testing**  
+   - Add unit tests in `__tests__/excellence-indicators.test.jsx`:
+     - Verify translations keys render correctly in both languages.
+     - Verify sub-indicator rows appear under each main KPI.
+     - Mock date range change triggers fetch.
+     - Mock click on Export CSV/PDF triggers download functionality.
+
+6. **Commit & Documentation**  
+   - Edit **only** `src/pages/excellence-indicators.jsx` and the two JSON files under `/locales`.
+   - Update `README.md` section “Institutional Excellence” with instructions on the date picker, dropdown, and export buttons.
+
+Return a unified diff patch showing exactly which files and lines to change.

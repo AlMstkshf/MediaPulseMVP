@@ -1,0 +1,131 @@
+version: "3.1"
+
+stories:
+- story: greet and goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: greet and ask about platforms
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_platform
+  - action: utter_ask_platform
+
+- story: request sentiment analysis
+  steps:
+  - intent: request_sentiment_analysis
+  - action: utter_ask_topic
+  - intent: affirm
+  - action: utter_ask_platform
+  - intent: affirm
+  - action: utter_ask_timeframe
+
+- story: ask about media coverage
+  steps:
+  - intent: ask_about_media_coverage
+  - action: utter_ask_topic
+  - intent: affirm
+  - action: utter_ask_timeframe
+
+- story: request content metrics
+  steps:
+  - intent: request_content_metrics
+  - action: utter_ask_platform
+  - intent: affirm
+  - action: utter_ask_timeframe
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: ask about KPI report
+  steps:
+  - intent: get_kpi_report
+  - action: utter_get_kpi_report
+  - intent: inform
+  - action: action_generate_kpi_report
+
+- story: ask about setting alert
+  steps:
+  - intent: set_alert
+  - action: utter_set_alert
+  - intent: inform
+  - action: action_set_keyword_alert
+
+- story: add new journalist
+  steps:
+  - intent: add_journalist
+  - action: utter_add_journalist
+  - intent: inform
+  - action: action_add_journalist_contact
+
+- story: publish social media post
+  steps:
+  - intent: publish_post
+  - action: utter_publish_post
+  - intent: inform
+  - action: action_publish_social_post
+
+- story: schedule social media post
+  steps:
+  - intent: schedule_post
+  - action: utter_schedule_post
+  - intent: inform
+  - action: action_schedule_social_post
+
+- story: smart report customization
+  steps:
+  - intent: smart_report_customization
+  - action: utter_smart_report_customization
+  - intent: inform
+  - action: action_customize_report
+
+- story: fill KPIs help
+  steps:
+  - intent: fill_kpis_help
+  - action: utter_fill_kpis_help
+
+- story: explain application
+  steps:
+  - intent: explain_app
+  - action: utter_explain_app
+
+- story: how application works
+  steps:
+  - intent: how_it_works
+  - action: utter_how_it_works
+
+- story: social media verification help
+  steps:
+  - intent: social_media_verification
+  - action: utter_social_media_verification
+
+- story: excellence indicators help
+  steps:
+  - intent: excellence_indicators_help
+  - action: utter_excellence_indicators_help
+
+- story: media center help
+  steps:
+  - intent: media_center_help
+  - action: utter_media_center_help
+
+- story: archive help
+  steps:
+  - intent: archive_help
+  - action: utter_archive_help
+
+- story: settings help
+  steps:
+  - intent: settings_help
+  - action: utter_settings_help
+
+- story: osint help
+  steps:
+  - intent: osint_help
+  - action: utter_osint_help

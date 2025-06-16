@@ -1,0 +1,46 @@
+client:536 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/?token=MIPyKYPgFkYA' failed: 
+setupWebSocket @ client:536
+(anonymous) @ client:531
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=MIPyKYPgFkYA' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+setupWebSocket @ client:536
+fallback @ client:509
+(anonymous) @ client:555
+chunk-276SZO74.js?v=1da3d993:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:11 Initializing i18n...
+index.ts:36 i18n initialized successfully
+main.tsx:23 App rendered successfully
+websocket-context.tsx:55 [WebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+websocket-context.tsx:178 [WebSocketContext] Cleaning up WebSocket connection
+websocket-context.tsx:55 [WebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+websocket-context.tsx:64 [WebSocketContext] Connected to WebSocket server
+websocket-context.tsx:86 [WebSocketContext] Message from server: {type: 'connect', message: 'Connected to Media Intelligence WebSocket server', timestamp: '2025-04-24T17:30:16.785Z'}
+websocket-context.tsx:86 [WebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-24T17:30:16.855Z'}
+websocket-context.tsx:64 [WebSocketContext] Connected to WebSocket server
+websocket-context.tsx:86 [WebSocketContext] Message from server: {type: 'connect', message: 'Connected to Media Intelligence WebSocket server', timestamp: '2025-04-24T17:30:16.995Z'}
+websocket-context.tsx:86 [WebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-24T17:30:17.396Z'}
+App.tsx:41 Error caught by error boundary: SyntaxError: The requested module '/src/lib/constants.ts' does not provide an export named 'ROUTES' (at Header.tsx:18:25)
+handleError @ App.tsx:41
+invokeGuardedCallbackDev @ chunk-276SZO74.js?v=1da3d993:3699
+invokeGuardedCallback @ chunk-276SZO74.js?v=1da3d993:3733
+beginWork$1 @ chunk-276SZO74.js?v=1da3d993:19765
+performUnitOfWork @ chunk-276SZO74.js?v=1da3d993:19198
+workLoopConcurrent @ chunk-276SZO74.js?v=1da3d993:19189
+renderRootConcurrent @ chunk-276SZO74.js?v=1da3d993:19164
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18678
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+chunk-ZMLY2J2T.js?v=1da3d993:903 Uncaught SyntaxError: The requested module '/src/lib/constants.ts' does not provide an export named 'ROUTES' (at Header.tsx:18:25)
+App.tsx:41 Error caught by error boundary: SyntaxError: The requested module '/src/lib/constants.ts' does not provide an export named 'ROUTES' (at Header.tsx:18:25)
+handleError @ App.tsx:41
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19403
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+Header.tsx:18 Uncaught SyntaxError: The requested module '/src/lib/constants.ts' does not provide an export named 'ROUTES' (at Header.tsx:18:25)

@@ -1,0 +1,190 @@
+/* RTL-specific styles for Arabic language support */
+
+/* Global RTL adjustments */
+html[dir="rtl"] * {
+  letter-spacing: 0;
+}
+
+/* Adjust text alignment for RTL */
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+/* Adjust padding and margins for RTL layout */
+html[dir="rtl"] .dashboard-widget {
+  direction: rtl;
+}
+
+/* Adjust UI components for RTL */
+html[dir="rtl"] .dropdown-menu {
+  text-align: right;
+}
+
+html[dir="rtl"] .custom-content-widget {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .widget-header {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .widget-header .widget-title {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+html[dir="rtl"] .widget-header .widget-actions {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* Flip icons for RTL */
+html[dir="rtl"] .lucide {
+  transform: scaleX(-1);
+}
+
+/* Exception for icons that shouldn't be flipped */
+html[dir="rtl"] .lucide.no-flip,
+html[dir="rtl"] .lucide-globe,
+html[dir="rtl"] .lucide-user,
+html[dir="rtl"] .lucide-bell,
+html[dir="rtl"] .lucide-menu {
+  transform: none;
+}
+
+/* Adjust form elements for RTL */
+html[dir="rtl"] input,
+html[dir="rtl"] textarea {
+  text-align: right;
+}
+
+/* Adjust tables for RTL */
+html[dir="rtl"] table {
+  direction: rtl;
+}
+
+html[dir="rtl"] th,
+html[dir="rtl"] td {
+  text-align: right;
+}
+
+/* Dashboard-specific RTL adjustments */
+html[dir="rtl"] .dashboard-grid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .grid-item {
+  float: right;
+}
+
+/* Adjust navigation for RTL */
+html[dir="rtl"] .nav-item {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+html[dir="rtl"] .nav-icon {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+/* Custom content widget RTL support */
+html[dir="rtl"] .custom-content-html {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust dashboard layout for RTL */
+html[dir="rtl"] .dashboard-sidebar {
+  left: auto;
+  right: 0;
+  border-right: none;
+  border-left: 1px solid var(--border);
+}
+
+html[dir="rtl"] .dashboard-main {
+  margin-left: 0;
+  margin-right: 250px;
+}
+
+/* Adjust toasts for RTL */
+html[dir="rtl"] .toast {
+  right: auto;
+  left: 1rem;
+}
+
+/* Adjust buttons for RTL */
+html[dir="rtl"] .btn-icon {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+/* RTL support for charts and data visualizations */
+html[dir="rtl"] .chart-container {
+  direction: ltr; /* Charts often need LTR even in RTL context */
+}
+
+/* Adjust form layouts for RTL */
+html[dir="rtl"] .form-group label {
+  text-align: right;
+}
+
+html[dir="rtl"] .form-actions {
+  flex-direction: row-reverse;
+}
+
+/* Adjust dropdown menus for RTL */
+html[dir="rtl"] .dropdown-menu-content {
+  text-align: right;
+}
+
+/* Fix for flex containers in RTL */
+html[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+html[dir="rtl"] .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Additional RTL utilities */
+html[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+html[dir="rtl"] .rtl-text-right {
+  text-align: left !important;
+}
+
+html[dir="rtl"] .rtl-text-left {
+  text-align: right !important;
+}
+
+/* Fix for shadcn components */
+html[dir="rtl"] [data-radix-popper-content-wrapper] {
+  transform-origin: var(--radix-popper-transform-origin);
+}
+
+/* Custom widget content specific styling */
+html[dir="rtl"] .custom-widget-html-content {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Support for nested RTL content */
+html[dir="rtl"] [dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] [dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}

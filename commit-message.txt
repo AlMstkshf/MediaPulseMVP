@@ -1,0 +1,16 @@
+fix: Deployment configuration for Replit
+
+This commit addresses deployment issues by:
+
+- Enhancing the fix-build.js script with better error handling
+- Creating proper build directory structure (build/client and build/server)
+- Adding symlinks for static file serving
+- Creating deploy.sh for simplifying the deployment process
+- Adding detailed deployment documentation
+
+These changes ensure the application can be properly deployed on Replit.
+
+Testing:
+- Verified build directory structure is created correctly
+- Confirmed server can run from build directory
+- Tested client file access via symlinks

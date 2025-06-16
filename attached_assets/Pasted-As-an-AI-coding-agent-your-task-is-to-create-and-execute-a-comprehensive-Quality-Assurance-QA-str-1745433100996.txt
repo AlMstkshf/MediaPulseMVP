@@ -1,0 +1,39 @@
+As an AI coding agent, your task is to create and execute a comprehensive Quality Assurance (QA) strategy for the entire developed website. The steps should include:
+
+Test Plan Development:
+
+Design a detailed and structured QA test plan covering all aspects of the website’s functionality.
+
+Prioritize testing based on critical features, user impact, and performance requirements.
+
+Testing Areas:
+
+Functionality Testing: Ensure every feature and functionality performs as expected without errors. This includes testing all forms, buttons, links, and workflows.
+
+Asset Verification: Confirm that all visual and media assets (images, videos, icons, etc.) are correctly placed and render properly across all devices and browsers.
+
+Database Integration: Verify that the database connections are stable, queries return accurate results, and data is correctly stored and retrieved.
+
+Backend & Frontend Integration: Test the seamless interaction between the backend (APIs, data flow) and frontend (UI/UX, rendering) components, ensuring smooth user experience.
+
+Usability and User Experience: Assess the overall usability of the website, ensuring intuitive navigation, accessibility, and performance on multiple devices.
+
+Error Identification:
+
+Identify and document all issues, errors, or discrepancies encountered during testing.
+
+Categorize them based on severity (critical, major, minor) to prioritize fixes.
+
+Development Enhancement Insights:
+
+Highlight areas for potential improvement, both from a functionality and performance perspective. This may include optimization opportunities, security enhancements, or better code practices.
+
+Action Plan for Resolution:
+
+Create a detailed, step-by-step action plan to address each identified issue, including exact coding fixes, design adjustments, or integrations.
+
+Clearly outline the development steps and expected timeline for each fix.
+
+Present this plan to the team for review and approval before proceeding with the implementation of fixes.
+
+Once the action plan is approved, execute the necessary corrections and optimizations, ensuring that the website meets all defined quality standards and functions flawlessly.

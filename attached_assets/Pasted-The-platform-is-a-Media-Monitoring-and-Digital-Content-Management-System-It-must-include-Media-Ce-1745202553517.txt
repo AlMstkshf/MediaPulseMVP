@@ -1,0 +1,116 @@
+The platform is a Media Monitoring and Digital Content Management System. It must include:
+
+Media Center:
+
+Centralized dashboard for managing and publishing content.
+
+Categorization by media type (text, video, images).
+
+Tagging and archiving system.
+
+Social Media Management & Analysis:
+
+Integration with major platforms (Twitter/X, Instagram, YouTube, Facebook).
+
+Account management and scheduling posts.
+
+Sentiment analysis using 1–5 keyword indicators.
+
+Demographic analytics (age, gender, region).
+
+Trend and hashtag tracking.
+
+Media Monitoring Module:
+
+Scraping and analyzing news websites, blogs, TV clips.
+
+Filtering by keywords, topics, or sources.
+
+Alert system for risky or trending mentions.
+
+GEM 2.0 KPI Reporting System (For UAE Government Excellence Model):
+
+Digital responsiveness speed.
+
+Negative feedback response time.
+
+Positive engagement ratio.
+
+OSINT maturity.
+
+Readiness for future challenges.
+
+Strategic foresight capability.
+
+AI-driven sentiment and performance analytics.
+
+Innovation index.
+
+User Roles and Permissions:
+
+Admin (full access).
+
+Analyst (limited data access + reporting tools).
+
+Editor (content publishing rights).
+
+Viewer (read-only access).
+
+Reports and Dashboards:
+
+Downloadable PDF/CSV.
+
+Visual dashboards (charts, graphs, KPIs).
+
+Filters by time, topic, and source.
+
+Tutorial Section:
+
+Built-in motion graphic explainer videos.
+
+Easy onboarding experience.
+
+✅ What kind of media are you analyzing?
+Social Media: Twitter/X, Facebook, Instagram, YouTube, TikTok.
+
+News Outlets: Government and private news portals.
+
+Blogs and Online Articles.
+
+TV Reports / Video Segments (optionally transcribed via AI or uploaded manually).
+
+User-generated content on forums and public groups.
+
+✅ What kind of intelligence or insights are you looking to extract?
+Real-time sentiment analysis.
+
+Public opinion trends based on keywords.
+
+Performance of government/media accounts.
+
+Demographic and geographic engagement patterns.
+
+OSINT-based threat or opportunity detection.
+
+Comparative analysis between competitors or sectors.
+
+Visual KPI tracking aligned with GEM 2.0 benchmarks.
+
+Early warning system for reputation or crisis management.
+
+✅ Any specific design preferences or constraints?
+Brand Colors: #f9f4e9 (primary background), #cba344 (highlight/brand color).
+
+Font and Style: Consistent with UAE governmental platforms (clear, bilingual, modern UI).
+
+Arabic-first interface with LTR support for English.
+
+Dropdown navigation to manage information-heavy sections.
+
+Responsive design (desktop, tablet, mobile).
+
+Voice-over tutorials in Arabic with female narration.
+
+No introductory splash messages—focus on direct UX clarity.
+
+Secure backend with user access control.

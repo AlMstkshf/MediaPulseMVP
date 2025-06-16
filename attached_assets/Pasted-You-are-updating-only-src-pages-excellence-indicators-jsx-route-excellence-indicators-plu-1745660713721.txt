@@ -1,0 +1,91 @@
+You are updating **only** `src/pages/excellence-indicators.jsx` (route `/excellence-indicators`) plus the two locale JSONs. **Do NOT** scaffold new files or pages—fix the existing one.
+
+---
+
+## A. Based on the four screenshots, here is exactly what’s broken and must be fixed:
+
+### 1. Communication section (Screenshot 1 & 3)
+- **Issue:** Shows “No data available…” and no sub-indicators.
+- **Fix:** Under the “Communication” accordion, render **six** rows with live data:
+  1. Coverage Volume  
+  2. Positive Coverage Rate  
+  3. Media Sentiment Index  
+  4. Social Media Engagement Rate  
+  5. Response Time to Media Inquiries  
+  6. Share of Voice in Media  
+- **Behaviour:**  
+  - If API returns `null`, display `0` or `0 %`.  
+  - Remove any empty placeholder.
+
+### 2. Innovation section (Screenshot 1 & 4)
+- **Issue:** Only three Arabic rows have values; the remaining three show “Data not available.”
+- **Fix:**  
+  - Map the three Arabic rows to the first three sub-indicators with correct data keys.  
+  - For the last three sub-indicators (Innovation Awards Count, Operational Efficiency Improvement, Innovation Media Coverage %), call the proper service methods so they display real numbers and not “Data not available.”
+
+### 3. Smart Empowerment section (Screenshot 2 & 4)
+- **Issue:** Still shows legacy Arabic rows (`معدل النقر`, `معدل التحويل`, `مدة المشاهدة`), plus the five new rows—three of which have no values.
+- **Fix:**  
+  1. **Remove** all legacy Arabic rows.  
+  2. Render exactly these **five** sub-indicators with their live data:
+     - Digital Services %  
+     - Digital Services Adoption Rate  
+     - Smart Services User Satisfaction  
+     - Internal Processes Automation %  
+     - No. of Smart Initiatives Implemented  
+
+### 4. Data & Knowledge section (Screenshot 2 & 4)
+- **Issue:** Heading still “Data Management” and shows “No data available…”  
+- **Fix:**  
+  1. Rename header to **“Data & Knowledge”**.  
+  2. Under its accordion, fetch and display these **five** sub-indicators:
+     - Knowledge Sharing Sessions Count  
+     - Avg. Training Hours per Employee  
+     - Core Data Accuracy Rate  
+     - Statistical Reports Published  
+     - Data-Driven Decision Index  
+
+---
+
+## B. Technical Requirements
+
+1. **Data Binding**  
+   - Use `kpiService.getXxx()` (or existing API hooks) for each metric.  
+   - Never leave “Data not available”; default `0` or `0 %` on missing data.
+
+2. **Controls**  
+   - Keep the date-range picker and axis dropdown; on change, **re-fetch** all six+ six+ five+ five metrics.
+
+3. **UI & i18n**  
+   - Continue Tailwind theme (`#f9f4e9`, `#cba344`, `rounded-2xl`, `p-4`, soft shadows).  
+   - Use shared components: `<KpiTable>`, `<Accordion>`, `<DatePicker>`, `<Dropdown>`, `<Button>`.  
+   - Wrap **all** labels in `t('excellence.<key>')`. Only update:
+     - `/locales/en/excellence.json`  
+     - `/locales/ar/excellence.json`
+
+4. **Testing**  
+   - In `__tests__/excellence-indicators.test.jsx`, add assertions that:
+     - “Communication” lists exactly six rows with non-empty values.  
+     - “Innovation” lists six rows all with values.  
+     - “Smart Empowerment” lists five rows only.  
+     - “Data & Knowledge” lists five rows only.  
+     - Date picker & axis dropdown trigger data refresh.  
+     - Export CSV/PDF buttons produce correct downloads.
+
+---
+
+## C. Deliverable
+
+Provide a **unified diff** patch for:
+
+- `src/pages/excellence-indicators.jsx`  
+- `/locales/en/excellence.json`  
+- `/locales/ar/excellence.json`  
+- `__tests__/excellence-indicators.test.jsx`
+
+Make sure your patch:
+
+- Removes legacy placeholders.  
+- Inserts the six + six + five + five KPI rows.  
+- Binds each to real data calls.  
+- Keeps the existing page and route intact.  

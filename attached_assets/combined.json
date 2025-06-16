@@ -1,0 +1,5502 @@
+{
+  "analysis.demographics": {
+    "en": "Demographics",
+    "ar": "التركيبة السكانية"
+  },
+  "analysis.influentialKeywords": {
+    "en": "Influential Keywords",
+    "ar": "الكلمات المؤثرة"
+  },
+  "analysis.mainTopics": {
+    "en": "Main Topics",
+    "ar": "المواضيع الرئيسية"
+  },
+  "analysis.negative": {
+    "en": "Negative",
+    "ar": "سلبي"
+  },
+  "analysis.negativeSentiment": {
+    "en": "Negative Sentiment Analysis",
+    "ar": "تحليل المشاعر السلبية"
+  },
+  "analysis.neutral": {
+    "en": "Neutral",
+    "ar": "محايد"
+  },
+  "analysis.overallSentiment": {
+    "en": "Overall Sentiment",
+    "ar": "المشاعر العامة"
+  },
+  "analysis.platforms": {
+    "en": "Social Platforms",
+    "ar": "منصات التواصل"
+  },
+  "analysis.positive": {
+    "en": "Positive",
+    "ar": "إيجابي"
+  },
+  "analysis.positiveSentiment": {
+    "en": "Positive Sentiment Analysis",
+    "ar": "تحليل المشاعر الإيجابية"
+  },
+  "analysis.sentimentAnalysis": {
+    "en": "Sentiment Analysis",
+    "ar": "تحليل المشاعر"
+  },
+  "analysis.sentimentByPlatform": {
+    "en": "Sentiment Analysis by Platform",
+    "ar": "تحليل المشاعر حسب المنصة"
+  },
+  "analysis.sentimentChart": {
+    "en": "Chart for sentiment analysis over time",
+    "ar": "رسم بياني لتحليل المشاعر عبر الوقت"
+  },
+  "analysis.sentimentDecrease": {
+    "en": "Sentiment Decrease Analysis",
+    "ar": "تحليل انخفاض المشاعر"
+  },
+  "analysis.sentimentDistribution": {
+    "en": "Sentiment Distribution",
+    "ar": "توزيع المشاعر"
+  },
+  "analysis.sentimentFilters": {
+    "en": "Sentiment Filters",
+    "ar": "فلتر التحليل العاطفي"
+  },
+  "analysis.sentimentImprovement": {
+    "en": "Sentiment Improvement Analysis",
+    "ar": "تحليل تحسين المشاعر"
+  },
+  "analysis.sentimentOverTime": {
+    "en": "Sentiment Analysis Over Time",
+    "ar": "تحليل المشاعر عبر الوقت"
+  },
+  "analysis.sourceBreakdown": {
+    "en": "Source Breakdown",
+    "ar": "ترتيب المصادر"
+  },
+  "analysis.trackSentimentChanges": {
+    "en": "Track sentiment changes over time with animated sparkline visualization",
+    "ar": "تتبع تغييرات المشاعر بمرور الوقت باستخدام التصور البياني المتحرك"
+  },
+  "analysis.trendDisplay": {
+    "en": "Shows trends for positive, negative, and neutral sentiment",
+    "ar": "يعرض اتجاهات المشاعر الإيجابية والسلبية والمحايدة"
+  },
+  "app.title": {
+    "en": "Ajman Police Media Intelligence",
+    "ar": "ذكاء الإعلام - شرطة عجمان"
+  },
+  "assistant.browserUnsupported": {
+    "en": "Your browser does not support voice recognition.",
+    "ar": "متصفحك لا يدعم التعرف الصوتي."
+  },
+  "assistant.chat": {
+    "en": "Chat",
+    "ar": "المحادثة"
+  },
+  "assistant.clickToSpeak": {
+    "en": "Click microphone to speak",
+    "ar": "انقر على الميكروفون للتحدث"
+  },
+  "assistant.closeAssistant": {
+    "en": "Closing Assistant",
+    "ar": "إغلاق المساعد"
+  },
+  "assistant.closeExample": {
+    "en": "Close assistant",
+    "ar": "أغلق المساعد"
+  },
+  "assistant.error": {
+    "en": "Voice Assistant Error",
+    "ar": "خطأ في المساعد الصوتي"
+  },
+  "assistant.getHelp": {
+    "en": "Getting Help",
+    "ar": "الحصول على المساعدة"
+  },
+  "assistant.help": {
+    "en": "Help",
+    "ar": "المساعدة"
+  },
+  "assistant.helpExample": {
+    "en": "What can you help me with?",
+    "ar": "بماذا يمكنك مساعدتي؟"
+  },
+  "assistant.hideAssistant": {
+    "en": "Hide Voice Assistant",
+    "ar": "إخفاء المساعد الصوتي"
+  },
+  "assistant.listening": {
+    "en": "Listening...",
+    "ar": "جاري الاستماع..."
+  },
+  "assistant.microphoneError": {
+    "en": "Could not access microphone. Please check your browser permissions.",
+    "ar": "لا يمكن الوصول إلى الميكروفون. يرجى التحقق من أذونات المتصفح."
+  },
+  "assistant.navExample1": {
+    "en": "Show me communication metrics",
+    "ar": "أظهر لي مقاييس الاتصال"
+  },
+  "assistant.navExample2": {
+    "en": "Go to data management section",
+    "ar": "انتقل إلى قسم إدارة البيانات"
+  },
+  "assistant.navigation": {
+    "en": "Section Navigation",
+    "ar": "التنقل بين الأقسام"
+  },
+  "assistant.showAssistant": {
+    "en": "Show Voice Assistant",
+    "ar": "إظهار المساعد الصوتي"
+  },
+  "assistant.startError": {
+    "en": "Could not start voice recognition. Please try again.",
+    "ar": "تعذر بدء التعرف الصوتي. يرجى المحاولة مرة أخرى."
+  },
+  "assistant.title": {
+    "en": "KPI Assistant",
+    "ar": "مساعد مؤشرات الأداء"
+  },
+  "assistant.unsupported": {
+    "en": "Unsupported Browser",
+    "ar": "متصفح غير مدعوم"
+  },
+  "assistant.voiceCommands": {
+    "en": "Voice Commands",
+    "ar": "الأوامر الصوتية"
+  },
+  "auth.invalidCredentials": {
+    "en": "Invalid credentials",
+    "ar": "بيانات الاعتماد غير صالحة"
+  },
+  "auth.login": {
+    "en": "Login",
+    "ar": "تسجيل الدخول"
+  },
+  "auth.logout": {
+    "en": "Logout",
+    "ar": "تسجيل الخروج"
+  },
+  "auth.password": {
+    "en": "Password",
+    "ar": "كلمة المرور"
+  },
+  "auth.username": {
+    "en": "Username",
+    "ar": "اسم المستخدم"
+  },
+  "calendar.addEvent": {
+    "en": "Add event",
+    "ar": "إضافة حدث"
+  },
+  "calendar.eventTypes.default": {
+    "en": "Event",
+    "ar": "حدث"
+  },
+  "calendar.eventTypes.important": {
+    "en": "Important",
+    "ar": "مهم"
+  },
+  "calendar.eventTypes.reminder": {
+    "en": "Reminder",
+    "ar": "تذكير"
+  },
+  "calendar.eventsForDate": {
+    "en": "Events for {{date}}",
+    "ar": "الأحداث في {{date}}"
+  },
+  "calendar.nextMonth": {
+    "en": "Next month",
+    "ar": "الشهر التالي"
+  },
+  "calendar.noEvents": {
+    "en": "No events for this date",
+    "ar": "لا توجد أحداث لهذا التاريخ"
+  },
+  "calendar.pickDate": {
+    "en": "Pick a date",
+    "ar": "اختر تاريخًا"
+  },
+  "calendar.previousMonth": {
+    "en": "Previous month",
+    "ar": "الشهر السابق"
+  },
+  "calendar.selected": {
+    "en": "Selected",
+    "ar": "محدد"
+  },
+  "calendar.title": {
+    "en": "Calendar",
+    "ar": "التقويم"
+  },
+  "calendar.today": {
+    "en": "Today",
+    "ar": "اليوم"
+  },
+  "charts.digitalResponsiveness": {
+    "en": "Digital Responsiveness",
+    "ar": "الاستجابة الرقمية"
+  },
+  "charts.futureReadiness": {
+    "en": "Future Readiness",
+    "ar": "الجاهزية للمستقبل"
+  },
+  "charts.innovationIndex": {
+    "en": "Innovation Index",
+    "ar": "مؤشر الابتكار"
+  },
+  "charts.months.apr": {
+    "en": "April",
+    "ar": "أبريل"
+  },
+  "charts.months.aug": {
+    "en": "August",
+    "ar": "أغسطس"
+  },
+  "charts.months.dec": {
+    "en": "December",
+    "ar": "ديسمبر"
+  },
+  "charts.months.feb": {
+    "en": "February",
+    "ar": "فبراير"
+  },
+  "charts.months.jan": {
+    "en": "January",
+    "ar": "يناير"
+  },
+  "charts.months.jul": {
+    "en": "July",
+    "ar": "يوليو"
+  },
+  "charts.months.jun": {
+    "en": "June",
+    "ar": "يونيو"
+  },
+  "charts.months.mar": {
+    "en": "March",
+    "ar": "مارس"
+  },
+  "charts.months.may": {
+    "en": "May",
+    "ar": "مايو"
+  },
+  "charts.months.nov": {
+    "en": "November",
+    "ar": "نوفمبر"
+  },
+  "charts.months.oct": {
+    "en": "October",
+    "ar": "أكتوبر"
+  },
+  "charts.months.sep": {
+    "en": "September",
+    "ar": "سبتمبر"
+  },
+  "charts.negativeFeedbackResponse": {
+    "en": "Negative Feedback Response",
+    "ar": "الاستجابة للتعليقات السلبية"
+  },
+  "charts.osintMaturity": {
+    "en": "OSINT Maturity",
+    "ar": "نضج OSINT"
+  },
+  "charts.positiveEngagement": {
+    "en": "Positive Engagement",
+    "ar": "المشاركة الإيجابية"
+  },
+  "charts.sentimentAnalytics": {
+    "en": "Sentiment Analytics",
+    "ar": "تحليلات المشاعر"
+  },
+  "charts.strategicForesight": {
+    "en": "Strategic Foresight",
+    "ar": "الرؤية الاستراتيجية"
+  },
+  "charts.week": {
+    "en": "Week",
+    "ar": "أسبوع"
+  },
+  "clock.currentTime": {
+    "en": "Current Time",
+    "ar": "الوقت الحالي"
+  },
+  "clock.timeZone": {
+    "en": "Time Zone",
+    "ar": "المنطقة الزمنية"
+  },
+  "clock.title": {
+    "en": "Clock",
+    "ar": "الساعة"
+  },
+  "common.actions": {
+    "en": "Actions",
+    "ar": "إجراءات"
+  },
+  "common.add": {
+    "en": "",
+    "ar": "إضافة"
+  },
+  "common.admin": {
+    "en": "Admin",
+    "ar": "مدير"
+  },
+  "common.ago": {
+    "en": "",
+    "ar": "منذ"
+  },
+  "common.all": {
+    "en": "",
+    "ar": "الكل"
+  },
+  "common.analyst": {
+    "en": "Analyst",
+    "ar": "محلل"
+  },
+  "common.arabic": {
+    "en": "Arabic",
+    "ar": "العربية"
+  },
+  "common.back": {
+    "en": "",
+    "ar": "رجوع"
+  },
+  "common.backToList": {
+    "en": "Back to list",
+    "ar": "العودة إلى القائمة"
+  },
+  "common.cancel": {
+    "en": "Cancel",
+    "ar": "إلغاء"
+  },
+  "common.cancelAction": {
+    "en": "Cancel this action",
+    "ar": "إلغاء هذا الإجراء"
+  },
+  "common.clear": {
+    "en": "",
+    "ar": "مسح"
+  },
+  "common.close": {
+    "en": "",
+    "ar": "إغلاق"
+  },
+  "common.confirm": {
+    "en": "",
+    "ar": "تأكيد"
+  },
+  "common.create": {
+    "en": "Create",
+    "ar": "إنشاء"
+  },
+  "common.creating": {
+    "en": "Creating...",
+    "ar": "جاري الإنشاء..."
+  },
+  "common.days": {
+    "en": "",
+    "ar": "أيام"
+  },
+  "common.days_ago": {
+    "en": "",
+    "ar": "منذ {{count}} يوم"
+  },
+  "common.delete": {
+    "en": "Delete",
+    "ar": "حذف"
+  },
+  "common.deleteAction": {
+    "en": "Delete this item",
+    "ar": "حذف هذا العنصر"
+  },
+  "common.deleting": {
+    "en": "Deleting...",
+    "ar": "جاري الحذف..."
+  },
+  "common.deletingAction": {
+    "en": "Deleting this item",
+    "ar": "جاري حذف هذا العنصر"
+  },
+  "common.disabled": {
+    "en": "",
+    "ar": "معطل"
+  },
+  "common.edit": {
+    "en": "Edit",
+    "ar": "تعديل"
+  },
+  "common.editor": {
+    "en": "Editor",
+    "ar": "محرر"
+  },
+  "common.enabled": {
+    "en": "",
+    "ar": "مفعل"
+  },
+  "common.english": {
+    "en": "English",
+    "ar": "الإنجليزية"
+  },
+  "common.filter": {
+    "en": "",
+    "ar": "تصفية"
+  },
+  "common.hide": {
+    "en": "",
+    "ar": "إخفاء"
+  },
+  "common.hours": {
+    "en": "",
+    "ar": "ساعات"
+  },
+  "common.hours_ago": {
+    "en": "",
+    "ar": "منذ {{count}} ساعة"
+  },
+  "common.id": {
+    "en": "ID",
+    "ar": "المعرف"
+  },
+  "common.language": {
+    "en": "Language",
+    "ar": "اللغة"
+  },
+  "common.loading": {
+    "en": "Loading...",
+    "ar": "جاري التحميل..."
+  },
+  "common.minutes": {
+    "en": "",
+    "ar": "دقائق"
+  },
+  "common.minutes_ago": {
+    "en": "",
+    "ar": "منذ {{count}} دقيقة"
+  },
+  "common.next": {
+    "en": "",
+    "ar": "التالي"
+  },
+  "common.none": {
+    "en": "",
+    "ar": "لا شيء"
+  },
+  "common.official": {
+    "en": "Official",
+    "ar": "رسمي"
+  },
+  "common.processing": {
+    "en": "Processing...",
+    "ar": "جاري المعالجة..."
+  },
+  "common.processingRequest": {
+    "en": "Processing your request...",
+    "ar": "جاري معالجة طلبك..."
+  },
+  "common.remove": {
+    "en": "",
+    "ar": "إزالة"
+  },
+  "common.reset": {
+    "en": "",
+    "ar": "إعادة تعيين"
+  },
+  "common.save": {
+    "en": "",
+    "ar": "حفظ"
+  },
+  "common.search": {
+    "en": "",
+    "ar": "بحث"
+  },
+  "common.show": {
+    "en": "",
+    "ar": "عرض"
+  },
+  "common.submit": {
+    "en": "",
+    "ar": "إرسال"
+  },
+  "common.viewer": {
+    "en": "Viewer",
+    "ar": "مشاهد"
+  },
+  "connection.click_to_reconnect": {
+    "en": "Click to reconnect",
+    "ar": "انقر لإعادة الاتصال"
+  },
+  "connection.connected": {
+    "en": "Connected",
+    "ar": "متصل"
+  },
+  "connection.connected_tooltip": {
+    "en": "Real-time updates are active",
+    "ar": "التحديثات المباشرة نشطة"
+  },
+  "connection.connecting": {
+    "en": "Connecting",
+    "ar": "جاري الاتصال"
+  },
+  "connection.connecting_tooltip": {
+    "en": "Establishing connection...",
+    "ar": "جاري إنشاء الاتصال..."
+  },
+  "connection.disconnected": {
+    "en": "Disconnected",
+    "ar": "غير متصل"
+  },
+  "connection.disconnected_tooltip": {
+    "en": "Real-time updates are not available",
+    "ar": "التحديثات المباشرة غير متوفرة"
+  },
+  "connection.error": {
+    "en": "Connection Error",
+    "ar": "خطأ في الاتصال"
+  },
+  "connection.error_tooltip": {
+    "en": "Could not connect to the server",
+    "ar": "تعذر الاتصال بالخادم"
+  },
+  "connection.reconnect": {
+    "en": "Reconnect",
+    "ar": "إعادة الاتصال"
+  },
+  "contact.backToHome": {
+    "en": "Back to Home",
+    "ar": "العودة إلى الرئيسية"
+  },
+  "contact.contactInfo.address": {
+    "en": "Visit Us",
+    "ar": "قم بزيارتنا"
+  },
+  "contact.contactInfo.addressLine1": {
+    "en": "Media Intelligence Platform HQ",
+    "ar": "المقر الرئيسي لمنصة ذكاء الإعلام"
+  },
+  "contact.contactInfo.addressLine2": {
+    "en": "Abu Dhabi Media Zone, UAE",
+    "ar": "المنطقة الإعلامية، أبوظبي، الإمارات"
+  },
+  "contact.contactInfo.closed": {
+    "en": "Closed",
+    "ar": "مغلق"
+  },
+  "contact.contactInfo.email": {
+    "en": "Email Us",
+    "ar": "راسلنا عبر البريد الإلكتروني"
+  },
+  "contact.contactInfo.hours": {
+    "en": "Business Hours",
+    "ar": "ساعات العمل"
+  },
+  "contact.contactInfo.phone": {
+    "en": "Call Us",
+    "ar": "اتصل بنا"
+  },
+  "contact.contactInfo.subtitle": {
+    "en": "Here\\",
+    "ar": "إليك كيفية الوصول إلينا مباشرة"
+  },
+  "contact.contactInfo.title": {
+    "en": "Contact Information",
+    "ar": "معلومات الاتصال"
+  },
+  "contact.contactInfo.weekend": {
+    "en": "Friday - Saturday",
+    "ar": "الجمعة - السبت"
+  },
+  "contact.contactInfo.workdays": {
+    "en": "Sunday - Thursday",
+    "ar": "الأحد - الخميس"
+  },
+  "contact.errorMessage": {
+    "en": "There was a problem sending your message. Please try again.",
+    "ar": "حدثت مشكلة أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى."
+  },
+  "contact.errorTitle": {
+    "en": "Error",
+    "ar": "خطأ"
+  },
+  "contact.form.department": {
+    "en": "Department",
+    "ar": "القسم"
+  },
+  "contact.form.departmentPlaceholder": {
+    "en": "Select a department",
+    "ar": "حدد قسمًا"
+  },
+  "contact.form.departments.billing": {
+    "en": "Billing & Accounts",
+    "ar": "الفواتير والحسابات"
+  },
+  "contact.form.departments.other": {
+    "en": "Other Inquiries",
+    "ar": "استفسارات أخرى"
+  },
+  "contact.form.departments.partnership": {
+    "en": "Partnership Opportunities",
+    "ar": "فرص الشراكة"
+  },
+  "contact.form.departments.sales": {
+    "en": "Sales & Pricing",
+    "ar": "المبيعات والتسعير"
+  },
+  "contact.form.departments.support": {
+    "en": "Technical Support",
+    "ar": "الدعم الفني"
+  },
+  "contact.form.departments.technical": {
+    "en": "Technical Integration",
+    "ar": "التكامل التقني"
+  },
+  "contact.form.email": {
+    "en": "Email",
+    "ar": "البريد الإلكتروني"
+  },
+  "contact.form.emailPlaceholder": {
+    "en": "Enter your email address",
+    "ar": "أدخل عنوان بريدك الإلكتروني"
+  },
+  "contact.form.message": {
+    "en": "Message",
+    "ar": "الرسالة"
+  },
+  "contact.form.messagePlaceholder": {
+    "en": "Please describe your inquiry in detail...",
+    "ar": "يرجى وصف استفسارك بالتفصيل..."
+  },
+  "contact.form.name": {
+    "en": "Name",
+    "ar": "الاسم"
+  },
+  "contact.form.namePlaceholder": {
+    "en": "Enter your full name",
+    "ar": "أدخل اسمك الكامل"
+  },
+  "contact.form.sending": {
+    "en": "Sending...",
+    "ar": "جاري الإرسال..."
+  },
+  "contact.form.subject": {
+    "en": "Subject",
+    "ar": "الموضوع"
+  },
+  "contact.form.subjectPlaceholder": {
+    "en": "What is this regarding?",
+    "ar": "ما هو موضوع استفسارك؟"
+  },
+  "contact.form.submit": {
+    "en": "Send Message",
+    "ar": "إرسال الرسالة"
+  },
+  "contact.responseTime": {
+    "en": "We typically respond within 24-48 business hours.",
+    "ar": "نحن عادة ما نرد خلال 24-48 ساعة عمل."
+  },
+  "contact.sendAnother": {
+    "en": "Send Another Message",
+    "ar": "إرسال رسالة أخرى"
+  },
+  "contact.subtitle": {
+    "en": "Reach out to us with any questions, feedback, or inquiries.",
+    "ar": "تواصل معنا لأي استفسارات أو ملاحظات أو أسئلة."
+  },
+  "contact.successMessage": {
+    "en": "Your contact request has been submitted successfully. We\\",
+    "ar": "تم تقديم طلب الاتصال الخاص بك بنجاح. سنرد عليك قريبًا."
+  },
+  "contact.successTitle": {
+    "en": "Message Sent",
+    "ar": "تم إرسال الرسالة"
+  },
+  "contact.thankYou": {
+    "en": "Message Sent!",
+    "ar": "تم إرسال الرسالة!"
+  },
+  "contact.title": {
+    "en": "Contact Us",
+    "ar": "اتصل بنا"
+  },
+  "contextHints.about_context_hints": {
+    "en": "About Context Hints",
+    "ar": "حول تلميحات السياق"
+  },
+  "contextHints.ai_powered_language_improvement_tool": {
+    "en": "AI-powered tool for enhancing language quality",
+    "ar": "أداة مدعومة بالذكاء الاصطناعي لتحسين جودة اللغة"
+  },
+  "contextHints.analyze_text": {
+    "en": "Analyze Text",
+    "ar": "تحليل النص"
+  },
+  "contextHints.analyzing": {
+    "en": "Analyzing...",
+    "ar": "جاري التحليل..."
+  },
+  "contextHints.analyzing_text": {
+    "en": "Analyzing Text",
+    "ar": "جاري تحليل النص"
+  },
+  "contextHints.applied": {
+    "en": "Applied",
+    "ar": "تم التطبيق"
+  },
+  "contextHints.apply": {
+    "en": "Apply",
+    "ar": "تطبيق"
+  },
+  "contextHints.clarity": {
+    "en": "Clarity",
+    "ar": "الوضوح"
+  },
+  "contextHints.clarity_description": {
+    "en": "Suggestions for making text more clear and easy to understand",
+    "ar": "اقتراحات لجعل النص أكثر وضوحًا وسهولة في الفهم"
+  },
+  "contextHints.collapse": {
+    "en": "Collapse",
+    "ar": "طي"
+  },
+  "contextHints.collapse_details": {
+    "en": "Hide suggestion details",
+    "ar": "إخفاء تفاصيل الاقتراح"
+  },
+  "contextHints.confidence": {
+    "en": "Confidence",
+    "ar": "الثقة"
+  },
+  "contextHints.context_hint_generator": {
+    "en": "Context Hint Generator",
+    "ar": "مولد تلميحات السياق"
+  },
+  "contextHints.context_hints_description": {
+    "en": "The Language Context Hint Generator uses advanced AI to improve your writing quality. It analyzes text to identify grammar issues, clarity improvements, tone adjustments, cultural sensitivities, and formality corrections.",
+    "ar": "يستخدم مولد تلميحات السياق اللغوي الذكاء الاصطناعي المتقدم لتحسين جودة الكتابة. يحلل النص لتحديد مشكلات القواعد، وتحسينات الوضوح، وتعديلات النبرة، والحساسيات الثقافية، وتصحيحات الرسمية."
+  },
+  "contextHints.copied": {
+    "en": "Copied",
+    "ar": "تم النسخ"
+  },
+  "contextHints.copy": {
+    "en": "Copy",
+    "ar": "نسخ"
+  },
+  "contextHints.cultural": {
+    "en": "Cultural",
+    "ar": "الثقافي"
+  },
+  "contextHints.cultural_description": {
+    "en": "Considerations for cultural relevance and sensitivity",
+    "ar": "اعتبارات للصلة الثقافية والحساسية"
+  },
+  "contextHints.enter_text_for_language_analysis": {
+    "en": "Enter text to receive language improvement suggestions",
+    "ar": "أدخل النص لتلقي اقتراحات تحسين اللغة"
+  },
+  "contextHints.enter_text_here": {
+    "en": "Enter your text here...",
+    "ar": "أدخل النص هنا..."
+  },
+  "contextHints.example_texts": {
+    "en": "Example Texts",
+    "ar": "نصوص مثالية"
+  },
+  "contextHints.expand": {
+    "en": "Expand",
+    "ar": "توسيع"
+  },
+  "contextHints.explanation": {
+    "en": "Explanation",
+    "ar": "التفسير"
+  },
+  "contextHints.formality": {
+    "en": "Formality",
+    "ar": "الرسمية"
+  },
+  "contextHints.formality_description": {
+    "en": "Adjustments to match appropriate level of formality",
+    "ar": "تعديلات لتتناسب مع المستوى المناسب من الرسمية"
+  },
+  "contextHints.generating_language_hints": {
+    "en": "Generating language context hints...",
+    "ar": "جاري إنشاء تلميحات السياق اللغوي..."
+  },
+  "contextHints.grammar": {
+    "en": "Grammar",
+    "ar": "القواعد"
+  },
+  "contextHints.grammar_description": {
+    "en": "Corrections for spelling, punctuation, and grammatical errors",
+    "ar": "تصحيحات للإملاء وعلامات الترقيم والأخطاء النحوية"
+  },
+  "contextHints.how_context_hints_work": {
+    "en": "How the AI language suggestions work",
+    "ar": "كيف تعمل اقتراحات اللغة بالذكاء الاصطناعي"
+  },
+  "contextHints.language_context_hints": {
+    "en": "Language Context Hints",
+    "ar": "تلميحات السياق اللغوي"
+  },
+  "contextHints.minimum_text_required": {
+    "en": "Enter at least 5 characters for analysis",
+    "ar": "أدخل 5 أحرف على الأقل للتحليل"
+  },
+  "contextHints.no_hints_available": {
+    "en": "No language hints available",
+    "ar": "لا توجد تلميحات لغوية متاحة"
+  },
+  "contextHints.no_suggestions_found": {
+    "en": "No suggestions found for this text",
+    "ar": "لم يتم العثور على اقتراحات لهذا النص"
+  },
+  "contextHints.original_text": {
+    "en": "Original Text",
+    "ar": "النص الأصلي"
+  },
+  "contextHints.powered_by_ai": {
+    "en": "Powered by Anthropic Claude and OpenAI",
+    "ar": "مدعوم بواسطة Anthropic Claude و OpenAI"
+  },
+  "contextHints.select_language": {
+    "en": "Select Language",
+    "ar": "اختر اللغة"
+  },
+  "contextHints.source": {
+    "en": "Source",
+    "ar": "المصدر"
+  },
+  "contextHints.suggested_replacement": {
+    "en": "Suggested Replacement",
+    "ar": "الاستبدال المقترح"
+  },
+  "contextHints.suggestion": {
+    "en": "Suggestion",
+    "ar": "اقتراح"
+  },
+  "contextHints.suggestion_applied": {
+    "en": "Suggestion applied to text",
+    "ar": "تم تطبيق الاقتراح على النص"
+  },
+  "contextHints.suggestions": {
+    "en": "Suggestions",
+    "ar": "اقتراحات"
+  },
+  "contextHints.supported_hint_types": {
+    "en": "Supported Hint Types",
+    "ar": "أنواع التلميحات المدعومة"
+  },
+  "contextHints.text_copied_to_clipboard": {
+    "en": "Text copied to clipboard",
+    "ar": "تم نسخ النص إلى الحافظة"
+  },
+  "contextHints.tone": {
+    "en": "Tone",
+    "ar": "النبرة"
+  },
+  "contextHints.tone_description": {
+    "en": "Adjustments to improve the tone and emotional impact",
+    "ar": "تعديلات لتحسين النبرة والتأثير العاطفي"
+  },
+  "contextHints.try_with_these_examples": {
+    "en": "Try analyzing these examples",
+    "ar": "جرب تحليل هذه الأمثلة"
+  },
+  "contextHints.view_details": {
+    "en": "View suggestion details",
+    "ar": "عرض تفاصيل الاقتراح"
+  },
+  "dashboard.addWidgets": {
+    "en": "Add Widgets",
+    "ar": "إضافة أدوات"
+  },
+  "dashboard.alertMessages.negativeSentimentSpike": {
+    "en": "",
+    "ar": "تم رصد ارتفاع في المشاعر السلبية على تويتر"
+  },
+  "dashboard.alertMessages.trendingKeyword": {
+    "en": "",
+    "ar": "تم اكتشاف الكلمة الرئيسية الرائجة \"جودة الخدمة\""
+  },
+  "dashboard.alertMessages.unusualActivity": {
+    "en": "",
+    "ar": "حجم نشاط غير عادي على انستغرام"
+  },
+  "dashboard.alertMessages.vipMention": {
+    "en": "",
+    "ar": "ذكر من صحفي بارز"
+  },
+  "dashboard.alertSeverity.high": {
+    "en": "",
+    "ar": "عالي"
+  },
+  "dashboard.alertSeverity.low": {
+    "en": "",
+    "ar": "منخفض"
+  },
+  "dashboard.alertSeverity.medium": {
+    "en": "",
+    "ar": "متوسط"
+  },
+  "dashboard.alertTypes.keyword": {
+    "en": "",
+    "ar": "الكلمة المفتاحية"
+  },
+  "dashboard.alertTypes.mention": {
+    "en": "",
+    "ar": "الذكر"
+  },
+  "dashboard.alertTypes.sentiment": {
+    "en": "",
+    "ar": "المشاعر"
+  },
+  "dashboard.alertTypes.volume": {
+    "en": "",
+    "ar": "حجم النشاط"
+  },
+  "dashboard.alertsDisabled": {
+    "en": "",
+    "ar": "التنبيهات معطلة"
+  },
+  "dashboard.allPlatforms": {
+    "en": "All Platforms",
+    "ar": "جميع المنصات"
+  },
+  "dashboard.analyticsOverview": {
+    "en": "",
+    "ar": "نظرة عامة على التحليلات"
+  },
+  "dashboard.applyFilters": {
+    "en": "Apply Filters",
+    "ar": "تطبيق التصفية"
+  },
+  "dashboard.averageResponseTime": {
+    "en": "Average response time to negative comments",
+    "ar": "متوسط وقت الاستجابة للتعليقات السلبية"
+  },
+  "dashboard.cancel": {
+    "en": "Cancel",
+    "ar": "إلغاء"
+  },
+  "dashboard.comparedTo": {
+    "en": "Compared to",
+    "ar": "مقارنة بـ"
+  },
+  "dashboard.custom": {
+    "en": "Custom",
+    "ar": "مخصص"
+  },
+  "dashboard.customizeDashboard": {
+    "en": "Customize Dashboard",
+    "ar": "تخصيص لوحة التحكم"
+  },
+  "dashboard.customizeThemes": {
+    "en": "",
+    "ar": "تخصيص السمات"
+  },
+  "dashboard.dashboardDescription": {
+    "en": "Choose between standard or personalized interface to view data",
+    "ar": "اختر بين واجهة قياسية أو مخصصة لعرض البيانات"
+  },
+  "dashboard.dashboardTitle": {
+    "en": "Dashboard",
+    "ar": "لوحة التحكم"
+  },
+  "dashboard.downloadReport": {
+    "en": "Download Report",
+    "ar": "تنزيل التقرير"
+  },
+  "dashboard.enableAlerts": {
+    "en": "",
+    "ar": "تفعيل التنبيهات"
+  },
+  "dashboard.engagementRate": {
+    "en": "",
+    "ar": "معدل المشاركة"
+  },
+  "dashboard.exportData": {
+    "en": "",
+    "ar": "تصدير البيانات"
+  },
+  "dashboard.filter": {
+    "en": "Filters",
+    "ar": "التصفية"
+  },
+  "dashboard.inPreviousPeriod": {
+    "en": "in previous period",
+    "ar": "في الفترة السابقة"
+  },
+  "dashboard.innovationIndex": {
+    "en": "Innovation Index",
+    "ar": "مؤشر الابتكار"
+  },
+  "dashboard.keyInsights": {
+    "en": "",
+    "ar": "الرؤى الرئيسية"
+  },
+  "dashboard.kpiOverview": {
+    "en": "",
+    "ar": "نظرة عامة على مؤشرات الأداء"
+  },
+  "dashboard.last14Days": {
+    "en": "Last 14 Days",
+    "ar": "آخر 14 يوم"
+  },
+  "dashboard.last30Days": {
+    "en": "Last 30 Days",
+    "ar": "آخر 30 يوم"
+  },
+  "dashboard.last7Days": {
+    "en": "Last 7 Days",
+    "ar": "آخر 7 أيام"
+  },
+  "dashboard.last90Days": {
+    "en": "Last 90 Days",
+    "ar": ""
+  },
+  "dashboard.live": {
+    "en": "Live",
+    "ar": "مباشر"
+  },
+  "dashboard.loading": {
+    "en": "Loading dashboard...",
+    "ar": "جاري تحميل لوحة التحكم..."
+  },
+  "dashboard.loadingTrendData": {
+    "en": "Loading trend data...",
+    "ar": "جاري تحميل بيانات الاتجاهات..."
+  },
+  "dashboard.mainTitle": {
+    "en": "Main Dashboard",
+    "ar": "لوحة التحكم الرئيسية"
+  },
+  "dashboard.marketShareIncrease": {
+    "en": "",
+    "ar": "لوحة معلومات زيادة حصة السوق"
+  },
+  "dashboard.mediaCenter": {
+    "en": "",
+    "ar": "مركز الوسائط"
+  },
+  "dashboard.mediaMonitoring": {
+    "en": "",
+    "ar": "مراقبة وسائل الإعلام"
+  },
+  "dashboard.mediaPresence": {
+    "en": "",
+    "ar": "التواجد الإعلامي"
+  },
+  "dashboard.mentionsOverTime": {
+    "en": "",
+    "ar": "الاشارات بمرور الوقت"
+  },
+  "dashboard.mentionsTotal": {
+    "en": "Total Mentions",
+    "ar": "إجمالي الذكر"
+  },
+  "dashboard.minutes": {
+    "en": "minutes",
+    "ar": "دقيقة"
+  },
+  "dashboard.negative": {
+    "en": "Negative",
+    "ar": "سلبي"
+  },
+  "dashboard.negativeDecreasing": {
+    "en": "Negative sentiment is decreasing (good)",
+    "ar": "المشاعر السلبية في انخفاض (جيد)"
+  },
+  "dashboard.negativeIncreasing": {
+    "en": "Negative sentiment is increasing (concerning)",
+    "ar": "المشاعر السلبية في ازدياد (مقلق)"
+  },
+  "dashboard.neutral": {
+    "en": "Neutral",
+    "ar": "محايد"
+  },
+  "dashboard.news": {
+    "en": "",
+    "ar": "الأخبار"
+  },
+  "dashboard.newsAnalyzer": {
+    "en": "",
+    "ar": "محلل الأخبار"
+  },
+  "dashboard.newsSource": {
+    "en": "News Sources",
+    "ar": "مصادر الأخبار"
+  },
+  "dashboard.noSearchResults": {
+    "en": "No matching posts found",
+    "ar": "لم يتم العثور على منشورات مطابقة"
+  },
+  "dashboard.noTrendDataAvailable": {
+    "en": "No trend data available",
+    "ar": "لا توجد بيانات اتجاهات متاحة"
+  },
+  "dashboard.notableImprovement": {
+    "en": "Notable improvement over last year",
+    "ar": "تحسن ملحوظ في العام الماضي"
+  },
+  "dashboard.offline": {
+    "en": "Offline",
+    "ar": "غير متصل"
+  },
+  "dashboard.personalizedDashboard": {
+    "en": "Personalized Dashboard",
+    "ar": "لوحة التحكم المخصصة"
+  },
+  "dashboard.positive": {
+    "en": "Positive",
+    "ar": "إيجابي"
+  },
+  "dashboard.positiveDecreasing": {
+    "en": "Positive sentiment is decreasing",
+    "ar": "المشاعر الإيجابية في انخفاض"
+  },
+  "dashboard.positiveIncreasing": {
+    "en": "Positive sentiment is increasing",
+    "ar": "المشاعر الإيجابية في ازدياد"
+  },
+  "dashboard.realTimeAlerts": {
+    "en": "",
+    "ar": "تنبيهات في الوقت الحقيقي"
+  },
+  "dashboard.realTimeSentimentTrends": {
+    "en": "",
+    "ar": "اتجاهات المشاعر في الوقت الفعلي"
+  },
+  "dashboard.realTimeTrends": {
+    "en": "",
+    "ar": "اتجاهات المشاعر في الوقت الفعلي"
+  },
+  "dashboard.realTrends": {
+    "en": "",
+    "ar": "الاتجاهات في الوقت الفعلي"
+  },
+  "dashboard.realtimeSentimentTrends": {
+    "en": "Real-time Sentiment Trends",
+    "ar": "اتجاهات المشاعر في الوقت الحقيقي"
+  },
+  "dashboard.refresh": {
+    "en": "Refresh",
+    "ar": "تحديث"
+  },
+  "dashboard.refreshAriaLabel": {
+    "en": "Refresh trend data",
+    "ar": "تحديث بيانات الاتجاهات"
+  },
+  "dashboard.relativelyStable": {
+    "en": "Relatively stable compared to previous period",
+    "ar": "مستقر نسبيًا مقارنة بالفترة السابقة"
+  },
+  "dashboard.responseTime": {
+    "en": "Response Speed",
+    "ar": "سرعة الاستجابة"
+  },
+  "dashboard.saveChanges": {
+    "en": "Save Changes",
+    "ar": "حفظ التغييرات"
+  },
+  "dashboard.saveFailed": {
+    "en": "Save Failed",
+    "ar": "فشل الحفظ"
+  },
+  "dashboard.saveSuccess": {
+    "en": "Dashboard Saved",
+    "ar": "تم حفظ لوحة التحكم"
+  },
+  "dashboard.saveSuccessDescription": {
+    "en": "Your dashboard layout has been saved successfully",
+    "ar": "تم حفظ تخطيط لوحة التحكم الخاصة بك بنجاح"
+  },
+  "dashboard.search": {
+    "en": "Search dashboard",
+    "ar": "بحث في لوحة التحكم"
+  },
+  "dashboard.searchKeywords": {
+    "en": "Search keywords or content",
+    "ar": "بحث عن الكلمات الرئيسية أو المحتوى"
+  },
+  "dashboard.searchResults": {
+    "en": "Search Results",
+    "ar": "نتائج البحث"
+  },
+  "dashboard.selectPlatform": {
+    "en": "Select Platform",
+    "ar": "اختيار المنصة"
+  },
+  "dashboard.selectTimeRange": {
+    "en": "Select Time Range",
+    "ar": "اختيار الفترة الزمنية"
+  },
+  "dashboard.sentiment": {
+    "en": "",
+    "ar": "المشاعر"
+  },
+  "dashboard.sentimentAnalysis": {
+    "en": "",
+    "ar": "تحليل المشاعر"
+  },
+  "dashboard.sentimentAverage": {
+    "en": "Average Sentiment",
+    "ar": "متوسط المشاعر"
+  },
+  "dashboard.sentimentChartDescription": {
+    "en": "This chart shows sentiment trends over time, with separate lines for positive, neutral, and negative sentiment percentages.",
+    "ar": "يوضح هذا الرسم البياني اتجاهات المشاعر بمرور الوقت، مع خطوط منفصلة للنسب المئوية للمشاعر الإيجابية والمحايدة والسلبية."
+  },
+  "dashboard.sentimentDistributionLabel": {
+    "en": "Sentiment distribution: {{positive}}% positive, {{neutral}}% neutral, {{negative}}% negative",
+    "ar": "توزيع المشاعر: {{positive}}% إيجابي، {{neutral}}% محايد، {{negative}}% سلبي"
+  },
+  "dashboard.sentimentPercentage": {
+    "en": "Sentiment percentage",
+    "ar": "نسبة المشاعر"
+  },
+  "dashboard.sentimentScore": {
+    "en": "",
+    "ar": "درجة المشاعر"
+  },
+  "dashboard.sentimentTrend": {
+    "en": "Sentiment Trend",
+    "ar": "اتجاهات المشاعر"
+  },
+  "dashboard.sentimentTrendVisualization": {
+    "en": "Sentiment trend visualization",
+    "ar": "التصور البياني لاتجاهات المشاعر"
+  },
+  "dashboard.shareOfVoice": {
+    "en": "",
+    "ar": "حصة الصوت"
+  },
+  "dashboard.social": {
+    "en": "",
+    "ar": "التواصل الاجتماعي"
+  },
+  "dashboard.standardDashboard": {
+    "en": "Standard Dashboard",
+    "ar": "لوحة التحكم القياسية"
+  },
+  "dashboard.testSentimentAnalysis": {
+    "en": "",
+    "ar": "اختبار تحليل المشاعر"
+  },
+  "dashboard.themeExplorer": {
+    "en": "",
+    "ar": "مستكشف السمات"
+  },
+  "dashboard.thisMonth": {
+    "en": "",
+    "ar": "هذا الشهر"
+  },
+  "dashboard.thisQuarter": {
+    "en": "",
+    "ar": "هذا الربع"
+  },
+  "dashboard.thisYear": {
+    "en": "",
+    "ar": "هذه السنة"
+  },
+  "dashboard.timeAndCalendar": {
+    "en": "Time & Calendar",
+    "ar": "الوقت والتقويم"
+  },
+  "dashboard.timeFilter": {
+    "en": "Last 30 Days",
+    "ar": "آخر 30 يوم"
+  },
+  "dashboard.timePeriod": {
+    "en": "Time period",
+    "ar": "الفترة الزمنية"
+  },
+  "dashboard.title": {
+    "en": "Dashboard",
+    "ar": "لوحة التحكم"
+  },
+  "dashboard.today": {
+    "en": "Today",
+    "ar": "اليوم"
+  },
+  "dashboard.topKeywords": {
+    "en": "",
+    "ar": "الكلمات الرئيسية"
+  },
+  "dashboard.topSources": {
+    "en": "",
+    "ar": "المصادر الرئيسية"
+  },
+  "dashboard.trackSentimentChanges": {
+    "en": "Track sentiment changes over time with animated sparkline visualization",
+    "ar": "تتبع تغيرات المشاعر بمرور الوقت مع تصور متحرك للخطوط"
+  },
+  "dashboard.trends": {
+    "en": "",
+    "ar": "الإتجاهات"
+  },
+  "dashboard.tutorials": {
+    "en": "",
+    "ar": "الدروس التعليمية"
+  },
+  "dashboard.viewAll": {
+    "en": "",
+    "ar": "عرض الكل"
+  },
+  "dashboard.viewAllMedia": {
+    "en": "",
+    "ar": "عرض كل الوسائط"
+  },
+  "dashboard.viewAllReports": {
+    "en": "",
+    "ar": "عرض جميع التقارير"
+  },
+  "dashboard.viewAllTutorials": {
+    "en": "",
+    "ar": "عرض كل الدروس التعليمية"
+  },
+  "dashboard.widgetSettings": {
+    "en": "Widget Settings",
+    "ar": "إعدادات الأداة"
+  },
+  "emojiReactions.belowTarget": {
+    "en": "Below target",
+    "ar": "أقل من المستهدف"
+  },
+  "emojiReactions.critical": {
+    "en": "Critical attention required",
+    "ar": "يتطلب اهتمامًا عاجلًا"
+  },
+  "emojiReactions.currentValue": {
+    "en": "Current value",
+    "ar": "القيمة الحالية"
+  },
+  "emojiReactions.excellent": {
+    "en": "Excellent achievement!",
+    "ar": "إنجاز ممتاز!"
+  },
+  "emojiReactions.exceptional": {
+    "en": "Exceptional performance!",
+    "ar": "أداء استثنائي!"
+  },
+  "emojiReactions.needsAttention": {
+    "en": "Needs some attention",
+    "ar": "يحتاج إلى بعض الاهتمام"
+  },
+  "emojiReactions.onTrack": {
+    "en": "On track to meet target",
+    "ar": "على المسار الصحيح للوصول إلى الهدف"
+  },
+  "emojiReactions.progressing": {
+    "en": "Making progress",
+    "ar": "يحرز تقدمًا"
+  },
+  "emojiReactions.significantGap": {
+    "en": "Significant gap to target",
+    "ar": "فجوة كبيرة للوصول إلى الهدف"
+  },
+  "emojiReactions.targetValue": {
+    "en": "Target value",
+    "ar": "القيمة المستهدفة"
+  },
+  "entities.active": {
+    "en": "Active",
+    "ar": "نشط"
+  },
+  "entities.activeOnly": {
+    "en": "Active entities only",
+    "ar": "الجهات النشطة فقط"
+  },
+  "entities.activeStatus": {
+    "en": "Active",
+    "ar": "نشط"
+  },
+  "entities.add": {
+    "en": "Add Government Entity",
+    "ar": "إضافة جهة حكومية"
+  },
+  "entities.addDescription": {
+    "en": "Add a new government entity to the monitoring system",
+    "ar": "إضافة جهة حكومية جديدة إلى نظام المراقبة"
+  },
+  "entities.addEntity": {
+    "en": "Add Entity",
+    "ar": "إضافة جهة"
+  },
+  "entities.allRegions": {
+    "en": "All Regions",
+    "ar": "جميع المناطق"
+  },
+  "entities.allTypes": {
+    "en": "All Types",
+    "ar": "جميع الأنواع"
+  },
+  "entities.analytics": {
+    "en": "Analytics",
+    "ar": "التحليلات"
+  },
+  "entities.authority": {
+    "en": "Authority",
+    "ar": "هيئة"
+  },
+  "entities.avgSentiment": {
+    "en": "Average Sentiment",
+    "ar": "متوسط المشاعر"
+  },
+  "entities.cancel": {
+    "en": "Cancel",
+    "ar": "إلغاء"
+  },
+  "entities.council": {
+    "en": "Council",
+    "ar": "مجلس"
+  },
+  "entities.create": {
+    "en": "Create",
+    "ar": "إنشاء"
+  },
+  "entities.createFailed": {
+    "en": "Entity Creation Failed",
+    "ar": "فشل إنشاء الجهة"
+  },
+  "entities.delete": {
+    "en": "Delete",
+    "ar": "حذف"
+  },
+  "entities.deleteConfirmation": {
+    "en": "Are you sure you want to delete this entity? This action cannot be undone.",
+    "ar": "هل أنت متأكد أنك تريد حذف هذه الجهة؟ لا يمكن التراجع عن هذا الإجراء."
+  },
+  "entities.deleteEntity": {
+    "en": "Delete Government Entity",
+    "ar": "حذف الجهة الحكومية"
+  },
+  "entities.deleteFailed": {
+    "en": "Entity Deletion Failed",
+    "ar": "فشل حذف الجهة"
+  },
+  "entities.edit": {
+    "en": "Edit Government Entity",
+    "ar": "تعديل الجهة الحكومية"
+  },
+  "entities.editDescription": {
+    "en": "Update details of this government entity",
+    "ar": "تحديث تفاصيل هذه الجهة الحكومية"
+  },
+  "entities.entityCreated": {
+    "en": "Government Entity Created",
+    "ar": "تم إنشاء الجهة الحكومية"
+  },
+  "entities.entityDeleted": {
+    "en": "Government Entity Deleted",
+    "ar": "تم حذف الجهة الحكومية"
+  },
+  "entities.entityType": {
+    "en": "Entity Type",
+    "ar": "نوع الجهة"
+  },
+  "entities.entityUpdated": {
+    "en": "Government Entity Updated",
+    "ar": "تم تحديث الجهة الحكومية"
+  },
+  "entities.federal": {
+    "en": "Federal",
+    "ar": "اتحادية"
+  },
+  "entities.filters": {
+    "en": "Filters",
+    "ar": "التصفية"
+  },
+  "entities.iconUrl": {
+    "en": "Icon URL",
+    "ar": "رابط الأيقونة"
+  },
+  "entities.iconUrlDescription": {
+    "en": "Link to entity logo or icon",
+    "ar": "رابط لشعار أو أيقونة الجهة"
+  },
+  "entities.inactive": {
+    "en": "Inactive",
+    "ar": "غير نشط"
+  },
+  "entities.inactiveDescription": {
+    "en": "Inactive entities will not be monitored",
+    "ar": "الجهات غير النشطة لن تتم مراقبتها"
+  },
+  "entities.local": {
+    "en": "Local",
+    "ar": "محلية"
+  },
+  "entities.mentionsByPlatform": {
+    "en": "Mentions by Platform",
+    "ar": "الذكر حسب المنصة"
+  },
+  "entities.ministry": {
+    "en": "Ministry",
+    "ar": "وزارة"
+  },
+  "entities.mostActivePlatform": {
+    "en": "Most Active Platform",
+    "ar": "المنصة الأكثر نشاطًا"
+  },
+  "entities.nameArabic": {
+    "en": "Name (Arabic)",
+    "ar": "الاسم (العربية)"
+  },
+  "entities.nameEnglish": {
+    "en": "Name (English)",
+    "ar": "الاسم (الإنجليزية)"
+  },
+  "entities.negative": {
+    "en": "Negative",
+    "ar": "سلبي"
+  },
+  "entities.neutral": {
+    "en": "Neutral",
+    "ar": "محايد"
+  },
+  "entities.noDataForAnalysis": {
+    "en": "No sentiment data available for analysis.",
+    "ar": "لا توجد بيانات مشاعر متاحة للتحليل."
+  },
+  "entities.noDataForDistribution": {
+    "en": "No data available for platform distribution.",
+    "ar": "لا توجد بيانات متاحة لتوزيع المنصة."
+  },
+  "entities.noDataForTrend": {
+    "en": "Not enough data points to display a trend.",
+    "ar": "لا توجد بيانات كافية لعرض الاتجاه."
+  },
+  "entities.noMentions": {
+    "en": "No mentions found for this entity yet. Check back later.",
+    "ar": "لم يتم العثور على ذكر لهذه الجهة بعد. تحقق لاحقًا."
+  },
+  "entities.ofAllMentions": {
+    "en": "% of all mentions",
+    "ar": "% من جميع الذكر"
+  },
+  "entities.platformDistribution": {
+    "en": "Distribution across social media",
+    "ar": "التوزيع عبر وسائل التواصل الاجتماعي"
+  },
+  "entities.positive": {
+    "en": "Positive",
+    "ar": "إيجابي"
+  },
+  "entities.posts": {
+    "en": "Posts",
+    "ar": "المنشورات"
+  },
+  "entities.priority": {
+    "en": "Priority",
+    "ar": "الأولوية"
+  },
+  "entities.priorityDescription": {
+    "en": "Higher priority entities show first (0-100)",
+    "ar": "الجهات ذات الأولوية العالية تظهر أولاً (0-100)"
+  },
+  "entities.refineEntities": {
+    "en": "Refine the government entities displayed below",
+    "ar": "تنقية الجهات الحكومية المعروضة أدناه"
+  },
+  "entities.region": {
+    "en": "Region",
+    "ar": "المنطقة"
+  },
+  "entities.search": {
+    "en": "Search",
+    "ar": "بحث"
+  },
+  "entities.searchByName": {
+    "en": "Search by name",
+    "ar": "بحث حسب الاسم"
+  },
+  "entities.sentimentAnalysis": {
+    "en": "Sentiment Analysis",
+    "ar": "تحليل المشاعر"
+  },
+  "entities.sentimentBreakdown": {
+    "en": "Sentiment Breakdown",
+    "ar": "تقسيم المشاعر"
+  },
+  "entities.sentimentDistribution": {
+    "en": "Breakdown of sentiment distribution in mentions",
+    "ar": "تقسيم توزيع المشاعر في الذكر"
+  },
+  "entities.sentimentOverTime": {
+    "en": "Sentiment analysis over time",
+    "ar": "تحليل المشاعر على مدار الوقت"
+  },
+  "entities.sentimentTrend": {
+    "en": "Sentiment Trend",
+    "ar": "اتجاه المشاعر"
+  },
+  "entities.title": {
+    "en": "UAE Government Entities Monitoring",
+    "ar": "مراقبة الجهات الحكومية"
+  },
+  "entities.totalMentions": {
+    "en": "Total Mentions",
+    "ar": "إجمالي الذكر"
+  },
+  "entities.trends": {
+    "en": "Trends",
+    "ar": "الاتجاهات"
+  },
+  "entities.update": {
+    "en": "Update",
+    "ar": "تحديث"
+  },
+  "entities.updateFailed": {
+    "en": "Entity Update Failed",
+    "ar": "فشل تحديث الجهة"
+  },
+  "entities.viewDetails": {
+    "en": "View Details",
+    "ar": "عرض التفاصيل"
+  },
+  "entities.websiteUrl": {
+    "en": "Website URL",
+    "ar": "رابط الموقع"
+  },
+  "entities.websiteUrlDescription": {
+    "en": "Official website of the entity",
+    "ar": "الموقع الرسمي للجهة"
+  },
+  "entity.analytics.breakdownDescription": {
+    "en": "",
+    "ar": "تحليل توزيع المشاعر في الذكر"
+  },
+  "entity.analytics.noSentimentData": {
+    "en": "",
+    "ar": "لا توجد بيانات مشاعر متاحة للتحليل."
+  },
+  "entity.analytics.numberOfMentions": {
+    "en": "",
+    "ar": "عدد مرات الذكر"
+  },
+  "entity.analytics.sentimentAnalysis": {
+    "en": "",
+    "ar": "تحليل المشاعر"
+  },
+  "entity.availableEntities": {
+    "en": "Available Entities",
+    "ar": "الجهات المتاحة"
+  },
+  "entity.debugView": {
+    "en": "Debug View",
+    "ar": "عرض التصحيح"
+  },
+  "entity.directAccessTest": {
+    "en": "Direct Access Test",
+    "ar": "اختبار الوصول المباشر"
+  },
+  "entity.disableDebugMode": {
+    "en": "Disable Debug Mode",
+    "ar": "إيقاف وضع التصحيح"
+  },
+  "entity.enableDebugMode": {
+    "en": "Enable Debug Mode",
+    "ar": "تفعيل وضع التصحيح"
+  },
+  "entity.enterEntityId": {
+    "en": "Enter Entity ID",
+    "ar": "أدخل معرف الجهة"
+  },
+  "entity.entityIdPlaceholder": {
+    "en": "e.g., 1, 2, 3...",
+    "ar": "مثال: 1، 2، 3..."
+  },
+  "entity.error.invalidPost": {
+    "en": "",
+    "ar": "منشور غير صالح"
+  },
+  "entity.error.loading": {
+    "en": "",
+    "ar": "خطأ في التحميل"
+  },
+  "entity.error.notFound": {
+    "en": "",
+    "ar": "لم يتم العثور على الجهة"
+  },
+  "entity.errorLoadingEntities": {
+    "en": "Error Loading Entities",
+    "ar": "خطأ في تحميل الجهات"
+  },
+  "entity.goToEntityPage": {
+    "en": "Go to Entity Page",
+    "ar": "انتقل إلى صفحة الجهة"
+  },
+  "entity.metrics.acrossPlatforms": {
+    "en": "",
+    "ar": "عبر جميع المنصات"
+  },
+  "entity.metrics.activePlatform": {
+    "en": "",
+    "ar": "المنصة الأكثر نشاطًا"
+  },
+  "entity.metrics.avgSentiment": {
+    "en": "",
+    "ar": "متوسط المشاعر"
+  },
+  "entity.metrics.none": {
+    "en": "",
+    "ar": "لا يوجد"
+  },
+  "entity.metrics.ofAllMentions": {
+    "en": "",
+    "ar": "% من جميع الذكر"
+  },
+  "entity.metrics.sentimentBreakdown": {
+    "en": "",
+    "ar": "تحليل المشاعر"
+  },
+  "entity.metrics.totalMentions": {
+    "en": "",
+    "ar": "إجمالي عدد الذكر"
+  },
+  "entity.monitoring": {
+    "en": "Government Entity Monitoring",
+    "ar": "مراقبة الجهات الحكومية"
+  },
+  "entity.normalView": {
+    "en": "Normal View",
+    "ar": "العرض العادي"
+  },
+  "entity.post.author": {
+    "en": "",
+    "ar": "الكاتب"
+  },
+  "entity.post.noContent": {
+    "en": "",
+    "ar": "لا يوجد محتوى"
+  },
+  "entity.post.unknownAuthor": {
+    "en": "",
+    "ar": "كاتب مجهول"
+  },
+  "entity.post.unknownDate": {
+    "en": "",
+    "ar": "تاريخ غير معروف"
+  },
+  "entity.post.unknownPlatform": {
+    "en": "",
+    "ar": "منصة غير معروفة"
+  },
+  "entity.post.viewOriginal": {
+    "en": "",
+    "ar": "عرض المنشور الأصلي"
+  },
+  "entity.posts.noMentions": {
+    "en": "",
+    "ar": "لم يتم العثور على أي ذكر لهذه الجهة حتى الآن. تحقق مرة أخرى لاحقًا."
+  },
+  "entity.sentiment.negative": {
+    "en": "",
+    "ar": "سلبي"
+  },
+  "entity.sentiment.neutral": {
+    "en": "",
+    "ar": "محايد"
+  },
+  "entity.sentiment.positive": {
+    "en": "",
+    "ar": "إيجابي"
+  },
+  "entity.sentiment.veryNegative": {
+    "en": "",
+    "ar": "سلبي جدًا ({{range}})"
+  },
+  "entity.sentiment.veryPositive": {
+    "en": "",
+    "ar": "إيجابي جدًا ({{range}})"
+  },
+  "entity.tabs.analytics": {
+    "en": "",
+    "ar": "التحليلات"
+  },
+  "entity.tabs.posts": {
+    "en": "",
+    "ar": "المنشورات"
+  },
+  "entity.tabs.trends": {
+    "en": "",
+    "ar": "الاتجاهات"
+  },
+  "entity.testPage": {
+    "en": "Entity Monitoring Test Page",
+    "ar": "صفحة اختبار مراقبة الجهات"
+  },
+  "entity.trends.date": {
+    "en": "",
+    "ar": "التاريخ"
+  },
+  "entity.trends.distributionAcrossPlatforms": {
+    "en": "",
+    "ar": "التوزيع عبر منصات التواصل الاجتماعي"
+  },
+  "entity.trends.mentionsByPlatform": {
+    "en": "",
+    "ar": "الذكر حسب المنصة"
+  },
+  "entity.trends.noPlatformData": {
+    "en": "",
+    "ar": "لا توجد بيانات متاحة لتوزيع المنصات."
+  },
+  "entity.trends.notEnoughData": {
+    "en": "",
+    "ar": "لا توجد بيانات كافية لعرض الاتجاه."
+  },
+  "entity.trends.sentimentOverTime": {
+    "en": "",
+    "ar": "تحليل المشاعر عبر الزمن"
+  },
+  "entity.trends.sentimentScore": {
+    "en": "",
+    "ar": "درجة المشاعر"
+  },
+  "entity.trends.sentimentTrend": {
+    "en": "",
+    "ar": "اتجاه المشاعر"
+  },
+  "entityType.agency": {
+    "en": "Agency",
+    "ar": "وكالة"
+  },
+  "entityType.authority": {
+    "en": "Authority",
+    "ar": "هيئة"
+  },
+  "entityType.committee": {
+    "en": "Committee",
+    "ar": "لجنة"
+  },
+  "entityType.council": {
+    "en": "Council",
+    "ar": "مجلس"
+  },
+  "entityType.department": {
+    "en": "Department",
+    "ar": "دائرة"
+  },
+  "entityType.ministry": {
+    "en": "Ministry",
+    "ar": "وزارة"
+  },
+  "excellence.achievement": {
+    "en": "Achievement Rate",
+    "ar": "معدل الإنجاز"
+  },
+  "excellence.allAxes": {
+    "en": "All Axes",
+    "ar": "جميع المحاور"
+  },
+  "excellence.applyFilters": {
+    "en": "Apply Filters",
+    "ar": "تطبيق الفلاتر"
+  },
+  "excellence.average": {
+    "en": "",
+    "ar": "متوسط"
+  },
+  "excellence.avgTrainingHours": {
+    "en": "Average Training Hours",
+    "ar": "متوسط ساعات التدريب"
+  },
+  "excellence.axesOverview": {
+    "en": "Strategic Axes Overview",
+    "ar": "نظرة عامة على المحاور الاستراتيجية"
+  },
+  "excellence.communication": {
+    "en": "Communication",
+    "ar": "التواصل"
+  },
+  "excellence.coreDataAccuracyRate": {
+    "en": "Core Data Accuracy Rate",
+    "ar": "معدل دقة البيانات الأساسية"
+  },
+  "excellence.coverageVolume": {
+    "en": "Media Coverage Volume",
+    "ar": "حجم التغطية الإعلامية"
+  },
+  "excellence.current": {
+    "en": "Current Value",
+    "ar": "القيمة الحالية"
+  },
+  "excellence.dataDrivenDecisionIndex": {
+    "en": "Data-Driven Decision Index",
+    "ar": "مؤشر القرارات المدعومة بالبيانات"
+  },
+  "excellence.dataManagement": {
+    "en": "Data & Knowledge",
+    "ar": "البيانات والمعرفة"
+  },
+  "excellence.dataNotAvailable": {
+    "en": "Data not available",
+    "ar": "البيانات غير متوفرة"
+  },
+  "excellence.dateRange": {
+    "en": "Date Range",
+    "ar": "الفترة الزمنية"
+  },
+  "excellence.description": {
+    "en": "Track and analyze KPIs for institutional excellence across strategic axes",
+    "ar": "تتبع وتحليل مؤشرات الأداء الرئيسية للتميز المؤسسي عبر المحاور الاستراتيجية"
+  },
+  "excellence.digitalPillar": {
+    "en": "",
+    "ar": "الركيزة الرقمية"
+  },
+  "excellence.digitalServicesAdoptionRate": {
+    "en": "Digital Services Adoption Rate",
+    "ar": "معدل اعتماد الخدمات الرقمية"
+  },
+  "excellence.digitalServicesPercent": {
+    "en": "Digital Services Percentage",
+    "ar": "نسبة الخدمات الرقمية"
+  },
+  "excellence.downloadFullReport": {
+    "en": "",
+    "ar": "تنزيل التقرير الكامل"
+  },
+  "excellence.economicPillar": {
+    "en": "",
+    "ar": "الركيزة الاقتصادية"
+  },
+  "excellence.employeeInnovationRate": {
+    "en": "Employee Innovation Participation",
+    "ar": "مشاركة الموظفين في الابتكار"
+  },
+  "excellence.excellent": {
+    "en": "",
+    "ar": "ممتاز"
+  },
+  "excellence.exportCSV": {
+    "en": "Export CSV",
+    "ar": "تصدير CSV"
+  },
+  "excellence.exportError": {
+    "en": "Export Error",
+    "ar": "خطأ في التصدير"
+  },
+  "excellence.exportExcel": {
+    "en": "Export Excel",
+    "ar": "تصدير إكسل"
+  },
+  "excellence.exportFullReport": {
+    "en": "Download Full Report",
+    "ar": "تنزيل التقرير الكامل"
+  },
+  "excellence.exportOptions": {
+    "en": "Export Options",
+    "ar": "خيارات التصدير"
+  },
+  "excellence.exportPDF": {
+    "en": "Export PDF",
+    "ar": "تصدير PDF"
+  },
+  "excellence.exportSuccess": {
+    "en": "Export Successful",
+    "ar": "تم التصدير بنجاح"
+  },
+  "excellence.filterResults": {
+    "en": "Filter Results",
+    "ar": "تصفية النتائج"
+  },
+  "excellence.good": {
+    "en": "",
+    "ar": "جيد"
+  },
+  "excellence.ideaImplementationRate": {
+    "en": "Idea Implementation Rate",
+    "ar": "معدل تنفيذ الأفكار"
+  },
+  "excellence.implementedInnovations": {
+    "en": "Implemented Innovations",
+    "ar": "الابتكارات المنفذة"
+  },
+  "excellence.indicatorsDescription": {
+    "en": "",
+    "ar": "نظرة شاملة على مؤشرات التميز المؤسسي عبر جميع الركائز"
+  },
+  "excellence.innovation": {
+    "en": "Innovation",
+    "ar": "الابتكار"
+  },
+  "excellence.innovationAwards": {
+    "en": "Innovation Awards & Recognition",
+    "ar": "جوائز الابتكار والتقدير"
+  },
+  "excellence.innovationMediaCoverage": {
+    "en": "Innovation Media Coverage",
+    "ar": "التغطية الإعلامية للابتكار"
+  },
+  "excellence.innovationMetricsUpdated": {
+    "en": "",
+    "ar": "تم تحديث مقاييس الابتكار"
+  },
+  "excellence.innovationPillar": {
+    "en": "",
+    "ar": "ركيزة الابتكار"
+  },
+  "excellence.internalProcessesAutomation": {
+    "en": "Internal Processes Automation",
+    "ar": "أتمتة العمليات الداخلية"
+  },
+  "excellence.keyIndicatorsRating": {
+    "en": "Key indicators achievement rating",
+    "ar": "تقييم إنجاز المؤشرات الرئيسية"
+  },
+  "excellence.knowledgePillar": {
+    "en": "",
+    "ar": "ركيزة المعرفة"
+  },
+  "excellence.knowledgeScoreImproved": {
+    "en": "",
+    "ar": "تحسن درجة مؤشر المعرفة"
+  },
+  "excellence.knowledgeSharingSessions": {
+    "en": "Knowledge Sharing Sessions",
+    "ar": "جلسات مشاركة المعرفة"
+  },
+  "excellence.kpiProgress": {
+    "en": "KPI Progress Chart",
+    "ar": "مخطط تقدم مؤشرات الأداء"
+  },
+  "excellence.loadingData": {
+    "en": "Loading indicators data...",
+    "ar": "جاري تحميل بيانات المؤشرات..."
+  },
+  "excellence.mainIndicators": {
+    "en": "Main Indicators",
+    "ar": "المؤشرات الرئيسية"
+  },
+  "excellence.mediaSentimentIndex": {
+    "en": "Media Sentiment Index",
+    "ar": "مؤشر المشاعر الإعلامية"
+  },
+  "excellence.metricDetails": {
+    "en": "Metric Details",
+    "ar": "تفاصيل المقياس"
+  },
+  "excellence.needsImprovement": {
+    "en": "",
+    "ar": "يحتاج إلى تحسين"
+  },
+  "excellence.noData": {
+    "en": "No data available for the selected period",
+    "ar": "لا توجد بيانات متاحة للفترة المحددة"
+  },
+  "excellence.noDataForAxis": {
+    "en": "No data available for this strategic axis in the selected period",
+    "ar": "لا توجد بيانات متاحة لهذا المحور الاستراتيجي في الفترة المحددة"
+  },
+  "excellence.noDataToExport": {
+    "en": "No data available to export",
+    "ar": "لا توجد بيانات متاحة للتصدير"
+  },
+  "excellence.operationalEfficiency": {
+    "en": "Operational Efficiency Improvement",
+    "ar": "تحسين الكفاءة التشغيلية"
+  },
+  "excellence.overviewCharts": {
+    "en": "KPI Overview Charts",
+    "ar": "مخططات نظرة عامة على مؤشرات الأداء"
+  },
+  "excellence.percentProgress": {
+    "en": "Percent Progress",
+    "ar": "نسبة التقدم"
+  },
+  "excellence.pickDates": {
+    "en": "Select dates",
+    "ar": "اختر التواريخ"
+  },
+  "excellence.pillarComparison": {
+    "en": "",
+    "ar": "مقارنة ركائز التميز"
+  },
+  "excellence.pillarComparisonDescription": {
+    "en": "",
+    "ar": "مقارنة أداء ركائز التميز"
+  },
+  "excellence.pillarContribution": {
+    "en": "",
+    "ar": "مساهمة الركائز"
+  },
+  "excellence.pillarContributionDescription": {
+    "en": "",
+    "ar": "مساهمة كل ركيزة في درجة التميز الإجمالية"
+  },
+  "excellence.positiveCoverageRate": {
+    "en": "Positive Coverage Rate",
+    "ar": "معدل التغطية الإيجابية"
+  },
+  "excellence.progress": {
+    "en": "Progress",
+    "ar": "التقدم"
+  },
+  "excellence.progressByAxis": {
+    "en": "Progress comparison by strategic axis",
+    "ar": "مقارنة التقدم حسب المحور الاستراتيجي"
+  },
+  "excellence.refresh": {
+    "en": "Refresh Data",
+    "ar": "تحديث البيانات"
+  },
+  "excellence.refreshData": {
+    "en": "Refresh Data",
+    "ar": "تحديث البيانات"
+  },
+  "excellence.reportDescription": {
+    "en": "",
+    "ar": "تنزيل تقرير مؤشرات التميز الكامل مع تحليلات وأفكار مفصلة"
+  },
+  "excellence.reportExported": {
+    "en": "Your report has been exported successfully",
+    "ar": "تم تصدير التقرير بنجاح"
+  },
+  "excellence.resetFilters": {
+    "en": "Reset",
+    "ar": "إعادة تعيين"
+  },
+  "excellence.responseTime": {
+    "en": "Response Time",
+    "ar": "وقت الاستجابة"
+  },
+  "excellence.shareOfVoice": {
+    "en": "Share of Voice",
+    "ar": "حصة الصوت"
+  },
+  "excellence.smartInitiativesImplemented": {
+    "en": "Smart Initiatives Implemented",
+    "ar": "المبادرات الذكية المنفذة"
+  },
+  "excellence.smartServicesUserSatisfaction": {
+    "en": "Smart Services User Satisfaction",
+    "ar": "رضا المستخدمين عن الخدمات الذكية"
+  },
+  "excellence.smartTransformation": {
+    "en": "Smart Transformation",
+    "ar": "التحول الذكي"
+  },
+  "excellence.socialEngagementRate": {
+    "en": "Social Media Engagement Rate",
+    "ar": "معدل التفاعل على وسائل التواصل الاجتماعي"
+  },
+  "excellence.socialPillar": {
+    "en": "",
+    "ar": "الركيزة الاجتماعية"
+  },
+  "excellence.statisticalReportsPublished": {
+    "en": "Statistical Reports Published",
+    "ar": "التقارير الإحصائية المنشورة"
+  },
+  "excellence.status": {
+    "en": "Status",
+    "ar": "الحالة"
+  },
+  "excellence.strategicAxis": {
+    "en": "Strategic Axis",
+    "ar": "المحور الاستراتيجي"
+  },
+  "excellence.subIndicators": {
+    "en": "Sub-Indicators",
+    "ar": "المؤشرات الفرعية"
+  },
+  "excellence.subindicatorsCount": {
+    "en": "",
+    "ar": "عدد المؤشرات الفرعية"
+  },
+  "excellence.subindicatorsDistribution": {
+    "en": "",
+    "ar": "توزيع المؤشرات الفرعية"
+  },
+  "excellence.subindicatorsDistributionDescription": {
+    "en": "",
+    "ar": "توزيع المؤشرات الفرعية حسب مستوى الأداء"
+  },
+  "excellence.target": {
+    "en": "Target Value",
+    "ar": "القيمة المستهدفة"
+  },
+  "excellence.title": {
+    "en": "Institutional Excellence Indicators",
+    "ar": "مؤشرات التميز المؤسسي"
+  },
+  "excellence.veryGood": {
+    "en": "",
+    "ar": "جيد جداً"
+  },
+  "excellence.yearlyTrends": {
+    "en": "",
+    "ar": "الاتجاهات السنوية"
+  },
+  "excellence.yearlyTrendsDescription": {
+    "en": "",
+    "ar": "اتجاهات الأداء على مدار العام الماضي"
+  },
+  "export.formatExcel": {
+    "en": "Excel",
+    "ar": "إكسل"
+  },
+  "export.formatPDF": {
+    "en": "PDF",
+    "ar": "PDF"
+  },
+  "export.formatPNG": {
+    "en": "PNG",
+    "ar": "PNG"
+  },
+  "faq.allCategories": {
+    "en": "All Categories",
+    "ar": ""
+  },
+  "faq.backToSupport": {
+    "en": "Back to Support",
+    "ar": ""
+  },
+  "faq.categoryFilterPlaceholder": {
+    "en": "Filter by category",
+    "ar": ""
+  },
+  "faq.clearFilters": {
+    "en": "Clear filters",
+    "ar": ""
+  },
+  "faq.errorLoading": {
+    "en": "Error loading FAQs. Please try again.",
+    "ar": ""
+  },
+  "faq.filteredDescription": {
+    "en": "Showing filtered questions based on your search",
+    "ar": ""
+  },
+  "faq.filteredResults": {
+    "en": "{{count}} Results",
+    "ar": ""
+  },
+  "faq.frequentlyAskedQuestions": {
+    "en": "Frequently Asked Questions",
+    "ar": ""
+  },
+  "faq.frequentlyAskedQuestionsDescription": {
+    "en": "Browse through our commonly asked questions to find quick answers",
+    "ar": ""
+  },
+  "faq.needMoreHelp.browseKnowledgeBase": {
+    "en": "Browse Knowledge Base",
+    "ar": ""
+  },
+  "faq.needMoreHelp.createTicket": {
+    "en": "Create a Support Ticket",
+    "ar": ""
+  },
+  "faq.needMoreHelp.description": {
+    "en": "If you couldn\\",
+    "ar": ""
+  },
+  "faq.needMoreHelp.title": {
+    "en": "Still have questions?",
+    "ar": ""
+  },
+  "faq.noResultsFound": {
+    "en": "No FAQs found matching your search criteria.",
+    "ar": ""
+  },
+  "faq.searchPlaceholder": {
+    "en": "Search questions...",
+    "ar": ""
+  },
+  "faq.subtitle": {
+    "en": "Find quick answers to common questions about using the platform",
+    "ar": ""
+  },
+  "faq.title": {
+    "en": "Frequently Asked Questions",
+    "ar": ""
+  },
+  "gem.kpiTitle": {
+    "en": "GEM 2.0 Index",
+    "ar": "مؤشر منظومة التميز المؤسسي"
+  },
+  "gem.title": {
+    "en": "GEM 2.0 Indicators",
+    "ar": "مؤشرات منظومة التميز المؤسسي"
+  },
+  "knowledgeArticle.backToKnowledgeBase": {
+    "en": "Back to Knowledge Base",
+    "ar": ""
+  },
+  "knowledgeArticle.backToSupport": {
+    "en": "Support",
+    "ar": ""
+  },
+  "knowledgeArticle.errorLoading": {
+    "en": "Error loading article. It may have been removed or you may not have permission to view it.",
+    "ar": ""
+  },
+  "knowledgeArticle.feedbackError": {
+    "en": "Error submitting feedback",
+    "ar": ""
+  },
+  "knowledgeArticle.feedbackReceived": {
+    "en": "Your feedback helps us improve our knowledge base.",
+    "ar": ""
+  },
+  "knowledgeArticle.feedbackThankYou": {
+    "en": "Thank you for your feedback",
+    "ar": ""
+  },
+  "knowledgeArticle.helpfulVotes": {
+    "en": "helpful votes",
+    "ar": ""
+  },
+  "knowledgeArticle.invalidId": {
+    "en": "Invalid Article ID",
+    "ar": ""
+  },
+  "knowledgeArticle.invalidIdDescription": {
+    "en": "The article ID provided is invalid. Please go back to the knowledge base.",
+    "ar": ""
+  },
+  "knowledgeArticle.knowledgeBase": {
+    "en": "Knowledge Base",
+    "ar": ""
+  },
+  "knowledgeArticle.linkCopied": {
+    "en": "Link copied",
+    "ar": ""
+  },
+  "knowledgeArticle.linkCopiedDescription": {
+    "en": "Article link copied to clipboard",
+    "ar": ""
+  },
+  "knowledgeArticle.loading": {
+    "en": "Loading article...",
+    "ar": ""
+  },
+  "knowledgeArticle.loginRequired": {
+    "en": "Login required",
+    "ar": ""
+  },
+  "knowledgeArticle.loginRequiredDescription": {
+    "en": "Please log in to provide feedback on articles.",
+    "ar": ""
+  },
+  "knowledgeArticle.needMoreHelp.browseFaq": {
+    "en": "Browse FAQs",
+    "ar": ""
+  },
+  "knowledgeArticle.needMoreHelp.createTicket": {
+    "en": "Create a Support Ticket",
+    "ar": ""
+  },
+  "knowledgeArticle.needMoreHelp.description": {
+    "en": "If this article didn\\",
+    "ar": ""
+  },
+  "knowledgeArticle.needMoreHelp.title": {
+    "en": "Need more help?",
+    "ar": ""
+  },
+  "knowledgeArticle.no": {
+    "en": "No",
+    "ar": ""
+  },
+  "knowledgeArticle.print": {
+    "en": "Print",
+    "ar": ""
+  },
+  "knowledgeArticle.publishedOn": {
+    "en": "Published on {{date}}",
+    "ar": ""
+  },
+  "knowledgeArticle.relatedTopics": {
+    "en": "Related Topics",
+    "ar": ""
+  },
+  "knowledgeArticle.share": {
+    "en": "Share",
+    "ar": ""
+  },
+  "knowledgeArticle.thankYouForFeedback": {
+    "en": "Thank you for your feedback",
+    "ar": ""
+  },
+  "knowledgeArticle.unknownAuthor": {
+    "en": "Team Member",
+    "ar": ""
+  },
+  "knowledgeArticle.wasThisHelpful": {
+    "en": "Was this article helpful?",
+    "ar": ""
+  },
+  "knowledgeArticle.yes": {
+    "en": "Yes",
+    "ar": ""
+  },
+  "knowledgeBase.allArticles": {
+    "en": "All Articles",
+    "ar": ""
+  },
+  "knowledgeBase.allCategories": {
+    "en": "All Categories",
+    "ar": ""
+  },
+  "knowledgeBase.allTags": {
+    "en": "All Tags",
+    "ar": ""
+  },
+  "knowledgeBase.backToSupport": {
+    "en": "Back to Support",
+    "ar": ""
+  },
+  "knowledgeBase.cantFindAnswer.browseFaq": {
+    "en": "Browse FAQs",
+    "ar": ""
+  },
+  "knowledgeBase.cantFindAnswer.createTicket": {
+    "en": "Create a Support Ticket",
+    "ar": ""
+  },
+  "knowledgeBase.cantFindAnswer.description": {
+    "en": "Our support team is ready to assist you with your specific questions",
+    "ar": ""
+  },
+  "knowledgeBase.cantFindAnswer.title": {
+    "en": "Can\\",
+    "ar": ""
+  },
+  "knowledgeBase.categoryFilterPlaceholder": {
+    "en": "Category",
+    "ar": ""
+  },
+  "knowledgeBase.clearFilters": {
+    "en": "Clear Filters",
+    "ar": ""
+  },
+  "knowledgeBase.errorLoading": {
+    "en": "Error loading articles. Please try again.",
+    "ar": ""
+  },
+  "knowledgeBase.filteredResults": {
+    "en": "{{count}} Results",
+    "ar": ""
+  },
+  "knowledgeBase.noResultsFound": {
+    "en": "No articles found matching your search criteria.",
+    "ar": ""
+  },
+  "knowledgeBase.readMore": {
+    "en": "Read More",
+    "ar": ""
+  },
+  "knowledgeBase.searchPlaceholder": {
+    "en": "Search articles...",
+    "ar": ""
+  },
+  "knowledgeBase.subtitle": {
+    "en": "Explore guides, articles, and resources to help you use the platform effectively",
+    "ar": ""
+  },
+  "knowledgeBase.tagFilterPlaceholder": {
+    "en": "Tag",
+    "ar": ""
+  },
+  "knowledgeBase.title": {
+    "en": "Knowledge Base",
+    "ar": ""
+  },
+  "knowledgeBase.tryAgain": {
+    "en": "Try Again",
+    "ar": ""
+  },
+  "knowledgeBase.viewAllInCategory": {
+    "en": "View All",
+    "ar": ""
+  },
+  "mediaCenter.ajmanGovDescription": {
+    "en": "Access to press releases, news, and official announcements from Ajman Government.",
+    "ar": "الوصول إلى البيانات الصحفية والأخبار والإعلانات الرسمية من حكومة عجمان."
+  },
+  "mediaCenter.ajmanGovPressReleases": {
+    "en": "Ajman Government Press Releases",
+    "ar": "البيانات الصحفية لحكومة عجمان"
+  },
+  "mediaCenter.ajmanPoliceDescription": {
+    "en": "Access to security updates, community news, and safety information from Ajman Police.",
+    "ar": "الوصول إلى تحديثات الأمن وأخبار المجتمع ومعلومات السلامة من شرطة عجمان."
+  },
+  "mediaCenter.ajmanPoliceNews": {
+    "en": "Ajman Police News and Updates",
+    "ar": "أخبار وتحديثات شرطة عجمان"
+  },
+  "mediaCenter.all": {
+    "en": "All",
+    "ar": "الكل"
+  },
+  "mediaCenter.browse": {
+    "en": "Browse",
+    "ar": "تصفح"
+  },
+  "mediaCenter.date": {
+    "en": "Date",
+    "ar": "التاريخ"
+  },
+  "mediaCenter.days": {
+    "en": "day",
+    "ar": "يوم"
+  },
+  "mediaCenter.document": {
+    "en": "Document",
+    "ar": "مستند"
+  },
+  "mediaCenter.downloadFile": {
+    "en": "Download File",
+    "ar": "تنزيل الملف"
+  },
+  "mediaCenter.events": {
+    "en": "Events",
+    "ar": "فعاليات"
+  },
+  "mediaCenter.filter": {
+    "en": "Filter",
+    "ar": "تصفية"
+  },
+  "mediaCenter.image": {
+    "en": "Image",
+    "ar": "صورة"
+  },
+  "mediaCenter.integratedPlatforms": {
+    "en": "Integrated Local & Government Platforms",
+    "ar": "المنصات المحلية ومواقع الحكومة المتكاملة"
+  },
+  "mediaCenter.internalMediaLibrary": {
+    "en": "Internal Media Library",
+    "ar": "مكتبة الوسائط الداخلية"
+  },
+  "mediaCenter.lastWeek": {
+    "en": "Last Week",
+    "ar": "الأسبوع الماضي"
+  },
+  "mediaCenter.newest": {
+    "en": "Newest",
+    "ar": "الأحدث"
+  },
+  "mediaCenter.news": {
+    "en": "News",
+    "ar": "أخبار"
+  },
+  "mediaCenter.oldest": {
+    "en": "Oldest",
+    "ar": "الأقدم"
+  },
+  "mediaCenter.projects": {
+    "en": "Projects",
+    "ar": "مشاريع"
+  },
+  "mediaCenter.reports": {
+    "en": "Reports",
+    "ar": "تقارير"
+  },
+  "mediaCenter.search": {
+    "en": "Search",
+    "ar": "بحث"
+  },
+  "mediaCenter.shareContent": {
+    "en": "Share Content",
+    "ar": "مشاركة المحتوى"
+  },
+  "mediaCenter.sourcePlatforms": {
+    "en": "Source Platforms",
+    "ar": "منصات المصادر"
+  },
+  "mediaCenter.title": {
+    "en": "Media Center",
+    "ar": "مركز الإعلام"
+  },
+  "mediaCenter.uaeNewsSources": {
+    "en": "UAE News Sources",
+    "ar": "مصادر الأخبار الإماراتية"
+  },
+  "mediaCenter.updated": {
+    "en": "Updated",
+    "ar": "تم التحديث منذ"
+  },
+  "mediaCenter.upload": {
+    "en": "Upload File",
+    "ar": "رفع ملف"
+  },
+  "mediaCenter.video": {
+    "en": "Video",
+    "ar": "فيديو"
+  },
+  "mediaCenter.viewAll": {
+    "en": "View All",
+    "ar": "عرض الكل"
+  },
+  "mediaCenter.viewFullArticle": {
+    "en": "View Full Article",
+    "ar": "عرض المقال كاملا"
+  },
+  "mediaCenter.viewFullPressRelease": {
+    "en": "View Full Press Release",
+    "ar": "عرض البيان الصحفي كاملا"
+  },
+  "mediaCenter.visitOfficialWebsite": {
+    "en": "Visit Official Website",
+    "ar": "زيارة الموقع الرسمي"
+  },
+  "mediaCenter.visitWebsite": {
+    "en": "Visit Website",
+    "ar": "زيارة الموقع"
+  },
+  "mediaCenter.wamDescription": {
+    "en": "Access to WAM (Emirates News Agency) for comprehensive UAE news and updates.",
+    "ar": "الوصول إلى وكالة أنباء الإمارات (وام) للحصول على تغطية شاملة لأخبار الإمارات والتحديثات."
+  },
+  "mediaCenter.wamNewsAgency": {
+    "en": "WAM News Agency",
+    "ar": "وكالة أنباء الإمارات (وام)"
+  },
+  "mediaCenter.weeks": {
+    "en": "week",
+    "ar": "أسبوع"
+  },
+  "monitoring.activeAlerts": {
+    "en": "Active Alerts",
+    "ar": "تنبيهات نشطة"
+  },
+  "monitoring.addKeyword": {
+    "en": "Add new keyword",
+    "ar": "إضافة كلمة مفتاحية جديدة"
+  },
+  "monitoring.alertSettings": {
+    "en": "Alert Settings",
+    "ar": "إعدادات التنبيه"
+  },
+  "monitoring.all": {
+    "en": "All",
+    "ar": "الكل"
+  },
+  "monitoring.allPlatforms": {
+    "en": "All Platforms",
+    "ar": "جميع المنصات"
+  },
+  "monitoring.clearAll": {
+    "en": "Clear All",
+    "ar": "تصفية الكل"
+  },
+  "monitoring.defaultUser": {
+    "en": "User",
+    "ar": "مستخدم"
+  },
+  "monitoring.defaultUsername": {
+    "en": "username",
+    "ar": "اسم المستخدم"
+  },
+  "monitoring.downloadReport": {
+    "en": "Download Report",
+    "ar": "تنزيل التقرير"
+  },
+  "monitoring.engagement.comments": {
+    "en": "{{count}}",
+    "ar": "{{count}}"
+  },
+  "monitoring.engagement.likes": {
+    "en": "{{count}}",
+    "ar": "{{count}}"
+  },
+  "monitoring.engagement.shares": {
+    "en": "{{count}}",
+    "ar": "{{count}}"
+  },
+  "monitoring.facebook": {
+    "en": "Facebook",
+    "ar": "فيسبوك"
+  },
+  "monitoring.facebookContent": {
+    "en": "Facebook content",
+    "ar": "محتوى فيسبوك"
+  },
+  "monitoring.hoursAgo": {
+    "en": "{{hours}} hours ago",
+    "ar": "منذ {{hours}} ساعة"
+  },
+  "monitoring.instagram": {
+    "en": "Instagram",
+    "ar": "انستغرام"
+  },
+  "monitoring.instagramContent": {
+    "en": "Instagram content",
+    "ar": "محتوى انستغرام"
+  },
+  "monitoring.keywordTrends": {
+    "en": "Keywords in trends",
+    "ar": "كلمات مفتاحية في الاتجاهات"
+  },
+  "monitoring.keywords": {
+    "en": "Keywords",
+    "ar": "الكلمات المفتاحية"
+  },
+  "monitoring.mentions": {
+    "en": "mentions",
+    "ar": "ذكر"
+  },
+  "monitoring.negativeRise": {
+    "en": "Rise in negative mentions",
+    "ar": "ارتفاع في الذكر السلبي"
+  },
+  "monitoring.news": {
+    "en": "News Sites",
+    "ar": "المواقع الإخبارية"
+  },
+  "monitoring.newsContent": {
+    "en": "News content",
+    "ar": "محتوى الأخبار"
+  },
+  "monitoring.noPosts": {
+    "en": "No posts found",
+    "ar": "لم يتم العثور على منشورات"
+  },
+  "monitoring.threshold": {
+    "en": "Threshold",
+    "ar": "الحد"
+  },
+  "monitoring.title": {
+    "en": "Media Monitoring",
+    "ar": "مراقبة وسائل الإعلام"
+  },
+  "monitoring.twitter": {
+    "en": "Twitter",
+    "ar": "تويتر"
+  },
+  "monitoring.twitterContent": {
+    "en": "Twitter content",
+    "ar": "محتوى تويتر"
+  },
+  "navigation.contextHints": {
+    "en": "Language Context Hints",
+    "ar": "تلميحات السياق اللغوي"
+  },
+  "navigation.dashboard": {
+    "en": "Dashboard",
+    "ar": "لوحة التحكم"
+  },
+  "navigation.entityMonitoring": {
+    "en": "Government Entity Monitoring",
+    "ar": "مراقبة الجهات الحكومية"
+  },
+  "navigation.excellenceIndicators": {
+    "en": "Institutional Excellence Indicators",
+    "ar": "مؤشرات التميز المؤسسي"
+  },
+  "navigation.help": {
+    "en": "Help",
+    "ar": "المساعدة"
+  },
+  "navigation.home": {
+    "en": "Home",
+    "ar": "الرئيسية"
+  },
+  "navigation.mediaCenter": {
+    "en": "Media Center",
+    "ar": "مركز الإعلام"
+  },
+  "navigation.monitoring": {
+    "en": "Media Monitoring",
+    "ar": "مراقبة وسائل الإعلام"
+  },
+  "navigation.performanceVisualization": {
+    "en": "Performance Visualization",
+    "ar": "عرض الأداء"
+  },
+  "navigation.personalizedDashboard": {
+    "en": "Personalized Dashboard",
+    "ar": "لوحة التحكم المخصصة"
+  },
+  "navigation.pressRelease": {
+    "en": "Press Release",
+    "ar": "نشر بيان صحفي"
+  },
+  "navigation.reports": {
+    "en": "Reports",
+    "ar": "تقارير"
+  },
+  "navigation.settings": {
+    "en": "Settings",
+    "ar": "الإعدادات"
+  },
+  "navigation.sidebarLabel": {
+    "en": "Main Navigation",
+    "ar": "التنقل الرئيسي"
+  },
+  "navigation.smartReports": {
+    "en": "Smart Reports",
+    "ar": "التقارير الذكية"
+  },
+  "navigation.socialMedia.accounts": {
+    "en": "Official Accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.actionNeeded": {
+    "en": "Action Needed",
+    "ar": ""
+  },
+  "navigation.socialMedia.addAccount": {
+    "en": "Add social media official account",
+    "ar": ""
+  },
+  "navigation.socialMedia.addDocument": {
+    "en": "Add Document",
+    "ar": ""
+  },
+  "navigation.socialMedia.addFlaggedAccount": {
+    "en": "Add Flagged Account",
+    "ar": ""
+  },
+  "navigation.socialMedia.addImage": {
+    "en": "Add Image",
+    "ar": ""
+  },
+  "navigation.socialMedia.addVideo": {
+    "en": "Add Video",
+    "ar": ""
+  },
+  "navigation.socialMedia.analytics": {
+    "en": "Analytics",
+    "ar": ""
+  },
+  "navigation.socialMedia.archiveDescription": {
+    "en": "Archive of search content and related accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.archivedContent": {
+    "en": "Archived Content",
+    "ar": ""
+  },
+  "navigation.socialMedia.audienceDemographics": {
+    "en": "Audience Demographics",
+    "ar": ""
+  },
+  "navigation.socialMedia.audienceGrowth": {
+    "en": "Audience Growth",
+    "ar": ""
+  },
+  "navigation.socialMedia.comments": {
+    "en": "Comments",
+    "ar": ""
+  },
+  "navigation.socialMedia.connect": {
+    "en": "Connect",
+    "ar": ""
+  },
+  "navigation.socialMedia.connectNew": {
+    "en": "Connect New Account",
+    "ar": ""
+  },
+  "navigation.socialMedia.connected": {
+    "en": "Connected",
+    "ar": ""
+  },
+  "navigation.socialMedia.connectedAccounts": {
+    "en": "Connected Accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.connectedPlatforms": {
+    "en": "Ajman Police Official Platforms",
+    "ar": ""
+  },
+  "navigation.socialMedia.contentArchive": {
+    "en": "Content Archive",
+    "ar": ""
+  },
+  "navigation.socialMedia.createPost": {
+    "en": "Create Post",
+    "ar": ""
+  },
+  "navigation.socialMedia.currentSentiment": {
+    "en": "Current Sentiment",
+    "ar": ""
+  },
+  "navigation.socialMedia.dashboard": {
+    "en": "Dashboard",
+    "ar": ""
+  },
+  "navigation.socialMedia.detailedAnalytics": {
+    "en": "Detailed Analytics",
+    "ar": ""
+  },
+  "navigation.socialMedia.engagement": {
+    "en": "Engagement",
+    "ar": ""
+  },
+  "navigation.socialMedia.engagementOverview": {
+    "en": "Engagement Overview",
+    "ar": ""
+  },
+  "navigation.socialMedia.escalate": {
+    "en": "Escalate",
+    "ar": ""
+  },
+  "navigation.socialMedia.exportOsintReport": {
+    "en": "Export OSINT Report",
+    "ar": ""
+  },
+  "navigation.socialMedia.flaggedAccounts": {
+    "en": "Flagged Accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.flaggedContent": {
+    "en": "Flagged Content",
+    "ar": ""
+  },
+  "navigation.socialMedia.followers": {
+    "en": "Followers",
+    "ar": ""
+  },
+  "navigation.socialMedia.hashtag": {
+    "en": "Hashtag",
+    "ar": ""
+  },
+  "navigation.socialMedia.informationValue": {
+    "en": "Information Value",
+    "ar": ""
+  },
+  "navigation.socialMedia.investigate": {
+    "en": "Investigate",
+    "ar": ""
+  },
+  "navigation.socialMedia.keywordAlert": {
+    "en": "Keyword Alert",
+    "ar": ""
+  },
+  "navigation.socialMedia.lastThirtyDays": {
+    "en": "Last 30 Days",
+    "ar": ""
+  },
+  "navigation.socialMedia.likes": {
+    "en": "Likes",
+    "ar": ""
+  },
+  "navigation.socialMedia.manage": {
+    "en": "Manage",
+    "ar": ""
+  },
+  "navigation.socialMedia.manageYourAccounts": {
+    "en": "Manage Ajman Police social media accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.mention": {
+    "en": "Mention",
+    "ar": ""
+  },
+  "navigation.socialMedia.monitorHash": {
+    "en": "Monitor Hashtag",
+    "ar": ""
+  },
+  "navigation.socialMedia.monitorOnly": {
+    "en": "Monitor Only",
+    "ar": ""
+  },
+  "navigation.socialMedia.noPosts": {
+    "en": "No posts available",
+    "ar": ""
+  },
+  "navigation.socialMedia.noScheduledPosts": {
+    "en": "No scheduled posts",
+    "ar": ""
+  },
+  "navigation.socialMedia.offlineMode": {
+    "en": "Offline Mode",
+    "ar": ""
+  },
+  "navigation.socialMedia.osintMonitoring": {
+    "en": "OSINT Monitoring",
+    "ar": ""
+  },
+  "navigation.socialMedia.performanceInsights": {
+    "en": "Performance insights for Ajman Police accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.facebook": {
+    "en": "Facebook",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.instagram": {
+    "en": "Instagram",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.linkedin": {
+    "en": "LinkedIn",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.snapchat": {
+    "en": "Snapchat",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.telegram": {
+    "en": "Telegram",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.tiktok": {
+    "en": "TikTok",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.twitter": {
+    "en": "Twitter",
+    "ar": ""
+  },
+  "navigation.socialMedia.platform.youtube": {
+    "en": "YouTube",
+    "ar": ""
+  },
+  "navigation.socialMedia.posts": {
+    "en": "Posts",
+    "ar": ""
+  },
+  "navigation.socialMedia.publish": {
+    "en": "Publish Content",
+    "ar": ""
+  },
+  "navigation.socialMedia.publishButton": {
+    "en": "Publish",
+    "ar": ""
+  },
+  "navigation.socialMedia.reach": {
+    "en": "Reach",
+    "ar": ""
+  },
+  "navigation.socialMedia.realTimeMonitoring": {
+    "en": "Monitor trending topics and hashtags",
+    "ar": ""
+  },
+  "navigation.socialMedia.realTimeUpdates": {
+    "en": "Live Monitoring Updates",
+    "ar": ""
+  },
+  "navigation.socialMedia.recentPosts": {
+    "en": "Recent Posts",
+    "ar": ""
+  },
+  "navigation.socialMedia.relevanceScore": {
+    "en": "Relevance Score",
+    "ar": ""
+  },
+  "navigation.socialMedia.saveToArchive": {
+    "en": "Save to Archive",
+    "ar": ""
+  },
+  "navigation.socialMedia.savedSearches": {
+    "en": "Saved Searches",
+    "ar": ""
+  },
+  "navigation.socialMedia.schedule": {
+    "en": "Schedule",
+    "ar": ""
+  },
+  "navigation.socialMedia.scheduleMessage": {
+    "en": "Schedule your posts to publish automatically at specific times",
+    "ar": ""
+  },
+  "navigation.socialMedia.scheduledPosts": {
+    "en": "Scheduled Posts",
+    "ar": ""
+  },
+  "navigation.socialMedia.searchAccounts": {
+    "en": "Search Accounts",
+    "ar": ""
+  },
+  "navigation.socialMedia.searchHistory": {
+    "en": "Search History",
+    "ar": ""
+  },
+  "navigation.socialMedia.searchKeywords": {
+    "en": "Search Keywords",
+    "ar": ""
+  },
+  "navigation.socialMedia.selectTimeframe": {
+    "en": "Select Timeframe",
+    "ar": ""
+  },
+  "navigation.socialMedia.sentiment.negative": {
+    "en": "Negative",
+    "ar": ""
+  },
+  "navigation.socialMedia.sentiment.neutral": {
+    "en": "Neutral",
+    "ar": ""
+  },
+  "navigation.socialMedia.sentiment.positive": {
+    "en": "Positive",
+    "ar": ""
+  },
+  "navigation.socialMedia.sentimentAnalysis": {
+    "en": "Sentiment Analysis",
+    "ar": ""
+  },
+  "navigation.socialMedia.sentimentTrend": {
+    "en": "Sentiment Trend",
+    "ar": ""
+  },
+  "navigation.socialMedia.sentimentTrendDescription": {
+    "en": "Analysis of sentiment evolution over time",
+    "ar": ""
+  },
+  "navigation.socialMedia.shareAcrossPlatforms": {
+    "en": "Share content across social platforms",
+    "ar": ""
+  },
+  "navigation.socialMedia.shares": {
+    "en": "Shares",
+    "ar": ""
+  },
+  "navigation.socialMedia.threatLevel": {
+    "en": "Threat Level",
+    "ar": ""
+  },
+  "navigation.socialMedia.timeframe.day": {
+    "en": "Day",
+    "ar": ""
+  },
+  "navigation.socialMedia.timeframe.month": {
+    "en": "Month",
+    "ar": ""
+  },
+  "navigation.socialMedia.timeframe.quarter": {
+    "en": "Quarter",
+    "ar": ""
+  },
+  "navigation.socialMedia.timeframe.week": {
+    "en": "Week",
+    "ar": ""
+  },
+  "navigation.socialMedia.title": {
+    "en": "Social Media Management",
+    "ar": ""
+  },
+  "navigation.socialMedia.topPerformingPosts": {
+    "en": "Top Performing Posts",
+    "ar": ""
+  },
+  "navigation.socialMedia.totalEngagement": {
+    "en": "Total Engagement",
+    "ar": ""
+  },
+  "navigation.socialMedia.trendingTopics": {
+    "en": "Trending Topics",
+    "ar": ""
+  },
+  "navigation.socialMedia.viewOriginalPost": {
+    "en": "View original post",
+    "ar": ""
+  },
+  "navigation.socialMedia.whatToShare": {
+    "en": "What would you like to share?",
+    "ar": ""
+  },
+  "navigation.socialMediaManagement": {
+    "en": "Social Media Management",
+    "ar": "إدارة وسائل التواصل الاجتماعي"
+  },
+  "navigation.tutorials": {
+    "en": "Tutorials",
+    "ar": "دروس تعليمية"
+  },
+  "navigation.users": {
+    "en": "User Management",
+    "ar": "إدارة المستخدمين"
+  },
+  "navigation.viewPerformanceVisualization": {
+    "en": "View Performance Visualization",
+    "ar": "عرض تصور الأداء"
+  },
+  "newTicket.backToSupport": {
+    "en": "Support",
+    "ar": ""
+  },
+  "newTicket.form.attachFilesButton": {
+    "en": "Attach Files",
+    "ar": ""
+  },
+  "newTicket.form.attachments": {
+    "en": "Attachments (Optional)",
+    "ar": ""
+  },
+  "newTicket.form.cancel": {
+    "en": "Cancel",
+    "ar": ""
+  },
+  "newTicket.form.category": {
+    "en": "Category",
+    "ar": ""
+  },
+  "newTicket.form.categoryPlaceholder": {
+    "en": "Select a category",
+    "ar": ""
+  },
+  "newTicket.form.comingSoon": {
+    "en": "File uploads coming soon",
+    "ar": ""
+  },
+  "newTicket.form.description": {
+    "en": "Description",
+    "ar": ""
+  },
+  "newTicket.form.descriptionPlaceholder": {
+    "en": "Please provide a detailed description of your issue including any steps to reproduce, error messages, and what you\\",
+    "ar": ""
+  },
+  "newTicket.form.highPriority": {
+    "en": "High - Critical issue, blocking work",
+    "ar": ""
+  },
+  "newTicket.form.lowPriority": {
+    "en": "Low - General question or minor issue",
+    "ar": ""
+  },
+  "newTicket.form.mediumPriority": {
+    "en": "Medium - Issue affecting workflow",
+    "ar": ""
+  },
+  "newTicket.form.priority": {
+    "en": "Priority",
+    "ar": ""
+  },
+  "newTicket.form.priorityPlaceholder": {
+    "en": "Select priority",
+    "ar": ""
+  },
+  "newTicket.form.subject": {
+    "en": "Subject",
+    "ar": ""
+  },
+  "newTicket.form.subjectPlaceholder": {
+    "en": "Brief description of your issue",
+    "ar": ""
+  },
+  "newTicket.form.submitTicket": {
+    "en": "Submit Ticket",
+    "ar": ""
+  },
+  "newTicket.form.submitting": {
+    "en": "Submitting...",
+    "ar": ""
+  },
+  "newTicket.helpBox.browseKnowledgeBase": {
+    "en": "Browse Knowledge Base",
+    "ar": ""
+  },
+  "newTicket.helpBox.tip1": {
+    "en": "Be specific about your issue and include any error messages you see.",
+    "ar": ""
+  },
+  "newTicket.helpBox.tip2": {
+    "en": "List any steps you have already taken to try to resolve the issue.",
+    "ar": ""
+  },
+  "newTicket.helpBox.tip3": {
+    "en": "Include information about your environment (browser, device) if relevant.",
+    "ar": ""
+  },
+  "newTicket.helpBox.title": {
+    "en": "Tips for faster support",
+    "ar": ""
+  },
+  "newTicket.helpBox.viewFaq": {
+    "en": "View FAQs",
+    "ar": ""
+  },
+  "newTicket.loginRequired.description": {
+    "en": "You need to be logged in to create a support ticket.",
+    "ar": ""
+  },
+  "newTicket.loginRequired.loginButton": {
+    "en": "Log In",
+    "ar": ""
+  },
+  "newTicket.loginRequired.title": {
+    "en": "Login Required",
+    "ar": ""
+  },
+  "newTicket.subtitle": {
+    "en": "Submit a new support request to our team",
+    "ar": ""
+  },
+  "newTicket.supportTickets": {
+    "en": "Tickets",
+    "ar": ""
+  },
+  "newTicket.ticketCreateError": {
+    "en": "Error Creating Ticket",
+    "ar": ""
+  },
+  "newTicket.ticketCreated": {
+    "en": "Ticket Created",
+    "ar": ""
+  },
+  "newTicket.ticketCreatedDescription": {
+    "en": "Your support ticket has been successfully created. Our team will respond as soon as possible.",
+    "ar": ""
+  },
+  "newTicket.title": {
+    "en": "Create Support Ticket",
+    "ar": ""
+  },
+  "notifications.hoursAgo": {
+    "en": "{{hours}} hours ago",
+    "ar": "منذ {{hours}} ساعة"
+  },
+  "notifications.keywordAlert": {
+    "en": "Alert: Rise in \"Innovation\" keyword mentions",
+    "ar": "تنبيه: ارتفاع ذكر الكلمة الرئيسية \"الابتكار\""
+  },
+  "notifications.minutesAgo": {
+    "en": "{{minutes}} minutes ago",
+    "ar": "منذ {{minutes}} دقائق"
+  },
+  "notifications.negativeReaction": {
+    "en": "Alert: Negative reactions to Facebook post",
+    "ar": "تنبيه: ردود فعل سلبية على منشور الفيسبوك"
+  },
+  "notifications.newReport": {
+    "en": "Alert: New report ready for download",
+    "ar": "تنبيه: تقرير جديد جاهز للتحميل"
+  },
+  "notifications.title": {
+    "en": "Notifications",
+    "ar": "إشعارات"
+  },
+  "performance.cardDescription": {
+    "en": "",
+    "ar": "الوصول إلى لوحة التحكم المتقدمة للتصور مع رسوم بيانية تفاعلية ومقاييس الأداء"
+  },
+  "performance.change": {
+    "en": "Change",
+    "ar": "التغيير"
+  },
+  "performance.dataShownFor": {
+    "en": "This data is shown for",
+    "ar": "هذه البيانات تعرض خلال"
+  },
+  "performance.dataUpdateError": {
+    "en": "Data Update Error",
+    "ar": "خطأ في تحديث البيانات"
+  },
+  "performance.dataUpdateErrorDescription": {
+    "en": "An error occurred while updating performance data. Please try again.",
+    "ar": "حدث خطأ أثناء تحديث بيانات الأداء. يرجى المحاولة مرة أخرى."
+  },
+  "performance.dataUpdateSuccess": {
+    "en": "All performance data has been successfully updated.",
+    "ar": "تم تحديث جميع بيانات الأداء بنجاح."
+  },
+  "performance.dataUpdated": {
+    "en": "Data Updated",
+    "ar": "تم تحديث البيانات"
+  },
+  "performance.dataUpdatedOn": {
+    "en": "Data updated on",
+    "ar": "تم تحديث البيانات في"
+  },
+  "performance.description": {
+    "en": "Visual analysis of media platforms performance and digital presence",
+    "ar": "تحليل بصري لأداء المنصات الإعلامية والتواجد الرقمي"
+  },
+  "performance.detailedEngagement": {
+    "en": "Detailed Engagement Analysis",
+    "ar": "تحليل التفاعل المفصل"
+  },
+  "performance.engagement": {
+    "en": "Engagement",
+    "ar": "التفاعل"
+  },
+  "performance.engagementByPlatform": {
+    "en": "Engagement by Platform",
+    "ar": "التفاعل حسب المنصة"
+  },
+  "performance.engagementCount": {
+    "en": "Number of engagements across various social platforms",
+    "ar": "عدد التفاعلات على مختلف المنصات الاجتماعية"
+  },
+  "performance.engagementTab": {
+    "en": "Engagement",
+    "ar": "التفاعل"
+  },
+  "performance.export": {
+    "en": "Export",
+    "ar": "تصدير"
+  },
+  "performance.filterResults": {
+    "en": "Filter Results",
+    "ar": "تصفية النتائج"
+  },
+  "performance.hour": {
+    "en": "hour",
+    "ar": "ساعة"
+  },
+  "performance.hours": {
+    "en": "hours",
+    "ar": "ساعات"
+  },
+  "performance.keyPerformanceIndicators": {
+    "en": "Key Performance Indicators",
+    "ar": "مؤشرات الأداء الرئيسية"
+  },
+  "performance.loading": {
+    "en": "Loading institutional performance data...",
+    "ar": "جاري تحميل بيانات الأداء المؤسسي..."
+  },
+  "performance.measurePerformance": {
+    "en": "Measuring institutional performance against strategic goals",
+    "ar": "قياس أداء المؤسسة مقارنة بالأهداف الاستراتيجية"
+  },
+  "performance.mediaVisibility": {
+    "en": "Media Visibility",
+    "ar": "الظهور الإعلامي"
+  },
+  "performance.mediaVisibilityIndex": {
+    "en": "Visibility Index",
+    "ar": "مؤشر الظهور"
+  },
+  "performance.mediaVisibilityTrend": {
+    "en": "Evolution of media visibility across platforms during",
+    "ar": "تطور معدل الظهور عبر المنصات الإعلامية خلال"
+  },
+  "performance.negative": {
+    "en": "Negative",
+    "ar": "سلبي"
+  },
+  "performance.neutral": {
+    "en": "Neutral",
+    "ar": "محايد"
+  },
+  "performance.oneMonth": {
+    "en": "One Month",
+    "ar": "شهر واحد"
+  },
+  "performance.oneYear": {
+    "en": "One Year",
+    "ar": "سنة"
+  },
+  "performance.overviewTab": {
+    "en": "Overview",
+    "ar": "نظرة عامة"
+  },
+  "performance.pageDescription": {
+    "en": "",
+    "ar": "عرض مؤشرات الأداء الرئيسية وتحليل المشاعر وإحصاءات التفاعل"
+  },
+  "performance.performanceTab": {
+    "en": "Institution Performance",
+    "ar": "أداء المؤسسة"
+  },
+  "performance.positive": {
+    "en": "Positive",
+    "ar": "إيجابي"
+  },
+  "performance.positiveChange": {
+    "en": "Change in positive sentiment",
+    "ar": "تغير في المشاعر الإيجابية"
+  },
+  "performance.sentimentAnalysis": {
+    "en": "Analysis of prevailing sentiments in digital content",
+    "ar": "تحليل المشاعر السائدة في المحتوى الرقمي"
+  },
+  "performance.sentimentDistribution": {
+    "en": "Sentiment Distribution",
+    "ar": "توزيع المشاعر"
+  },
+  "performance.sentimentOverTime": {
+    "en": "Sentiment changes over time",
+    "ar": "تغير المشاعر مع مرور الوقت"
+  },
+  "performance.sentimentTab": {
+    "en": "Sentiment Analysis",
+    "ar": "التحليل العاطفي"
+  },
+  "performance.sentimentTrends": {
+    "en": "Sentiment Trends",
+    "ar": "تطور المشاعر"
+  },
+  "performance.sixMonths": {
+    "en": "6 Months",
+    "ar": "6 أشهر"
+  },
+  "performance.target": {
+    "en": "Target",
+    "ar": "الهدف"
+  },
+  "performance.threeMonths": {
+    "en": "3 Months",
+    "ar": "3 أشهر"
+  },
+  "performance.timeRange": {
+    "en": "Time Range",
+    "ar": "النطاق الزمني"
+  },
+  "performance.title": {
+    "en": "Performance Visualization",
+    "ar": "عرض الأداء"
+  },
+  "performance.totalEngagement": {
+    "en": "Total Engagement",
+    "ar": "إجمالي التفاعل"
+  },
+  "performance.updatedEvery": {
+    "en": "Updated every",
+    "ar": "تحديث كل"
+  },
+  "reports.addRecipient": {
+    "en": "Add Recipient",
+    "ar": "إضافة مستلم"
+  },
+  "reports.alertsDescription": {
+    "en": "",
+    "ar": "إشعارات حديثة حول الجهات التي تتم متابعتها"
+  },
+  "reports.audienceDemographics": {
+    "en": "Audience Demographics",
+    "ar": "التركيبة السكانية للجمهور"
+  },
+  "reports.audienceInsights": {
+    "en": "Demographic insights of your audience",
+    "ar": "رؤى ديموغرافية للجمهور"
+  },
+  "reports.audienceLocation": {
+    "en": "Audience location by region",
+    "ar": "موقع الجمهور حسب المنطقة"
+  },
+  "reports.audiencePercentage": {
+    "en": "Audience Percentage",
+    "ar": "نسبة الجمهور"
+  },
+  "reports.compareReports": {
+    "en": "Compare Reports",
+    "ar": "مقارنة التقارير"
+  },
+  "reports.compileReport": {
+    "en": "Compile Report",
+    "ar": "تجميع التقرير"
+  },
+  "reports.confirmDeleteTemplate": {
+    "en": "Are you sure you want to delete this template?",
+    "ar": "هل أنت متأكد أنك تريد حذف هذا القالب؟"
+  },
+  "reports.contentWithHighestEngagement": {
+    "en": "Content with the highest engagement across platforms",
+    "ar": "المحتوى ذو أعلى معدل تفاعل عبر المنصات"
+  },
+  "reports.createCustomReport": {
+    "en": "Create Custom Report",
+    "ar": "إنشاء تقرير مخصص"
+  },
+  "reports.createSmartReport": {
+    "en": "Create Smart Report",
+    "ar": "إنشاء تقرير ذكي"
+  },
+  "reports.customReport": {
+    "en": "Custom Report",
+    "ar": "تقرير مخصص"
+  },
+  "reports.customReportDescription": {
+    "en": "Create custom reports based on specific criteria",
+    "ar": "إنشاء تقارير مخصصة بناءً على معايير محددة"
+  },
+  "reports.customReportMessage": {
+    "en": "Specify custom parameters, date ranges, and metrics to create a report tailored to your analytical needs.",
+    "ar": "تحديد المعلمات المخصصة ونطاقات التاريخ والمقاييس لإنشاء تقرير مصمم خصيصًا لاحتياجاتك التحليلية."
+  },
+  "reports.customReportTitle": {
+    "en": "Create Custom Report",
+    "ar": "إنشاء تقرير مخصص"
+  },
+  "reports.daily": {
+    "en": "Daily",
+    "ar": "يومي"
+  },
+  "reports.deleteTemplate": {
+    "en": "Delete Template",
+    "ar": "حذف القالب"
+  },
+  "reports.digitalResponsiveness": {
+    "en": "Digital Responsiveness",
+    "ar": "الاستجابة الرقمية"
+  },
+  "reports.editTemplate": {
+    "en": "Edit Template",
+    "ar": "تعديل القالب"
+  },
+  "reports.engagementTrendsDescription": {
+    "en": "Engagement trends over the past six months",
+    "ar": "اتجاهات التفاعل على مدار الأشهر الستة الماضية"
+  },
+  "reports.entitiesComponent": {
+    "en": "Government Entities",
+    "ar": "الجهات الحكومية"
+  },
+  "reports.excellenceComponent": {
+    "en": "Excellence Indicators",
+    "ar": "مؤشرات التميز"
+  },
+  "reports.exportData": {
+    "en": "Export Data",
+    "ar": "تصدير البيانات"
+  },
+  "reports.frequency": {
+    "en": "Frequency",
+    "ar": "التكرار"
+  },
+  "reports.futureReadiness": {
+    "en": "Future Readiness",
+    "ar": "الجاهزية للمستقبل"
+  },
+  "reports.generateReport": {
+    "en": "Generate Report",
+    "ar": "إنشاء تقرير"
+  },
+  "reports.generatingReport": {
+    "en": "Generating report...",
+    "ar": "جاري إنشاء التقرير..."
+  },
+  "reports.geographicDistribution": {
+    "en": "Geographic Distribution",
+    "ar": "التوزيع الجغرافي"
+  },
+  "reports.improvement": {
+    "en": "improvement",
+    "ar": "تحسن"
+  },
+  "reports.includeCharts": {
+    "en": "Include Charts",
+    "ar": "تضمين الرسوم البيانية"
+  },
+  "reports.includeRawData": {
+    "en": "Include Raw Data",
+    "ar": "تضمين البيانات الخام"
+  },
+  "reports.includeSummary": {
+    "en": "Include Summary",
+    "ar": "تضمين ملخص"
+  },
+  "reports.innovationIndex": {
+    "en": "Innovation Index",
+    "ar": "مؤشر الابتكار"
+  },
+  "reports.keyInsights": {
+    "en": "Key Insights",
+    "ar": "الرؤى الرئيسية"
+  },
+  "reports.keyPerformanceIndicators": {
+    "en": "Key Performance Indicators",
+    "ar": "مؤشرات الأداء الرئيسية"
+  },
+  "reports.kpiDescription": {
+    "en": "Detailed breakdown of key performance indicators",
+    "ar": "تحليل مفصل لمؤشرات الأداء الرئيسية"
+  },
+  "reports.latestAlerts": {
+    "en": "",
+    "ar": "أحدث التنبيهات"
+  },
+  "reports.latestReports": {
+    "en": "Latest Reports",
+    "ar": "أحدث التقارير"
+  },
+  "reports.mediaComponent": {
+    "en": "Media Coverage",
+    "ar": "التغطية الإعلامية"
+  },
+  "reports.minutes": {
+    "en": "minutes",
+    "ar": "دقائق"
+  },
+  "reports.minutesAgo": {
+    "en": "",
+    "ar": "دقيقة مضت"
+  },
+  "reports.monthly": {
+    "en": "Monthly",
+    "ar": "شهري"
+  },
+  "reports.negativeEngagementAlert": {
+    "en": "",
+    "ar": "تنبيه: تفاعل سلبي يتطلب الانتباه"
+  },
+  "reports.negativeResponse": {
+    "en": "Negative Response",
+    "ar": "الاستجابة السلبية"
+  },
+  "reports.negativeResponseTime": {
+    "en": "Negative Response Time",
+    "ar": "وقت الاستجابة السلبية"
+  },
+  "reports.negativeSentiment": {
+    "en": "Negative Sentiment",
+    "ar": "المشاعر السلبية"
+  },
+  "reports.negativeSentimentDesc": {
+    "en": "Content that received significant negative reactions or criticism.",
+    "ar": "المحتوى الذي تلقى ردود فعل سلبية كبيرة أو انتقادات."
+  },
+  "reports.neutralSentiment": {
+    "en": "Neutral Sentiment",
+    "ar": "المشاعر المحايدة"
+  },
+  "reports.neutralSentimentDesc": {
+    "en": "Content that primarily received neutral or informational reactions.",
+    "ar": "المحتوى الذي تلقى في المقام الأول ردود فعل محايدة أو إعلامية."
+  },
+  "reports.noSavedReports": {
+    "en": "No saved reports yet",
+    "ar": "لا توجد تقارير محفوظة حتى الآن"
+  },
+  "reports.osintMaturity": {
+    "en": "OSINT Maturity",
+    "ar": "نضج OSINT"
+  },
+  "reports.overview": {
+    "en": "Overview",
+    "ar": "نظرة عامة"
+  },
+  "reports.overviewDescription": {
+    "en": "Comprehensive overview of GEM 2.0 key performance indicators",
+    "ar": "نظرة شاملة على مؤشرات الأداء الرئيسية لـ GEM 2.0"
+  },
+  "reports.performanceScore": {
+    "en": "Performance Score",
+    "ar": "درجة الأداء"
+  },
+  "reports.performanceTrends": {
+    "en": "Performance Trends",
+    "ar": "اتجاهات الأداء"
+  },
+  "reports.positiveEngagement": {
+    "en": "Positive Engagement",
+    "ar": "المشاركة الإيجابية"
+  },
+  "reports.positiveResponse": {
+    "en": "Positive Response",
+    "ar": "الاستجابة الإيجابية"
+  },
+  "reports.positiveSentiment": {
+    "en": "Positive Sentiment",
+    "ar": "المشاعر الإيجابية"
+  },
+  "reports.positiveSentimentDesc": {
+    "en": "Content that primarily received positive engagement and reactions.",
+    "ar": "المحتوى الذي تلقى في المقام الأول مشاركة وردود فعل إيجابية."
+  },
+  "reports.printReport": {
+    "en": "Print Report",
+    "ar": "طباعة التقرير"
+  },
+  "reports.quarterly": {
+    "en": "Quarterly",
+    "ar": "ربع سنوي"
+  },
+  "reports.recipients": {
+    "en": "Recipients",
+    "ar": "المستلمين"
+  },
+  "reports.reportCompiledSuccess": {
+    "en": "Report compiled successfully",
+    "ar": "تم تجميع التقرير بنجاح"
+  },
+  "reports.reportComponents": {
+    "en": "Report Components",
+    "ar": "مكونات التقرير"
+  },
+  "reports.reportHistory": {
+    "en": "Report History",
+    "ar": "سجل التقارير"
+  },
+  "reports.reportScheduledSuccess": {
+    "en": "Report scheduled successfully",
+    "ar": "تم جدولة التقرير بنجاح"
+  },
+  "reports.reportTemplates": {
+    "en": "Report Templates",
+    "ar": "قوالب التقارير"
+  },
+  "reports.responseTimeAnalysis": {
+    "en": "Response Time Analysis",
+    "ar": "تحليل وقت الاستجابة"
+  },
+  "reports.responseTimeDescription": {
+    "en": "Analysis of response times across different channels",
+    "ar": "تحليل أوقات الاستجابة عبر القنوات المختلفة"
+  },
+  "reports.saveAsTemplate": {
+    "en": "Save as Template",
+    "ar": "حفظ كقالب"
+  },
+  "reports.savedReports": {
+    "en": "Saved Reports",
+    "ar": "التقارير المحفوظة"
+  },
+  "reports.scheduleReport": {
+    "en": "Schedule Report",
+    "ar": "جدولة التقرير"
+  },
+  "reports.scheduledReports": {
+    "en": "Scheduled Reports",
+    "ar": "التقارير المجدولة"
+  },
+  "reports.selectComponents": {
+    "en": "Select report components",
+    "ar": "حدد مكونات التقرير"
+  },
+  "reports.sentimentAnalysis": {
+    "en": "Sentiment Analysis",
+    "ar": "تحليل المشاعر"
+  },
+  "reports.sentimentAnalysisDescription": {
+    "en": "Detailed analysis of sentiment across platforms",
+    "ar": "تحليل مفصل للمشاعر عبر المنصات"
+  },
+  "reports.sentimentAnalytics": {
+    "en": "Sentiment Analytics",
+    "ar": "تحليلات المشاعر"
+  },
+  "reports.sentimentByPlatformDescription": {
+    "en": "Sentiment distribution across all platforms",
+    "ar": "توزيع المشاعر عبر جميع المنصات"
+  },
+  "reports.sentimentComponent": {
+    "en": "Sentiment Analysis",
+    "ar": "تحليل المشاعر"
+  },
+  "reports.sentimentDistribution": {
+    "en": "Sentiment Distribution",
+    "ar": "توزيع المشاعر"
+  },
+  "reports.sentimentImprovement": {
+    "en": "",
+    "ar": "تحسن في المشاعر"
+  },
+  "reports.sentimentReport": {
+    "en": "Sentiment Report",
+    "ar": "تقرير المشاعر"
+  },
+  "reports.shareReport": {
+    "en": "Share Report",
+    "ar": "مشاركة التقرير"
+  },
+  "reports.slower": {
+    "en": "slower",
+    "ar": "أبطأ"
+  },
+  "reports.smartReportName": {
+    "en": "Report Name",
+    "ar": "اسم التقرير"
+  },
+  "reports.smartReportNamePlaceholder": {
+    "en": "Enter a name for your report",
+    "ar": "أدخل اسمًا للتقرير الخاص بك"
+  },
+  "reports.smartReportsDescription": {
+    "en": "Compile different aspects into comprehensive reports",
+    "ar": "تجميع جوانب مختلفة في تقارير شاملة"
+  },
+  "reports.smartReportsTitle": {
+    "en": "Smart Reports",
+    "ar": "التقارير الذكية"
+  },
+  "reports.socialMediaComponent": {
+    "en": "Social Media Analysis",
+    "ar": "تحليل وسائل التواصل الاجتماعي"
+  },
+  "reports.socialMediaEngagement": {
+    "en": "Social Media Engagement",
+    "ar": "التفاعل على وسائل التواصل الاجتماعي"
+  },
+  "reports.socialMediaReport": {
+    "en": "Social Media Report",
+    "ar": "تقرير وسائل التواصل الاجتماعي"
+  },
+  "reports.socialMediaReportDescription": {
+    "en": "Detailed analysis of social media performance",
+    "ar": "تحليل مفصل لأداء وسائل التواصل الاجتماعي"
+  },
+  "reports.socialMediaReportMessage": {
+    "en": "Generate a comprehensive report on social media performance, engagement metrics, and sentiment analysis across platforms.",
+    "ar": "إنشاء تقرير شامل عن أداء وسائل التواصل الاجتماعي ومقاييس المشاركة وتحليل المشاعر عبر المنصات."
+  },
+  "reports.socialMediaReportTitle": {
+    "en": "Generate Social Media Report",
+    "ar": "إنشاء تقرير وسائل التواصل الاجتماعي"
+  },
+  "reports.strategicForesight": {
+    "en": "Strategic Foresight",
+    "ar": "الرؤية الاستراتيجية"
+  },
+  "reports.title": {
+    "en": "Reports",
+    "ar": "التقارير"
+  },
+  "reports.topPerformingContent": {
+    "en": "Top Performing Content",
+    "ar": "المحتوى الأعلى أداءً"
+  },
+  "reports.trendsDescription": {
+    "en": "Monitor performance trends over time",
+    "ar": "مراقبة اتجاهات الأداء بمرور الوقت"
+  },
+  "reports.useTemplate": {
+    "en": "Use Template",
+    "ar": "استخدام القالب"
+  },
+  "reports.viewDetailedReport": {
+    "en": "View Detailed Report",
+    "ar": "عرض تقرير مفصل"
+  },
+  "reports.weekly": {
+    "en": "Weekly",
+    "ar": "أسبوعي"
+  },
+  "settings.accountType": {
+    "en": "Account Type",
+    "ar": "نوع الحساب"
+  },
+  "settings.actions": {
+    "en": "Actions",
+    "ar": "الإجراءات"
+  },
+  "settings.activeKey": {
+    "en": "Active",
+    "ar": "نشط"
+  },
+  "settings.addLangTitle": {
+    "en": "Add New Language",
+    "ar": "إضافة لغة جديدة"
+  },
+  "settings.addLanguage": {
+    "en": "Add New Language",
+    "ar": "إضافة لغة جديدة"
+  },
+  "settings.addWebhook": {
+    "en": "Add Webhook",
+    "ar": "إضافة ويب هوك"
+  },
+  "settings.apiDescription": {
+    "en": "Manage API keys and external integrations",
+    "ar": "إدارة مفاتيح API والتكاملات الخارجية"
+  },
+  "settings.apiKeys": {
+    "en": "API Keys",
+    "ar": "مفاتيح API"
+  },
+  "settings.apiSettings": {
+    "en": "API & Integrations",
+    "ar": "إعدادات API والتكاملات"
+  },
+  "settings.apiTab": {
+    "en": "API & Integrations",
+    "ar": "API والتكاملات"
+  },
+  "settings.apiUsage": {
+    "en": "API Usage",
+    "ar": "استخدام API"
+  },
+  "settings.appearanceDescription": {
+    "en": "Customize the appearance and localization of the platform",
+    "ar": "تخصيص مظهر ولغة المنصة"
+  },
+  "settings.appearanceSettings": {
+    "en": "Appearance Settings",
+    "ar": "إعدادات المظهر"
+  },
+  "settings.appearanceTab": {
+    "en": "Appearance",
+    "ar": "المظهر"
+  },
+  "settings.availableLanguages": {
+    "en": "Available Languages",
+    "ar": "اللغات المتاحة"
+  },
+  "settings.bioLabel": {
+    "en": "Bio",
+    "ar": "السيرة الذاتية"
+  },
+  "settings.bioPlaceholder": {
+    "en": "Write a short bio about yourself",
+    "ar": "اكتب نبذة قصيرة عن نفسك"
+  },
+  "settings.changePassword": {
+    "en": "Change Password",
+    "ar": "تغيير كلمة المرور"
+  },
+  "settings.completeness": {
+    "en": "Completeness",
+    "ar": "الاكتمال"
+  },
+  "settings.confirmPassword": {
+    "en": "Confirm New Password",
+    "ar": "تأكيد كلمة المرور الجديدة"
+  },
+  "settings.contactSupport": {
+    "en": "Contact Support",
+    "ar": "الاتصال بالدعم"
+  },
+  "settings.contactUs": {
+    "en": "Contact Us",
+    "ar": "اتصل بنا"
+  },
+  "settings.contactUsDesc": {
+    "en": "Direct contact information for our support team",
+    "ar": "معلومات الاتصال المباشر لفريق الدعم لدينا"
+  },
+  "settings.createTicket": {
+    "en": "Create Ticket",
+    "ar": "إنشاء تذكرة"
+  },
+  "settings.currentPassword": {
+    "en": "Current Password",
+    "ar": "كلمة المرور الحالية"
+  },
+  "settings.darkTheme": {
+    "en": "Dark Mode",
+    "ar": "الوضع المظلم"
+  },
+  "settings.dashboardAlerts": {
+    "en": "Dashboard Alerts",
+    "ar": "تنبيهات لوحة التحكم"
+  },
+  "settings.dataUsage": {
+    "en": "Data Usage",
+    "ar": "استخدام البيانات"
+  },
+  "settings.defaultLang": {
+    "en": "Default",
+    "ar": "افتراضي"
+  },
+  "settings.deleteLang": {
+    "en": "Delete",
+    "ar": "حذف"
+  },
+  "settings.documentation": {
+    "en": "Documentation",
+    "ar": "الوثائق"
+  },
+  "settings.documentationDesc": {
+    "en": "Find help and guides for using the Media Intelligence Platform",
+    "ar": "البحث عن المساعدة والأدلة لاستخدام منصة ذكاء الإعلام"
+  },
+  "settings.editLang": {
+    "en": "Edit",
+    "ar": "تعديل"
+  },
+  "settings.emailLabel": {
+    "en": "Email Address",
+    "ar": "البريد الإلكتروني"
+  },
+  "settings.emailNotifications": {
+    "en": "Email Notifications",
+    "ar": "إشعارات البريد الإلكتروني"
+  },
+  "settings.emailPlaceholder": {
+    "en": "your.email@example.com",
+    "ar": "بريدك@مثال.كوم"
+  },
+  "settings.enableTwoFactor": {
+    "en": "Enable Two-Factor Authentication",
+    "ar": "تفعيل المصادقة الثنائية"
+  },
+  "settings.faq": {
+    "en": "Frequently Asked Questions",
+    "ar": "الأسئلة المتكررة"
+  },
+  "settings.faq1": {
+    "en": "How do I interpret the sentiment analysis scores?",
+    "ar": "كيف أفسر درجات تحليل المشاعر؟"
+  },
+  "settings.faq2": {
+    "en": "Can I export data to other formats?",
+    "ar": "هل يمكنني تصدير البيانات إلى تنسيقات أخرى؟"
+  },
+  "settings.faq3": {
+    "en": "How often is social media data updated?",
+    "ar": "كم مرة يتم تحديث بيانات وسائل التواصل الاجتماعي؟"
+  },
+  "settings.generateNewKey": {
+    "en": "Generate New Key",
+    "ar": "إنشاء مفتاح جديد"
+  },
+  "settings.helpDescription": {
+    "en": "Resources and support options to help you use the platform",
+    "ar": "الموارد وخيارات الدعم لمساعدتك في استخدام المنصة"
+  },
+  "settings.helpSupport": {
+    "en": "Help & Support",
+    "ar": "المساعدة والدعم"
+  },
+  "settings.helpTab": {
+    "en": "Help & Support",
+    "ar": "المساعدة والدعم"
+  },
+  "settings.importLangFile": {
+    "en": "Import Language File",
+    "ar": "استيراد ملف اللغة"
+  },
+  "settings.keywordSpikes": {
+    "en": "Keyword Mention Spikes",
+    "ar": "ارتفاعات في ذكر الكلمات المفتاحية"
+  },
+  "settings.langFileFormat": {
+    "en": "JSON format required",
+    "ar": "مطلوب تنسيق JSON"
+  },
+  "settings.langManagement": {
+    "en": "Language Management",
+    "ar": "إدارة اللغات"
+  },
+  "settings.langManagementDescription": {
+    "en": "Add, edit or remove language options for the platform",
+    "ar": "إضافة أو تعديل أو إزالة خيارات اللغة للمنصة"
+  },
+  "settings.langName": {
+    "en": "Language Name",
+    "ar": "اسم اللغة"
+  },
+  "settings.langNameEnglish": {
+    "en": "Language Name (English)",
+    "ar": "اسم اللغة (بالإنجليزية)"
+  },
+  "settings.langNameNative": {
+    "en": "Language Name (Native)",
+    "ar": "اسم اللغة (الأصلية)"
+  },
+  "settings.language": {
+    "en": "Language",
+    "ar": "اللغة"
+  },
+  "settings.languageCode": {
+    "en": "Language Code",
+    "ar": "رمز اللغة"
+  },
+  "settings.languageSelector": {
+    "en": "Language Selector",
+    "ar": "محدد اللغة"
+  },
+  "settings.lightTheme": {
+    "en": "Light Mode",
+    "ar": "الوضع المضيء"
+  },
+  "settings.loginHistory": {
+    "en": "Login History",
+    "ar": "سجل تسجيل الدخول"
+  },
+  "settings.ltr": {
+    "en": "Left to Right (LTR)",
+    "ar": "من اليسار إلى اليمين"
+  },
+  "settings.makeDefault": {
+    "en": "Make Default",
+    "ar": "جعلها افتراضية"
+  },
+  "settings.nameLabel": {
+    "en": "Full Name",
+    "ar": "الاسم الكامل"
+  },
+  "settings.namePlaceholder": {
+    "en": "Enter your name",
+    "ar": "أدخل اسمك"
+  },
+  "settings.negativeMentions": {
+    "en": "Negative Mentions",
+    "ar": "ذكر سلبي"
+  },
+  "settings.newPassword": {
+    "en": "New Password",
+    "ar": "كلمة المرور الجديدة"
+  },
+  "settings.noActiveKeys": {
+    "en": "No active API keys",
+    "ar": "لا توجد مفاتيح API نشطة"
+  },
+  "settings.noWebhooks": {
+    "en": "No webhooks configured",
+    "ar": "لم يتم تكوين أي ويب هوك"
+  },
+  "settings.notificationDescription": {
+    "en": "Manage how and when you receive notifications",
+    "ar": "إدارة كيفية ووقت تلقي الإشعارات"
+  },
+  "settings.notificationSettings": {
+    "en": "Notification Settings",
+    "ar": "إعدادات الإشعارات"
+  },
+  "settings.notificationsTab": {
+    "en": "Notifications",
+    "ar": "الإشعارات"
+  },
+  "settings.personalDetails": {
+    "en": "Personal Details",
+    "ar": "التفاصيل الشخصية"
+  },
+  "settings.platformStatus": {
+    "en": "Platform Status Updates",
+    "ar": "تحديثات حالة المنصة"
+  },
+  "settings.profileDescription": {
+    "en": "Manage your personal information and preferences",
+    "ar": "إدارة معلوماتك الشخصية وتفضيلاتك"
+  },
+  "settings.profileSettings": {
+    "en": "Profile Settings",
+    "ar": "إعدادات الملف الشخصي"
+  },
+  "settings.profileTab": {
+    "en": "Profile",
+    "ar": "الملف الشخصي"
+  },
+  "settings.quotaResets": {
+    "en": "Quota resets on",
+    "ar": "تعيين الحصة في"
+  },
+  "settings.roleLabel": {
+    "en": "Role",
+    "ar": "الدور"
+  },
+  "settings.rtl": {
+    "en": "Right to Left (RTL)",
+    "ar": "من اليمين إلى اليسار"
+  },
+  "settings.saveChanges": {
+    "en": "Save Changes",
+    "ar": "حفظ التغييرات"
+  },
+  "settings.securityDescription": {
+    "en": "Manage your account security and access settings",
+    "ar": "إدارة أمان حسابك وإعدادات الوصول"
+  },
+  "settings.securityOptions": {
+    "en": "Security Options",
+    "ar": "خيارات الأمان"
+  },
+  "settings.securitySettings": {
+    "en": "Security Settings",
+    "ar": "إعدادات الأمان"
+  },
+  "settings.securityTab": {
+    "en": "Security",
+    "ar": "الأمان"
+  },
+  "settings.selectLanguage": {
+    "en": "Select a language",
+    "ar": "اختر لغة"
+  },
+  "settings.sessionTimeout": {
+    "en": "Session Timeout",
+    "ar": "مهلة الجلسة"
+  },
+  "settings.settingsMenu": {
+    "en": "Settings Menu",
+    "ar": "قائمة الإعدادات"
+  },
+  "settings.supportTicket": {
+    "en": "Support Ticket",
+    "ar": "تذكرة الدعم"
+  },
+  "settings.supportTicketDesc": {
+    "en": "Submit an issue or question to our support team",
+    "ar": "إرسال مشكلة أو سؤال إلى فريق الدعم لدينا"
+  },
+  "settings.systemLogin": {
+    "en": "Login Attempts",
+    "ar": "محاولات تسجيل الدخول"
+  },
+  "settings.systemNegative": {
+    "en": "Negative Sentiment Alerts",
+    "ar": "تنبيهات المشاعر السلبية"
+  },
+  "settings.systemNotifications": {
+    "en": "System Notifications",
+    "ar": "إشعارات النظام"
+  },
+  "settings.systemTheme": {
+    "en": "System Default",
+    "ar": "افتراضي النظام"
+  },
+  "settings.systemTrend": {
+    "en": "Trending Topics",
+    "ar": "المواضيع الرائجة"
+  },
+  "settings.textDirection": {
+    "en": "Text Direction",
+    "ar": "اتجاه النص"
+  },
+  "settings.theme": {
+    "en": "Theme",
+    "ar": "السمة"
+  },
+  "settings.timeZoneLabel": {
+    "en": "Time Zone",
+    "ar": "المنطقة الزمنية"
+  },
+  "settings.title": {
+    "en": "Settings",
+    "ar": "الإعدادات"
+  },
+  "settings.tutorials": {
+    "en": "Tutorials",
+    "ar": "الدروس التعليمية"
+  },
+  "settings.tutorialsDesc": {
+    "en": "Video tutorials and step-by-step guides",
+    "ar": "مقاطع فيديو تعليمية وأدلة خطوة بخطوة"
+  },
+  "settings.twoFactorAuth": {
+    "en": "Two-Factor Authentication",
+    "ar": "المصادقة الثنائية"
+  },
+  "settings.uploadLangFile": {
+    "en": "Upload Translation File",
+    "ar": "تحميل ملف الترجمة"
+  },
+  "settings.view": {
+    "en": "View",
+    "ar": "عرض"
+  },
+  "settings.viewDocs": {
+    "en": "View Documentation",
+    "ar": "عرض الوثائق"
+  },
+  "settings.viewTutorials": {
+    "en": "View Tutorials",
+    "ar": "عرض الدروس التعليمية"
+  },
+  "settings.webhooks": {
+    "en": "Webhooks",
+    "ar": "الويب هوك"
+  },
+  "social.facebook": {
+    "en": "Facebook",
+    "ar": "فيسبوك"
+  },
+  "social.instagram": {
+    "en": "Instagram",
+    "ar": "انستغرام"
+  },
+  "social.linkedin": {
+    "en": "LinkedIn",
+    "ar": "لينكد إن"
+  },
+  "social.news": {
+    "en": "News",
+    "ar": "أخبار"
+  },
+  "social.snapchat": {
+    "en": "Snapchat",
+    "ar": "سناب شات"
+  },
+  "social.telegram": {
+    "en": "Telegram",
+    "ar": "تليغرام"
+  },
+  "social.tiktok": {
+    "en": "TikTok",
+    "ar": "تيك توك"
+  },
+  "social.twitter": {
+    "en": "Twitter",
+    "ar": "تويتر"
+  },
+  "social.youtube": {
+    "en": "YouTube",
+    "ar": "يوتيوب"
+  },
+  "socialMedia.accounts": {
+    "en": "",
+    "ar": "الحسابات الرسمية"
+  },
+  "socialMedia.actionNeeded": {
+    "en": "",
+    "ar": "إجراء مطلوب"
+  },
+  "socialMedia.addAccount": {
+    "en": "",
+    "ar": "إضافة حساب وسائل التواصل الاجتماعي الرسمي"
+  },
+  "socialMedia.addDocument": {
+    "en": "",
+    "ar": "إضافة مستند"
+  },
+  "socialMedia.addFlaggedAccount": {
+    "en": "",
+    "ar": "إضافة حساب محدد"
+  },
+  "socialMedia.addImage": {
+    "en": "",
+    "ar": "إضافة صورة"
+  },
+  "socialMedia.addVideo": {
+    "en": "",
+    "ar": "إضافة فيديو"
+  },
+  "socialMedia.analytics": {
+    "en": "",
+    "ar": "التحليلات"
+  },
+  "socialMedia.archiveDescription": {
+    "en": "",
+    "ar": "أرشيف البحث عن المحتوى والحسابات ذات الصلة"
+  },
+  "socialMedia.archivedContent": {
+    "en": "",
+    "ar": "المحتوى المؤرشف"
+  },
+  "socialMedia.audienceDemographics": {
+    "en": "",
+    "ar": "البيانات الديموغرافية للجمهور"
+  },
+  "socialMedia.audienceGrowth": {
+    "en": "",
+    "ar": "نمو الجمهور"
+  },
+  "socialMedia.comments": {
+    "en": "",
+    "ar": "التعليقات"
+  },
+  "socialMedia.connect": {
+    "en": "",
+    "ar": "ربط"
+  },
+  "socialMedia.connectNew": {
+    "en": "",
+    "ar": "ربط حساب جديد"
+  },
+  "socialMedia.connected": {
+    "en": "",
+    "ar": "متصل"
+  },
+  "socialMedia.connectedAccounts": {
+    "en": "",
+    "ar": "الحسابات المتصلة"
+  },
+  "socialMedia.connectedPlatforms": {
+    "en": "",
+    "ar": "المنصات الرسمية لشرطة عجمان"
+  },
+  "socialMedia.contentArchive": {
+    "en": "",
+    "ar": "أرشيف المحتوى"
+  },
+  "socialMedia.createPost": {
+    "en": "",
+    "ar": "إنشاء منشور"
+  },
+  "socialMedia.currentSentiment": {
+    "en": "",
+    "ar": "المشاعر الحالية"
+  },
+  "socialMedia.dashboard": {
+    "en": "",
+    "ar": "لوحة التحكم"
+  },
+  "socialMedia.detailedAnalytics": {
+    "en": "",
+    "ar": "التحليلات التفصيلية"
+  },
+  "socialMedia.engagement": {
+    "en": "",
+    "ar": "التفاعل"
+  },
+  "socialMedia.engagementOverview": {
+    "en": "",
+    "ar": "نظرة عامة على التفاعل"
+  },
+  "socialMedia.escalate": {
+    "en": "",
+    "ar": "تصعيد"
+  },
+  "socialMedia.exportOsintReport": {
+    "en": "",
+    "ar": "تصدير تقرير OSINT"
+  },
+  "socialMedia.flaggedAccounts": {
+    "en": "",
+    "ar": "الحسابات المحددة"
+  },
+  "socialMedia.flaggedContent": {
+    "en": "",
+    "ar": "المحتوى المحدد"
+  },
+  "socialMedia.followers": {
+    "en": "",
+    "ar": "المتابعون"
+  },
+  "socialMedia.hashtag": {
+    "en": "",
+    "ar": "هاشتاج"
+  },
+  "socialMedia.informationValue": {
+    "en": "",
+    "ar": "قيمة المعلومات"
+  },
+  "socialMedia.investigate": {
+    "en": "",
+    "ar": "تحقيق"
+  },
+  "socialMedia.keywordAlert": {
+    "en": "",
+    "ar": "تنبيه الكلمات الرئيسية"
+  },
+  "socialMedia.lastThirtyDays": {
+    "en": "",
+    "ar": "آخر 30 يوم"
+  },
+  "socialMedia.likes": {
+    "en": "",
+    "ar": "الإعجابات"
+  },
+  "socialMedia.manage": {
+    "en": "",
+    "ar": "إدارة"
+  },
+  "socialMedia.manageYourAccounts": {
+    "en": "",
+    "ar": "إدارة حسابات شرطة عجمان على وسائل التواصل الاجتماعي"
+  },
+  "socialMedia.mention": {
+    "en": "",
+    "ar": "إشارة"
+  },
+  "socialMedia.monitorHash": {
+    "en": "",
+    "ar": "مراقبة هاشتاج"
+  },
+  "socialMedia.monitorOnly": {
+    "en": "",
+    "ar": "مراقبة فقط"
+  },
+  "socialMedia.noPosts": {
+    "en": "",
+    "ar": "لا توجد منشورات متاحة"
+  },
+  "socialMedia.noScheduledPosts": {
+    "en": "",
+    "ar": "لا توجد منشورات مجدولة"
+  },
+  "socialMedia.offlineMode": {
+    "en": "",
+    "ar": "وضع عدم الاتصال"
+  },
+  "socialMedia.osintMonitoring": {
+    "en": "",
+    "ar": "مراقبة المعلومات المفتوحة المصدر"
+  },
+  "socialMedia.performanceInsights": {
+    "en": "",
+    "ar": "رؤى الأداء لحسابات شرطة عجمان"
+  },
+  "socialMedia.posts": {
+    "en": "",
+    "ar": "منشورات"
+  },
+  "socialMedia.publish": {
+    "en": "",
+    "ar": "نشر المحتوى"
+  },
+  "socialMedia.publishButton": {
+    "en": "",
+    "ar": "نشر"
+  },
+  "socialMedia.reach": {
+    "en": "",
+    "ar": "الوصول"
+  },
+  "socialMedia.realTimeMonitoring": {
+    "en": "",
+    "ar": "مراقبة المواضيع والهاشتاجات الشائعة"
+  },
+  "socialMedia.realTimeUpdates": {
+    "en": "",
+    "ar": "تحديثات المراقبة المباشرة"
+  },
+  "socialMedia.recentPosts": {
+    "en": "",
+    "ar": "أحدث المنشورات"
+  },
+  "socialMedia.relevanceScore": {
+    "en": "",
+    "ar": "درجة الصلة"
+  },
+  "socialMedia.saveToArchive": {
+    "en": "",
+    "ar": "حفظ في الأرشيف"
+  },
+  "socialMedia.savedSearches": {
+    "en": "",
+    "ar": "عمليات البحث المحفوظة"
+  },
+  "socialMedia.schedule": {
+    "en": "",
+    "ar": "جدولة"
+  },
+  "socialMedia.scheduleMessage": {
+    "en": "",
+    "ar": "جدولة منشوراتك لتنشر تلقائيًا في أوقات محددة"
+  },
+  "socialMedia.scheduledPosts": {
+    "en": "",
+    "ar": "المنشورات المجدولة"
+  },
+  "socialMedia.searchAccounts": {
+    "en": "",
+    "ar": "البحث عن الحسابات"
+  },
+  "socialMedia.searchHistory": {
+    "en": "",
+    "ar": "سجل البحث"
+  },
+  "socialMedia.searchKeywords": {
+    "en": "",
+    "ar": "كلمات البحث"
+  },
+  "socialMedia.selectTimeframe": {
+    "en": "",
+    "ar": "اختر الإطار الزمني"
+  },
+  "socialMedia.sentiment.negative": {
+    "en": "",
+    "ar": "سلبي"
+  },
+  "socialMedia.sentiment.neutral": {
+    "en": "",
+    "ar": "محايد"
+  },
+  "socialMedia.sentiment.positive": {
+    "en": "",
+    "ar": "إيجابي"
+  },
+  "socialMedia.sentimentAnalysis": {
+    "en": "",
+    "ar": "تحليل المشاعر"
+  },
+  "socialMedia.sentimentTrend": {
+    "en": "",
+    "ar": "اتجاه المشاعر"
+  },
+  "socialMedia.sentimentTrendDescription": {
+    "en": "",
+    "ar": "تحليل تطور المشاعر العامة مع مرور الوقت"
+  },
+  "socialMedia.shareAcrossPlatforms": {
+    "en": "",
+    "ar": "شارك المحتوى عبر منصات التواصل الاجتماعي"
+  },
+  "socialMedia.shares": {
+    "en": "",
+    "ar": "المشاركات"
+  },
+  "socialMedia.threatLevel": {
+    "en": "",
+    "ar": "مستوى التهديد"
+  },
+  "socialMedia.timeframe.day": {
+    "en": "",
+    "ar": "يوم"
+  },
+  "socialMedia.timeframe.month": {
+    "en": "",
+    "ar": "شهر"
+  },
+  "socialMedia.timeframe.quarter": {
+    "en": "",
+    "ar": "ربع سنة"
+  },
+  "socialMedia.timeframe.week": {
+    "en": "",
+    "ar": "أسبوع"
+  },
+  "socialMedia.title": {
+    "en": "",
+    "ar": "إدارة منصات التواصل الاجتماعي"
+  },
+  "socialMedia.topPerformingPosts": {
+    "en": "",
+    "ar": "أفضل المنشورات أداءً"
+  },
+  "socialMedia.totalEngagement": {
+    "en": "",
+    "ar": "إجمالي التفاعل"
+  },
+  "socialMedia.trendingTopics": {
+    "en": "",
+    "ar": "المواضيع الشائعة"
+  },
+  "socialMedia.whatToShare": {
+    "en": "",
+    "ar": "ماذا تريد أن تشارك؟"
+  },
+  "supportCenter.contactUs.button": {
+    "en": "Contact Us",
+    "ar": "اتصل بنا"
+  },
+  "supportCenter.contactUs.content": {
+    "en": "Have a question or need assistance? Contact our support team directly through our contact form.",
+    "ar": "هل لديك سؤال أو تحتاج إلى مساعدة؟ اتصل بفريق الدعم لدينا مباشرة من خلال نموذج الاتصال."
+  },
+  "supportCenter.contactUs.description": {
+    "en": "Get in touch with our support team directly",
+    "ar": "تواصل مع فريق الدعم لدينا مباشرة"
+  },
+  "supportCenter.contactUs.title": {
+    "en": "Contact Us",
+    "ar": "اتصل بنا"
+  },
+  "supportCenter.faq.browseButton": {
+    "en": "Browse FAQs",
+    "ar": "تصفح الأسئلة المتكررة"
+  },
+  "supportCenter.faq.content": {
+    "en": "Browse our FAQ for answers to common questions about the platform features, usage, and troubleshooting.",
+    "ar": "تصفح الأسئلة المتكررة للحصول على إجابات للأسئلة الشائعة حول ميزات المنصة واستخدامها واستكشاف الأخطاء وإصلاحها."
+  },
+  "supportCenter.faq.description": {
+    "en": "Quick answers to common questions",
+    "ar": "إجابات سريعة للأسئلة الشائعة"
+  },
+  "supportCenter.faq.title": {
+    "en": "Frequently Asked Questions",
+    "ar": "الأسئلة المتكررة"
+  },
+  "supportCenter.getHelp.createTicketButton": {
+    "en": "Create Support Ticket",
+    "ar": "إنشاء تذكرة دعم"
+  },
+  "supportCenter.getHelp.description": {
+    "en": "Our support team is here to help you with any issues or questions",
+    "ar": "فريق الدعم لدينا موجود لمساعدتك في أي مشاكل أو استفسارات"
+  },
+  "supportCenter.getHelp.title": {
+    "en": "Need more assistance?",
+    "ar": "بحاجة إلى مزيد من المساعدة؟"
+  },
+  "supportCenter.getHelp.tutorialsButton": {
+    "en": "View Tutorials",
+    "ar": "عرض البرامج التعليمية"
+  },
+  "supportCenter.help.content": {
+    "en": "If you cannot find the answers in our knowledge base or tutorials, create a support ticket for direct assistance.",
+    "ar": "إذا لم تتمكن من العثور على الإجابات في قاعدة المعرفة لدينا أو البرامج التعليمية، قم بإنشاء تذكرة دعم للحصول على مساعدة مباشرة."
+  },
+  "supportCenter.help.createTicketButton": {
+    "en": "Create Support Ticket",
+    "ar": "إنشاء تذكرة دعم"
+  },
+  "supportCenter.help.description": {
+    "en": "Contact our support team for personalized assistance",
+    "ar": "اتصل بفريق الدعم لدينا للحصول على مساعدة شخصية"
+  },
+  "supportCenter.help.faqButton": {
+    "en": "Check FAQ First",
+    "ar": "تحقق من الأسئلة المتكررة أولاً"
+  },
+  "supportCenter.help.title": {
+    "en": "Get Direct Support",
+    "ar": "الحصول على الدعم المباشر"
+  },
+  "supportCenter.knowledgeBase.browseButton": {
+    "en": "Browse Knowledge Base",
+    "ar": "تصفح قاعدة المعرفة"
+  },
+  "supportCenter.knowledgeBase.content": {
+    "en": "Find in-depth articles and guides about using the platform, best practices, and advanced features.",
+    "ar": "ابحث عن مقالات وأدلة متعمقة حول استخدام المنصة وأفضل الممارسات والميزات المتقدمة."
+  },
+  "supportCenter.knowledgeBase.description": {
+    "en": "Detailed guides and articles",
+    "ar": "أدلة ومقالات مفصلة"
+  },
+  "supportCenter.knowledgeBase.title": {
+    "en": "Knowledge Base",
+    "ar": "قاعدة المعرفة"
+  },
+  "supportCenter.resources.description": {
+    "en": "Explore our comprehensive learning materials",
+    "ar": "استكشف مواد التعلم الشاملة لدينا"
+  },
+  "supportCenter.resources.documentation": {
+    "en": "Documentation",
+    "ar": "الوثائق"
+  },
+  "supportCenter.resources.documentationButton": {
+    "en": "View Documentation",
+    "ar": "عرض الوثائق"
+  },
+  "supportCenter.resources.documentationDescription": {
+    "en": "Detailed technical documentation for the platform features and APIs",
+    "ar": "وثائق تقنية مفصلة لميزات المنصة وواجهات برمجة التطبيقات"
+  },
+  "supportCenter.resources.guides": {
+    "en": "User Guides",
+    "ar": "أدلة المستخدم"
+  },
+  "supportCenter.resources.guidesButton": {
+    "en": "View Guides",
+    "ar": "عرض الأدلة"
+  },
+  "supportCenter.resources.guidesDescription": {
+    "en": "Step-by-step guides to help you use platform features effectively",
+    "ar": "أدلة خطوة بخطوة لمساعدتك على استخدام ميزات المنصة بفعالية"
+  },
+  "supportCenter.resources.title": {
+    "en": "Learning Resources",
+    "ar": "موارد التعلم"
+  },
+  "supportCenter.resources.tutorials": {
+    "en": "Video Tutorials",
+    "ar": "برامج تعليمية بالفيديو"
+  },
+  "supportCenter.resources.tutorialsButton": {
+    "en": "Watch Tutorials",
+    "ar": "مشاهدة البرامج التعليمية"
+  },
+  "supportCenter.resources.tutorialsDescription": {
+    "en": "Watch video tutorials to learn how to use the platform",
+    "ar": "شاهد البرامج التعليمية بالفيديو لتتعلم كيفية استخدام المنصة"
+  },
+  "supportCenter.subtitle": {
+    "en": "Find answers, resources, and support for your questions",
+    "ar": "ابحث عن الإجابات والموارد والدعم لأسئلتك"
+  },
+  "supportCenter.supportTickets.browseButton": {
+    "en": "View Tickets",
+    "ar": "عرض التذاكر"
+  },
+  "supportCenter.supportTickets.content": {
+    "en": "Create support tickets for direct assistance from our team. Track the status of your tickets.",
+    "ar": "إنشاء تذاكر دعم للحصول على مساعدة مباشرة من فريقنا. تتبع حالة تذاكرك."
+  },
+  "supportCenter.supportTickets.description": {
+    "en": "Get personalized help from our team",
+    "ar": "احصل على مساعدة شخصية من فريقنا"
+  },
+  "supportCenter.supportTickets.title": {
+    "en": "Support Tickets",
+    "ar": "تذاكر الدعم"
+  },
+  "supportCenter.tabs.help": {
+    "en": "Get Help",
+    "ar": "الحصول على المساعدة"
+  },
+  "supportCenter.tabs.overview": {
+    "en": "Overview",
+    "ar": "نظرة عامة"
+  },
+  "supportCenter.tabs.resources": {
+    "en": "Resources",
+    "ar": "الموارد"
+  },
+  "supportCenter.title": {
+    "en": "Help & Support Center",
+    "ar": "مركز المساعدة والدعم"
+  },
+  "supportCenter.yourTickets.description": {
+    "en": "View and manage your existing support tickets",
+    "ar": "عرض وإدارة تذاكر الدعم الحالية"
+  },
+  "supportCenter.yourTickets.title": {
+    "en": "Your Support Tickets",
+    "ar": "تذاكر الدعم الخاصة بك"
+  },
+  "supportCenter.yourTickets.viewButton": {
+    "en": "View Your Tickets",
+    "ar": "عرض تذاكرك"
+  },
+  "supportTickets.adminView": {
+    "en": "Admin View - Showing all tickets",
+    "ar": ""
+  },
+  "supportTickets.allTickets": {
+    "en": "All Tickets",
+    "ar": ""
+  },
+  "supportTickets.allTicketsDescription": {
+    "en": "View all your support tickets",
+    "ar": ""
+  },
+  "supportTickets.backToSupport": {
+    "en": "Back to Support",
+    "ar": ""
+  },
+  "supportTickets.createFirstTicket": {
+    "en": "Create Your First Ticket",
+    "ar": ""
+  },
+  "supportTickets.errorLoading": {
+    "en": "Error loading tickets. Please try again.",
+    "ar": ""
+  },
+  "supportTickets.loginRequired.description": {
+    "en": "You need to be logged in to view your support tickets.",
+    "ar": ""
+  },
+  "supportTickets.loginRequired.loginButton": {
+    "en": "Log In",
+    "ar": ""
+  },
+  "supportTickets.loginRequired.title": {
+    "en": "Login Required",
+    "ar": ""
+  },
+  "supportTickets.needHelp.browseFaq": {
+    "en": "Browse FAQs",
+    "ar": ""
+  },
+  "supportTickets.needHelp.browseKnowledgeBase": {
+    "en": "Browse Knowledge Base",
+    "ar": ""
+  },
+  "supportTickets.needHelp.description": {
+    "en": "Check our FAQs and knowledge base for quick answers to common questions",
+    "ar": ""
+  },
+  "supportTickets.needHelp.title": {
+    "en": "Need help?",
+    "ar": ""
+  },
+  "supportTickets.newTicket": {
+    "en": "New Ticket",
+    "ar": ""
+  },
+  "supportTickets.noTicketsFound": {
+    "en": "You don\\",
+    "ar": ""
+  },
+  "supportTickets.priority.high": {
+    "en": "High Priority",
+    "ar": ""
+  },
+  "supportTickets.priority.low": {
+    "en": "Low Priority",
+    "ar": ""
+  },
+  "supportTickets.priority.medium": {
+    "en": "Medium Priority",
+    "ar": ""
+  },
+  "supportTickets.status.closed": {
+    "en": "Closed",
+    "ar": ""
+  },
+  "supportTickets.status.open": {
+    "en": "Open",
+    "ar": ""
+  },
+  "supportTickets.status.resolved": {
+    "en": "Resolved",
+    "ar": ""
+  },
+  "supportTickets.statusTickets.closed": {
+    "en": "Closed Tickets",
+    "ar": ""
+  },
+  "supportTickets.statusTickets.open": {
+    "en": "Open Tickets",
+    "ar": ""
+  },
+  "supportTickets.statusTickets.resolved": {
+    "en": "Resolved Tickets",
+    "ar": ""
+  },
+  "supportTickets.statusTicketsDescription.closed": {
+    "en": "Tickets that have been closed",
+    "ar": ""
+  },
+  "supportTickets.statusTicketsDescription.open": {
+    "en": "Newly created tickets awaiting initial response",
+    "ar": ""
+  },
+  "supportTickets.statusTicketsDescription.resolved": {
+    "en": "Tickets that have been resolved by our support team",
+    "ar": ""
+  },
+  "supportTickets.subtitle": {
+    "en": "View and manage your support requests",
+    "ar": ""
+  },
+  "supportTickets.tabs.all": {
+    "en": "All",
+    "ar": ""
+  },
+  "supportTickets.tabs.closed": {
+    "en": "Closed",
+    "ar": ""
+  },
+  "supportTickets.tabs.inProgress": {
+    "en": "In Progress",
+    "ar": ""
+  },
+  "supportTickets.tabs.open": {
+    "en": "Open",
+    "ar": ""
+  },
+  "supportTickets.tabs.resolved": {
+    "en": "Resolved",
+    "ar": ""
+  },
+  "supportTickets.title": {
+    "en": "Support Tickets",
+    "ar": ""
+  },
+  "supportTickets.tryAgain": {
+    "en": "Try Again",
+    "ar": ""
+  },
+  "supportTickets.viewDetails": {
+    "en": "View Details",
+    "ar": ""
+  },
+  "ticketDetail.addResponse": {
+    "en": "Add Response",
+    "ar": ""
+  },
+  "ticketDetail.alerts.closed.description": {
+    "en": "For further assistance, please create a new support ticket.",
+    "ar": ""
+  },
+  "ticketDetail.alerts.closed.title": {
+    "en": "This ticket has been closed",
+    "ar": ""
+  },
+  "ticketDetail.alerts.resolved.description": {
+    "en": "If you\\",
+    "ar": ""
+  },
+  "ticketDetail.alerts.resolved.title": {
+    "en": "This ticket has been resolved",
+    "ar": ""
+  },
+  "ticketDetail.attachFiles": {
+    "en": "Attach Files",
+    "ar": ""
+  },
+  "ticketDetail.attachFilesLabel": {
+    "en": "Attachments (optional)",
+    "ar": ""
+  },
+  "ticketDetail.attachment": {
+    "en": "Attachment",
+    "ar": ""
+  },
+  "ticketDetail.attachments": {
+    "en": "Attachments",
+    "ar": ""
+  },
+  "ticketDetail.backToAllTickets": {
+    "en": "Back to All Tickets",
+    "ar": ""
+  },
+  "ticketDetail.backToSupport": {
+    "en": "Support",
+    "ar": ""
+  },
+  "ticketDetail.backToTickets": {
+    "en": "Back to Tickets",
+    "ar": ""
+  },
+  "ticketDetail.closeTicket": {
+    "en": "Close Ticket",
+    "ar": ""
+  },
+  "ticketDetail.closeTicketDialog.cancel": {
+    "en": "Cancel",
+    "ar": ""
+  },
+  "ticketDetail.closeTicketDialog.confirm": {
+    "en": "Yes, Close Ticket",
+    "ar": ""
+  },
+  "ticketDetail.closeTicketDialog.description": {
+    "en": "Are you sure you want to close this ticket? This will mark the issue as resolved and the ticket will be archived.",
+    "ar": ""
+  },
+  "ticketDetail.closeTicketDialog.title": {
+    "en": "Close This Ticket?",
+    "ar": ""
+  },
+  "ticketDetail.closing": {
+    "en": "Closing...",
+    "ar": ""
+  },
+  "ticketDetail.comingSoon": {
+    "en": "Coming soon",
+    "ar": ""
+  },
+  "ticketDetail.createNewTicket": {
+    "en": "Create New Ticket",
+    "ar": ""
+  },
+  "ticketDetail.createdOn": {
+    "en": "Created on {{date}}",
+    "ar": ""
+  },
+  "ticketDetail.description": {
+    "en": "Description",
+    "ar": ""
+  },
+  "ticketDetail.errorLoading": {
+    "en": "Error loading ticket. It may have been removed or you may not have permission to view it.",
+    "ar": ""
+  },
+  "ticketDetail.invalidId": {
+    "en": "Invalid Ticket ID",
+    "ar": ""
+  },
+  "ticketDetail.invalidIdDescription": {
+    "en": "The ticket ID provided is invalid. Please go back to tickets.",
+    "ar": ""
+  },
+  "ticketDetail.loading": {
+    "en": "Loading ticket...",
+    "ar": ""
+  },
+  "ticketDetail.loginRequired.description": {
+    "en": "You need to be logged in to view ticket details.",
+    "ar": ""
+  },
+  "ticketDetail.loginRequired.loginButton": {
+    "en": "Log In",
+    "ar": ""
+  },
+  "ticketDetail.loginRequired.title": {
+    "en": "Login Required",
+    "ar": ""
+  },
+  "ticketDetail.manageTicket": {
+    "en": "Manage Ticket",
+    "ar": ""
+  },
+  "ticketDetail.noResponses": {
+    "en": "No responses yet.",
+    "ar": ""
+  },
+  "ticketDetail.priority.high": {
+    "en": "High",
+    "ar": ""
+  },
+  "ticketDetail.priority.low": {
+    "en": "Low",
+    "ar": ""
+  },
+  "ticketDetail.priority.medium": {
+    "en": "Medium",
+    "ar": ""
+  },
+  "ticketDetail.responseAdded": {
+    "en": "Response Added",
+    "ar": ""
+  },
+  "ticketDetail.responseAddedDescription": {
+    "en": "Your response has been successfully added to the ticket.",
+    "ar": ""
+  },
+  "ticketDetail.responseError": {
+    "en": "Error Adding Response",
+    "ar": ""
+  },
+  "ticketDetail.responsePlaceholder": {
+    "en": "Type your message here...",
+    "ar": ""
+  },
+  "ticketDetail.responses": {
+    "en": "Responses",
+    "ar": ""
+  },
+  "ticketDetail.sendResponse": {
+    "en": "Send Response",
+    "ar": ""
+  },
+  "ticketDetail.sending": {
+    "en": "Sending...",
+    "ar": ""
+  },
+  "ticketDetail.staffResponse": {
+    "en": "Staff",
+    "ar": ""
+  },
+  "ticketDetail.status.closed": {
+    "en": "Closed",
+    "ar": ""
+  },
+  "ticketDetail.status.label": {
+    "en": "Status",
+    "ar": ""
+  },
+  "ticketDetail.status.open": {
+    "en": "Open",
+    "ar": ""
+  },
+  "ticketDetail.status.resolved": {
+    "en": "Resolved",
+    "ar": ""
+  },
+  "ticketDetail.status.selectStatus": {
+    "en": "Select a status",
+    "ar": ""
+  },
+  "ticketDetail.statusUpdateError": {
+    "en": "Status Update Error",
+    "ar": ""
+  },
+  "ticketDetail.statusUpdated": {
+    "en": "Status Updated",
+    "ar": ""
+  },
+  "ticketDetail.statusUpdatedDescription": {
+    "en": "The ticket status has been successfully updated.",
+    "ar": ""
+  },
+  "ticketDetail.supportTeam": {
+    "en": "Support Team",
+    "ar": ""
+  },
+  "ticketDetail.supportTickets": {
+    "en": "Tickets",
+    "ar": ""
+  },
+  "ticketDetail.ticket": {
+    "en": "Ticket",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.category": {
+    "en": "Category",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.created": {
+    "en": "Created",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.priority": {
+    "en": "Priority",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.resolved": {
+    "en": "Resolved",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.status": {
+    "en": "Status",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.ticketId": {
+    "en": "Ticket ID",
+    "ar": ""
+  },
+  "ticketDetail.ticketInfo.title": {
+    "en": "Ticket Information",
+    "ar": ""
+  },
+  "ticketDetail.updateStatus": {
+    "en": "Update Status",
+    "ar": ""
+  },
+  "ticketDetail.updateTicketStatus": {
+    "en": "Update Ticket Status",
+    "ar": ""
+  },
+  "ticketDetail.updateTicketStatusDescription": {
+    "en": "Change the status of this support ticket",
+    "ar": ""
+  },
+  "ticketDetail.updating": {
+    "en": "Updating...",
+    "ar": ""
+  },
+  "ticketDetail.you": {
+    "en": "You",
+    "ar": ""
+  },
+  "tutorials.advanced": {
+    "en": "Advanced",
+    "ar": "متقدم"
+  },
+  "tutorials.beginner": {
+    "en": "Beginner",
+    "ar": "مبتدئ"
+  },
+  "tutorials.duration": {
+    "en": "Video Duration",
+    "ar": "مدة الفيديو"
+  },
+  "tutorials.intermediate": {
+    "en": "Intermediate",
+    "ar": "متوسط"
+  },
+  "tutorials.title": {
+    "en": "Tutorials",
+    "ar": "دروس تعليمية"
+  },
+  "tutorials.viewAll": {
+    "en": "View All",
+    "ar": "عرض الكل"
+  },
+  "users.addNewUser": {
+    "en": "Add New User",
+    "ar": "إضافة مستخدم جديد"
+  },
+  "users.addUser": {
+    "en": "Add User",
+    "ar": "إضافة مستخدم"
+  },
+  "users.confirmDelete": {
+    "en": "Confirm Delete",
+    "ar": "تأكيد الحذف"
+  },
+  "users.confirmDeleteDescription": {
+    "en": "Are you sure you want to delete this user? This action cannot be undone.",
+    "ar": "هل أنت متأكد من رغبتك في حذف هذا المستخدم؟ لا يمكن التراجع عن هذا الإجراء."
+  },
+  "users.confirmPassword": {
+    "en": "Confirm Password",
+    "ar": "تأكيد كلمة المرور"
+  },
+  "users.createError": {
+    "en": "Create Error",
+    "ar": "خطأ في الإنشاء"
+  },
+  "users.createErrorMessage": {
+    "en": "An error occurred while creating the user",
+    "ar": "حدث خطأ أثناء إنشاء المستخدم"
+  },
+  "users.createSuccess": {
+    "en": "User Created",
+    "ar": "تم إنشاء المستخدم"
+  },
+  "users.deleteError": {
+    "en": "Delete Error",
+    "ar": "خطأ في الحذف"
+  },
+  "users.deleteErrorMessage": {
+    "en": "An error occurred while deleting the user",
+    "ar": "حدث خطأ أثناء حذف المستخدم"
+  },
+  "users.deleteSuccess": {
+    "en": "User Deleted",
+    "ar": "تم حذف المستخدم"
+  },
+  "users.deleteUserAction": {
+    "en": "Delete user {{name}}",
+    "ar": "حذف المستخدم {{name}}"
+  },
+  "users.editUserAction": {
+    "en": "Edit user {{name}}",
+    "ar": "تعديل المستخدم {{name}}"
+  },
+  "users.email": {
+    "en": "Email",
+    "ar": "البريد الإلكتروني"
+  },
+  "users.fillDetails": {
+    "en": "Fill in the user details to create a new account",
+    "ar": "املأ تفاصيل المستخدم لإنشاء حساب جديد"
+  },
+  "users.fullName": {
+    "en": "Full Name",
+    "ar": "الاسم الكامل"
+  },
+  "users.fullNamePlaceholder": {
+    "en": "Enter full name",
+    "ar": "أدخل الاسم الكامل"
+  },
+  "users.language": {
+    "en": "Language",
+    "ar": "اللغة"
+  },
+  "users.languages.arabic": {
+    "en": "Arabic",
+    "ar": "العربية"
+  },
+  "users.languages.english": {
+    "en": "English",
+    "ar": "الإنجليزية"
+  },
+  "users.manageAccounts": {
+    "en": "Manage user accounts and permissions",
+    "ar": "إدارة حسابات المستخدمين والصلاحيات"
+  },
+  "users.noUsersFound": {
+    "en": "No users found",
+    "ar": "لم يتم العثور على مستخدمين"
+  },
+  "users.password": {
+    "en": "Password",
+    "ar": "كلمة المرور"
+  },
+  "users.resetPassword": {
+    "en": "Reset Password",
+    "ar": "إعادة تعيين كلمة المرور"
+  },
+  "users.resetPasswordAction": {
+    "en": "Reset password for user {{name}}",
+    "ar": "إعادة تعيين كلمة المرور للمستخدم {{name}}"
+  },
+  "users.role": {
+    "en": "Role",
+    "ar": "الدور"
+  },
+  "users.roles.admin": {
+    "en": "Administrator",
+    "ar": "مدير النظام"
+  },
+  "users.roles.analyst": {
+    "en": "Analyst",
+    "ar": "محلل"
+  },
+  "users.roles.editor": {
+    "en": "Editor",
+    "ar": "محرر"
+  },
+  "users.roles.user": {
+    "en": "User",
+    "ar": "مستخدم"
+  },
+  "users.search": {
+    "en": "Search users...",
+    "ar": "بحث عن المستخدمين..."
+  },
+  "users.selectLanguage": {
+    "en": "Select language",
+    "ar": "اختر اللغة"
+  },
+  "users.selectRole": {
+    "en": "Select role",
+    "ar": "اختر الدور"
+  },
+  "users.title": {
+    "en": "User Management",
+    "ar": "إدارة المستخدمين"
+  },
+  "users.user": {
+    "en": "User",
+    "ar": "مستخدم"
+  },
+  "users.userActions": {
+    "en": "Actions for user {{name}}",
+    "ar": "إجراءات للمستخدم {{name}}"
+  },
+  "users.userCreated": {
+    "en": "User {{name}} has been created successfully",
+    "ar": "تم إنشاء المستخدم {{name}} بنجاح"
+  },
+  "users.userDeleted": {
+    "en": "User has been deleted successfully",
+    "ar": "تم حذف المستخدم بنجاح"
+  },
+  "users.username": {
+    "en": "Username",
+    "ar": "اسم المستخدم"
+  },
+  "users.usernamePlaceholder": {
+    "en": "Enter username",
+    "ar": "أدخل اسم المستخدم"
+  },
+  "users.usersDirectory": {
+    "en": "Users Directory",
+    "ar": "دليل المستخدمين"
+  }
+}

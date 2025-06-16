@@ -1,0 +1,46 @@
+client:536 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/?token=3Rb30Vdp2qDH' failed: 
+setupWebSocket @ client:536
+(anonymous) @ client:531
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=3Rb30Vdp2qDH' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+setupWebSocket @ client:536
+fallback @ client:509
+(anonymous) @ client:555
+chunk-276SZO74.js?v=1da3d993:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:11 Initializing i18n...
+index.ts:36 i18n initialized successfully
+main.tsx:23 App rendered successfully
+websocket-context.tsx:36 Attempting to connect to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+websocket-context.tsx:126 Closing WebSocket connection
+websocket-context.tsx:127 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws' failed: WebSocket is closed before the connection is established.
+(anonymous) @ websocket-context.tsx:127
+safelyCallDestroy @ chunk-276SZO74.js?v=1da3d993:16748
+commitHookEffectListUnmount @ chunk-276SZO74.js?v=1da3d993:16875
+invokePassiveEffectUnmountInDEV @ chunk-276SZO74.js?v=1da3d993:18363
+invokeEffectsInDev @ chunk-276SZO74.js?v=1da3d993:19701
+commitDoubleInvokeEffectsInDEV @ chunk-276SZO74.js?v=1da3d993:19682
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19503
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18783
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+websocket-context.tsx:36 Attempting to connect to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+websocket-context.tsx:92 WebSocket error: Event {isTrusted: true, type: 'error', target: WebSocket, currentTarget: WebSocket, eventPhase: 2, …}
+(anonymous) @ websocket-context.tsx:92
+websocket-context.tsx:102 WebSocket connection closed: 1006 
+websocket-context.tsx:42 Connected to WebSocket server
+websocket-context.tsx:57 Message from server: {type: 'connect', message: 'Connected to Media Intelligence WebSocket server', timestamp: '2025-04-24T15:44:39.256Z'}
+websocket-context.tsx:57 Message from server: {type: 'pong', timestamp: '2025-04-24T15:44:39.775Z'}
+websocket-context.tsx:115 Attempting to reconnect...
+SocialMediaIcons.tsx:102 Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+SocialMediaIcons.tsx:102 Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+SocialMediaIcons.tsx:109 WebSocket connected
+SocialMediaIcons.tsx:109 WebSocket connected

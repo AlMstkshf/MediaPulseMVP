@@ -1,0 +1,200 @@
+/**
+ * Accessibility Enhancements CSS
+ * 
+ * This file contains CSS to improve accessibility across the application:
+ * - High contrast mode
+ * - Large text mode
+ * - Reduced motion
+ * - Focus indicators
+ * - Screen reader specific styles
+ */
+
+/* Base focus styles */
+:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+/* Enhanced focus styles when keyboard navigation is active */
+.focus-visible-mode :focus-visible,
+.keyboard-mode :focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px rgba(var(--color-primary-rgb), 0.25);
+  position: relative;
+  z-index: 5;
+}
+
+/* Interactive elements (buttons, links, etc.) */
+.interactive-element {
+  position: relative;
+}
+
+.focus-visible-mode .interactive-element:focus-visible::after,
+.keyboard-mode .interactive-element:focus::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px var(--color-primary);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Skip to main content link */
+.skip-to-content {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  padding: 8px 16px;
+  background-color: var(--color-primary);
+  color: white;
+  z-index: 9999;
+  transition: top 0.2s ease;
+  border-radius: 0 0 4px 0;
+  text-decoration: none;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* High contrast mode */
+.high-contrast-mode {
+  --color-foreground: #000000;
+  --color-background: #ffffff;
+  --color-primary: #0000ff;
+  --color-secondary: #8000ff;
+  --color-accent: #ff0000;
+  --color-border: #000000;
+  --color-muted: #555555;
+}
+
+.high-contrast-mode.dark {
+  --color-foreground: #ffffff;
+  --color-background: #000000;
+  --color-primary: #40c0ff;
+  --color-secondary: #ffff00;
+  --color-accent: #ff80ff;
+  --color-border: #ffffff;
+  --color-muted: #aaaaaa;
+}
+
+.high-contrast-mode .text-muted {
+  color: var(--color-foreground) !important;
+  opacity: 0.8;
+}
+
+.high-contrast-mode button,
+.high-contrast-mode .card,
+.high-contrast-mode .interactive-element {
+  border: 1px solid var(--color-border) !important;
+}
+
+/* Large Text Mode */
+.large-text-mode {
+  --font-size-small: 1rem;
+  --font-size-medium: 1.25rem;
+  --font-size-large: 1.5rem;
+  --font-size-xl: 1.875rem;
+  --font-size-2xl: 2.25rem;
+}
+
+.large-text-mode body {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.large-text-mode button,
+.large-text-mode input,
+.large-text-mode select,
+.large-text-mode textarea {
+  font-size: 1.125rem;
+}
+
+.large-text-mode .text-xs { font-size: 0.875rem !important; }
+.large-text-mode .text-sm { font-size: 1rem !important; }
+.large-text-mode .text-base { font-size: 1.125rem !important; }
+.large-text-mode .text-lg { font-size: 1.375rem !important; }
+.large-text-mode .text-xl { font-size: 1.625rem !important; }
+.large-text-mode .text-2xl { font-size: 1.875rem !important; }
+
+/* Reduce motion preference */
+.reduce-motion * {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Animation control for non-reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .slide-in {
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(10px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+}
+
+/* Screen reader utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Screen reader mode specific styles */
+.screen-reader-mode .visually-hidden {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 0.25rem !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  white-space: normal !important;
+  border: 1px dashed #666 !important;
+  display: inline-block !important;
+  background: #f0f0f0 !important;
+  color: #333 !important;
+  font-style: italic !important;
+}
+
+/* Accessibility announcement live region */
+.a11y-announcer {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Intelligence Platform Redirect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      margin: 15px 0;
+      line-height: 1.5;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Media Intelligence Platform</h1>
+    <p>The application server is running on port 5000. Please use the button below to access the application:</p>
+    <a class="button" id="accessButton">Access Media Intelligence Platform</a>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const button = document.getElementById('accessButton');
+      const message = document.getElementById('message');
+      
+      // Determine the proper URL based on hostname
+      const hostname = window.location.hostname;
+      const targetPort = hostname.includes('replit') ? '' : ':5000'; // Replit uses the default port
+      
+      const targetUrl = `${window.location.protocol}//${hostname}${targetPort}`;
+      
+      button.href = targetUrl;
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = targetUrl;
+      });
+      
+      // Automatically redirect after 3 seconds
+      message.textContent = 'Redirecting in 3 seconds...';
+      setTimeout(function() {
+        window.location.href = targetUrl;
+      }, 3000);
+    });
+  </script>
+</body>
+</html>

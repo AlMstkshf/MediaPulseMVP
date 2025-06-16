@@ -1,0 +1,164 @@
+functions:
+  - name: get_project_overview
+    description: |
+      عربي: يعيد نظرة شاملة عن منصة Media Pulse Monitoring، هدفها، وأهم مزاياها.
+      EN: Returns a high-level overview of the Media Pulse Monitoring platform, its goals and key benefits.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_project_objectives
+    description: |
+      عربي: يستعرض الأهداف الرئيسية للمشروع كما وردت في الوثائق.
+      EN: Lists the main objectives of the project as documented in the FAQs and platform definition.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_core_features
+    description: |
+      عربي: يعرض الميزات الأساسية للمنصة (الرصد الشامل، التحليلات، التقارير…).
+      EN: Shows the platform’s core features (comprehensive monitoring, analytics, reporting, etc.).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_monitoring_methodology
+    description: |
+      عربي: يشرح خطوات منهجية مراقبة الإعلام (تحديد المصادر، جمع البيانات، المعالجة، التحليل).
+      EN: Explains the media-monitoring methodology (source identification, data collection, processing, analysis).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_data_techniques
+    description: |
+      عربي: يعدد ويشرح التقنيات المستخدمة في استخراج وتحليل البيانات (NLP، ML، الطرق الإحصائية).
+      EN: Enumerates and describes the data-extraction & analysis techniques used (NLP, ML, statistical methods).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_content_types
+    description: |
+      عربي: يعرض أنواع المحتوى الإعلامي التي تراقبها المنصة (أخبار، سوشيال ميديا، فيديو، منتديات…).
+      EN: Lists the types of media content monitored by the platform (news articles, social media posts, video, forums, etc.).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: analyze_trends
+    description: |
+      عربي: يوضح كيفية تحليل الاتجاهات الناشئة والتنبؤ بها استنادًا إلى البيانات التاريخية.
+      EN: Describes how to detect emerging trends and forecast them based on historical data.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: analyze_sentiment
+    description: |
+      عربي: يشرح أسلوب تحليل المشاعر والمواقف (إيجابي/سلبي/محايد) وتتبعها زمنياً.
+      EN: Explains the approach to sentiment & stance analysis (positive/negative/neutral) and time-series tracking.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: generate_reports
+    description: |
+      عربي: يحدد طريقة توليد التقارير القابلة للتخصيص، بما في ذلك عناصر التقرير الرئيسية.
+      EN: Defines how to generate customizable reports, including main report components.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: measure_impact
+    description: |
+      عربي: يصف كيفية قياس التأثير الإعلامي على الوعي العام ومقاييس الأداء.
+      EN: Describes how to measure media impact on public awareness and performance metrics.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: track_conversations
+    description: |
+      عربي: يوضح آلية تتبع المحادثات حول علامة تجارية أو موضوع محدد.
+      EN: Shows the mechanism to track brand- or topic-specific conversations.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_ai_solutions
+    description: |
+      عربي: يعدد حلول الذكاء الاصطناعي المؤتمتة (تصنيف ذكي، أرشفة، تنبيهات…).
+      EN: Lists AI-powered automation solutions (smart classification, archiving, alerts, etc.).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: integrate_external_services
+    description: |
+      عربي: يشرح خطوات الربط مع خدمات خارجية عبر API (REST/GraphQL).
+      EN: Explains the steps to integrate with external services via API (REST/GraphQL).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_dashboard_functions
+    description: |
+      عربي: يعرض مكونات لوحة القيادة الأساسية (Widgets، الجداول، الرسوم…).
+      EN: Displays key dashboard components (widgets, tables, charts, etc.).
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_gem21_indicators
+    description: |
+      عربي: يوضح ربط بيانات المنصة مع مؤشرات GEM 2.1 الرئيسية.
+      EN: Explains how platform data maps to core GEM 2.1 indicators.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_govt_communication_context
+    description: |
+      عربي: يشرح معايير الاتصال الحكومي ضمن إطار GEM 2.1.
+      EN: Describes government-communication criteria within the GEM 2.1 framework.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: get_team_story
+    description: |
+      عربي: يقدم نبذة عن مؤسسي وفريق منصة Media Pulse Monitoring.
+      EN: Presents a short story of the founders and project team.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: escalate_to_support
+    description: |
+      عربي: يصعّد المستخدم إلى صفحة الدعم الفني أو ينشئ تذكرة.
+      EN: Escalates the user to the support page or creates a support ticket.
+    parameters:
+      type: object
+      properties: {}
+
+  - name: change_language
+    description: |
+      عربي: يبدّل لغة التفاعل بين العربية والإنجليزية.
+      EN: Switches the interaction language between Arabic and English.
+    parameters:
+      type: object
+      properties:
+        language:
+          type: string
+          description: "'ar' or 'en' to set the chat language"
+      required: ["language"]
+
+  - name: get_current_time
+    description: |
+      عربي: يُستدعى هذا الدالة فقط إذا طلب المستخدم الوقت صراحةً بصيغة مثل "ما الوقت الآن؟" أو "كم الساعة؟".
+      EN: Only call this function when the user explicitly asks "What time is it?" or "What's the current time?".
+    parameters:
+      type: object
+      properties: {}

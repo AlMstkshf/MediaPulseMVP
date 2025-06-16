@@ -1,0 +1,308 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thanks
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - request_news
+  - request_sentiment_analysis
+  - request_content_metrics
+  - ask_about_media_coverage
+  - ask_about_platform
+  - get_kpi_report
+  - set_alert
+  - add_journalist
+  - publish_post
+  - schedule_post
+  - smart_report_customization
+  - fill_kpis_help
+  - explain_app
+  - how_it_works
+  - social_media_verification
+  - excellence_indicators_help
+  - media_center_help
+  - archive_help
+  - settings_help
+  - osint_help
+  - inform
+
+entities:
+  - platform
+  - topic
+  - source
+  - timeframe
+  - keyword
+  - metric_type
+  - date_range
+  - format
+  - language
+  - indicator_type
+  - journalist_name
+  - journalist_source
+  - post_content
+  - post_platform
+  - post_schedule_time
+  - report_type
+  - kpi_category
+  - app_feature
+  - verification_platform
+  - excellence_category
+  - media_type
+  - archive_category
+  - settings_type
+  - osint_source
+
+slots:
+  platform:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: platform
+  topic:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: topic
+  source:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: source
+  timeframe:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: timeframe
+  keyword:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: keyword
+  metric_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: metric_type
+  date_range:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: date_range
+  format:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: format
+  language:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: language
+  indicator_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: indicator_type
+  journalist_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: journalist_name
+  journalist_source:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: journalist_source
+  post_content:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: post_content
+  post_platform:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: post_platform
+  post_schedule_time:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: post_schedule_time
+  report_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: report_type
+  kpi_category:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: kpi_category
+  app_feature:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: app_feature
+  verification_platform:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: verification_platform
+  excellence_category:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: excellence_category
+  media_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: media_type
+  archive_category:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: archive_category
+  settings_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: settings_type
+  osint_source:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: osint_source
+
+responses:
+  utter_greet:
+  - text: "Hello! I'm Media Pulse Bot. I can help you with sentiment analysis, media coverage, and content metrics. How can I assist you today?"
+  - text: "مرحباً! أنا بوت ميديا بولس. يمكنني مساعدتك في تحليل المشاعر وتغطية وسائل الإعلام ومقاييس المحتوى. كيف يمكنني مساعدتك اليوم؟"
+  
+  utter_goodbye:
+  - text: "Goodbye! Feel free to return if you need more help with media analytics."
+  - text: "مع السلامة! لا تتردد في العودة إذا كنت بحاجة إلى مزيد من المساعدة في تحليلات الوسائط."
+  
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa and integrated with the Media Pulse platform."
+  - text: "أنا روبوت، مدعوم بتقنية Rasa ومتكامل مع منصة ميديا بولس."
+  
+  utter_ask_platform:
+  - text: "Which social media platform are you interested in? (Twitter, Facebook, Instagram, LinkedIn, etc.)"
+  - text: "ما هي منصة التواصل الاجتماعي التي تهتم بها؟ (تويتر، فيسبوك، انستغرام، لينكد إن، إلخ)"
+  
+  utter_ask_topic:
+  - text: "What topic or theme would you like to analyze?"
+  - text: "ما هو الموضوع أو الفكرة التي ترغب في تحليلها؟"
+  
+  utter_ask_timeframe:
+  - text: "What time period would you like to analyze? (today, this week, this month, etc.)"
+  - text: "ما هي الفترة الزمنية التي ترغب في تحليلها؟ (اليوم، هذا الأسبوع، هذا الشهر، إلخ)"
+  
+  utter_default:
+  - text: "I'm not sure I understand. Could you rephrase that? I can help with sentiment analysis, media monitoring, and content performance metrics."
+  - text: "لست متأكدًا من أنني أفهم. هل يمكنك إعادة صياغة ذلك؟ يمكنني المساعدة في تحليل المشاعر ومراقبة وسائل الإعلام ومقاييس أداء المحتوى."
+  
+  utter_get_kpi_report:
+  - text: "I can help you generate a KPI report. I'll need to know which metrics you're interested in, the date range, and your preferred format. Would you like the report in PDF or Excel format?"
+  - text: "يمكنني مساعدتك في إنشاء تقرير مؤشرات الأداء الرئيسية. سأحتاج إلى معرفة المقاييس التي تهتم بها، والفترة الزمنية، والتنسيق المفضل لديك. هل ترغب في الحصول على التقرير بتنسيق PDF أو Excel؟"
+  
+  utter_set_alert:
+  - text: "I can help you set up alerts for keywords or topics. What specific keywords or topics would you like to track? And would you like to be notified immediately, daily, or weekly?"
+  - text: "يمكنني مساعدتك في إعداد تنبيهات للكلمات المفتاحية أو الموضوعات. ما هي الكلمات المفتاحية أو الموضوعات المحددة التي ترغب في تتبعها؟ وهل ترغب في أن يتم إخطارك على الفور، يوميًا، أو أسبوعيًا؟"
+  
+  utter_add_journalist:
+  - text: "I can help you add a new journalist to our database. Please provide the journalist's name, media source, contact information, and any relevant beat or specialization."
+  - text: "يمكنني مساعدتك في إضافة صحفي جديد إلى قاعدة بياناتنا. يرجى تقديم اسم الصحفي، ومصدر الإعلام، ومعلومات الاتصال، وأي تخصص أو مجال ذي صلة."
+  
+  utter_publish_post:
+  - text: "I can help you publish a post across your connected social media platforms. Please provide the content you'd like to publish and specify which platforms you want to post to."
+  - text: "يمكنني مساعدتك في نشر منشور عبر منصات التواصل الاجتماعي المتصلة. يرجى تقديم المحتوى الذي ترغب في نشره وتحديد المنصات التي تريد النشر عليها."
+  
+  utter_schedule_post:
+  - text: "I can help you schedule a post for later publication. Please provide the content, target platforms, and when you'd like it to be published."
+  - text: "يمكنني مساعدتك في جدولة منشور للنشر لاحقًا. يرجى تقديم المحتوى والمنصات المستهدفة ومتى ترغب في نشره."
+  
+  utter_smart_report_customization:
+  - text: "I can help you customize smart reports with specific metrics, visualizations, and sections. What kind of data would you like to include in your report?"
+  - text: "يمكنني مساعدتك في تخصيص التقارير الذكية بمقاييس وتصورات وأقسام محددة. ما نوع البيانات التي ترغب في تضمينها في تقريرك؟"
+  
+  utter_fill_kpis_help:
+  - text: "To fill KPIs with actual data, you'll need to use the Analytics Dashboard. Go to the KPI section, click on 'Edit Data', and you can either manually input values or connect to a data source to automatically populate the metrics."
+  - text: "لملء مؤشرات الأداء الرئيسية بالبيانات الفعلية، ستحتاج إلى استخدام لوحة معلومات التحليلات. اذهب إلى قسم مؤشرات الأداء الرئيسية، وانقر على 'تحرير البيانات'، ويمكنك إما إدخال القيم يدويًا أو الاتصال بمصدر بيانات لملء المقاييس تلقائيًا."
+  
+  utter_explain_app:
+  - text: "Media Pulse is a comprehensive media intelligence platform designed to help organizations monitor, analyze, and respond to media content across various channels. It includes tools for sentiment analysis, media coverage tracking, content management, and reporting."
+  - text: "ميديا بولس هي منصة ذكاء إعلامي شاملة مصممة لمساعدة المؤسسات على مراقبة وتحليل والاستجابة لمحتوى الوسائط عبر قنوات مختلفة. وتشمل أدوات لتحليل المشاعر، وتتبع التغطية الإعلامية، وإدارة المحتوى، وإعداد التقارير."
+  
+  utter_how_it_works:
+  - text: "Media Pulse works by collecting data from various sources including social media, news websites, and other online platforms. It then processes this data using AI and machine learning to extract insights about sentiment, topics, and trends. You can view these insights through interactive dashboards, reports, and alerts."
+  - text: "تعمل ميديا بولس من خلال جمع البيانات من مصادر مختلفة بما في ذلك وسائل التواصل الاجتماعي ومواقع الأخبار والمنصات الإلكترونية الأخرى. ثم تقوم بمعالجة هذه البيانات باستخدام الذكاء الاصطناعي والتعلم الآلي لاستخراج رؤى حول المشاعر والموضوعات والاتجاهات. يمكنك عرض هذه الرؤى من خلال لوحات المعلومات التفاعلية والتقارير والتنبيهات."
+  
+  utter_social_media_verification:
+  - text: "To verify a new social media account, go to Settings > Connected Accounts, click 'Add New Account', select the platform, and follow the authentication steps. You'll need to grant Media Pulse permission to access your account data."
+  - text: "للتحقق من حساب وسائل التواصل الاجتماعي الجديد، انتقل إلى الإعدادات > الحسابات المتصلة، وانقر على 'إضافة حساب جديد'، وحدد المنصة، واتبع خطوات المصادقة. ستحتاج إلى منح ميديا بولس إذنًا للوصول إلى بيانات حسابك."
+  
+  utter_excellence_indicators_help:
+  - text: "Excellence Indicators are metrics that measure performance against strategic goals. You can access them in the Excellence Dashboard, where you can view current performance, set targets, and track progress over time."
+  - text: "مؤشرات التميز هي مقاييس تقيس الأداء مقابل الأهداف الاستراتيجية. يمكنك الوصول إليها في لوحة معلومات التميز، حيث يمكنك عرض الأداء الحالي، وتحديد الأهداف، وتتبع التقدم بمرور الوقت."
+  
+  utter_media_center_help:
+  - text: "The Media Center module allows you to manage press releases, journalist contacts, and media assets. You can create and publish press releases, track media coverage, and build relationships with key media contacts."
+  - text: "تتيح لك وحدة المركز الإعلامي إدارة البيانات الصحفية، وجهات اتصال الصحفيين، والأصول الإعلامية. يمكنك إنشاء ونشر البيانات الصحفية، وتتبع التغطية الإعلامية، وبناء علاقات مع جهات الاتصال الإعلامية الرئيسية."
+  
+  utter_archive_help:
+  - text: "The Archive section stores historical content and reports. You can search and filter by date, type, or keywords to find past media content, reports, or analytics data."
+  - text: "يخزن قسم الأرشيف المحتوى والتقارير التاريخية. يمكنك البحث والتصفية حسب التاريخ أو النوع أو الكلمات الرئيسية للعثور على محتوى الوسائط السابق أو التقارير أو بيانات التحليلات."
+  
+  utter_settings_help:
+  - text: "In the Settings section, you can configure your account preferences, notification settings, connected social accounts, and user permissions. You can also manage API integrations and system configurations."
+  - text: "في قسم الإعدادات، يمكنك تكوين تفضيلات حسابك، وإعدادات الإشعارات، وحسابات التواصل الاجتماعي المتصلة، وأذونات المستخدم. يمكنك أيضًا إدارة تكاملات API وتكوينات النظام."
+  
+  utter_osint_help:
+  - text: "The OSINT (Open Source Intelligence) feature helps you gather publicly available information from various sources. You can set up monitoring for specific topics, entities, or keywords and receive comprehensive insights from across the web."
+  - text: "تساعدك ميزة OSINT (استخبارات المصادر المفتوحة) على جمع المعلومات المتاحة للجمهور من مصادر مختلفة. يمكنك إعداد المراقبة لمواضيع أو كيانات أو كلمات رئيسية محددة وتلقي رؤى شاملة من جميع أنحاء الويب."
+
+actions:
+  - action_get_sentiment_analysis
+  - action_get_media_coverage
+  - action_get_content_metrics
+  - action_generate_kpi_report
+  - action_set_keyword_alert
+  - action_add_journalist_contact
+  - action_publish_social_post
+  - action_schedule_social_post
+  - action_customize_report
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

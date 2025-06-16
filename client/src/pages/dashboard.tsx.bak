@@ -1,0 +1,739 @@
+import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import { 
+  Download, Calendar, BarChart2, BarChart3, Sparkles, TrendingUp, Newspaper,
+  BarChart4, Clock, Search, Filter, Bell, Tag, PieChart, LineChart,
+  List, Globe, AlertTriangle, Bookmark, ToggleLeft, Activity, ChevronDown,
+  RefreshCcw
+} from "lucide-react";
+import { Link } from "wouter";
+import PageLayout from "@/components/layout/PageLayout";
+import KpiCard from "@/components/dashboard/KpiCard";
+import TrendVisualization from "@/components/dashboard/TrendVisualization";
+import SocialMediaStats from "@/components/dashboard/SocialMediaStats";
+import KpiOverview from "@/components/dashboard/KpiOverview";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Badge } from "@/components/ui/badge";
+import { Switch } from "@/components/ui/switch";
+import { 
+  Sheet,
+  SheetContent,
+  SheetTrigger
+} from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+  DropdownMenuSeparator
+} from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Progress } from "@/components/ui/progress";
+import { useRtlDirection } from "@/lib/rtl-helper";
+import { useQuery } from "@tanstack/react-query";
+import { Separator } from "@/components/ui/separator";
+import { useSocialPosts } from "@/hooks/use-social";
+import SocialPostList from "@/components/social/SocialPostList";
+
+// Meltwater-inspired Dashboard
+const Dashboard = () => {
+  const { t, i18n } = useTranslation();
+  const [timeFilter, setTimeFilter] = useState(t('dashboard.last30Days'));
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filterOpen, setFilterOpen] = useState(false);
+  const [alertsEnabled, setAlertsEnabled] = useState(true);
+  const { isRtl } = useRtlDirection();
+  
+  // Set up date filters based on selected time filter
+  const [dateFrom, setDateFrom] = useState<Date | undefined>(undefined);
+  const [dateTo, setDateTo] = useState<Date | undefined>(undefined);
+  
+  // Update dateFrom and dateTo when timeFilter changes
+  useEffect(() => {
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+    if (timeFilter === t('dashboard.today')) {
+      setDateFrom(today);
+      setDateTo(new Date(now.getTime() + 86400000)); // Today + 1 day
+    } else if (timeFilter === t('dashboard.last7Days')) {
+      const sevenDaysAgo = new Date(today);
+      sevenDaysAgo.setDate(today.getDate() - 7);
+      setDateFrom(sevenDaysAgo);
+      setDateTo(now);
+    } else if (timeFilter === t('dashboard.last30Days')) {
+      const thirtyDaysAgo = new Date(today);
+      thirtyDaysAgo.setDate(today.getDate() - 30);
+      setDateFrom(thirtyDaysAgo);
+      setDateTo(now);
+    } else if (timeFilter === t('dashboard.last90Days')) {
+      const ninetyDaysAgo = new Date(today);
+      ninetyDaysAgo.setDate(today.getDate() - 90);
+      setDateFrom(ninetyDaysAgo);
+      setDateTo(now);
+    } else if (timeFilter === t('dashboard.custom')) {
+      // Keep current dates, user will set them manually via a DatePicker 
+      // (not implemented in this version)
+    }
+  }, [timeFilter, t]);
+  
+  // Use the useSocialPosts hook to fetch posts with the search parameter
+  const { data: searchResults, isLoading: isSearching } = useSocialPosts({
+    search: searchQuery.trim() !== '' ? searchQuery : undefined,
+    dateFrom,
+    dateTo,
+  });
+  
+  // Mock data for top sources
+  const topSources = [
+    { id: 1, name: 'Twitter', count: 328, change: 12 },
+    { id: 2, name: 'Al Jazeera', count: 245, change: 8 },
+    { id: 3, name: 'Dubai News', count: 187, change: -3 },
+    { id: 4, name: 'Gulf News', count: 156, change: 5 },
+    { id: 5, name: 'Abu Dhabi Post', count: 134, change: 2 }
+  ];
+
+  // Mock data for keywords
+  const topKeywords = [
+    { id: 1, text: 'Innovation', count: 243, size: 'lg' },
+    { id: 2, text: 'Sustainability', count: 186, size: 'md' },
+    { id: 3, text: 'Digital Services', count: 164, size: 'xl' },
+    { id: 4, text: 'Smart City', count: 152, size: 'lg' },
+    { id: 5, text: 'Education', count: 124, size: 'sm' },
+    { id: 6, text: 'Healthcare', count: 118, size: 'md' },
+    { id: 7, text: 'Customer Happiness', count: 93, size: 'lg' },
+    { id: 8, text: 'Economic Growth', count: 87, size: 'sm' },
+    { id: 9, text: 'Tourism', count: 76, size: 'md' }
+  ];
+
+  // Mock recent alerts
+  const recentAlerts = [
+    { id: 1, type: 'sentiment', message: t('dashboard.alertMessages.negativeSentimentSpike'), time: '15 ' + t('common.minutes_ago', { count: 15 }), severity: 'high' },
+    { id: 2, type: 'mention', message: t('dashboard.alertMessages.vipMention'), time: '42 ' + t('common.minutes_ago', { count: 42 }), severity: 'medium' },
+    { id: 3, type: 'keyword', message: t('dashboard.alertMessages.trendingKeyword'), time: '2 ' + t('common.hours_ago', { count: 2 }), severity: 'low' },
+    { id: 4, type: 'volume', message: t('dashboard.alertMessages.unusualActivity'), time: '3 ' + t('common.hours_ago', { count: 3 }), severity: 'medium' }
+  ];
+
+  // Handle font size based on tag size
+  const getTagSize = (size: string) => {
+    switch(size) {
+      case 'xl': return 'text-xl font-bold';
+      case 'lg': return 'text-lg font-semibold';
+      case 'md': return 'text-base font-medium';
+      case 'sm': return 'text-sm';
+      default: return 'text-sm';
+    }
+  };
+
+  // Get alert icon based on type
+  const getAlertIcon = (type: string) => {
+    switch(type) {
+      case 'sentiment': return <AlertTriangle className="h-5 w-5 text-red-500" />;
+      case 'mention': return <Bell className="h-5 w-5 text-blue-500" />;
+      case 'keyword': return <Tag className="h-5 w-5 text-green-500" />;
+      case 'volume': return <Activity className="h-5 w-5 text-yellow-500" />;
+      default: return <Bell className="h-5 w-5 text-gray-500" />;
+    }
+  };
+
+  // Get alert color based on severity
+  const getAlertColor = (severity: string) => {
+    switch(severity) {
+      case 'high': return 'border-l-4 border-red-500 bg-red-50';
+      case 'medium': return 'border-l-4 border-yellow-500 bg-yellow-50';
+      case 'low': return 'border-l-4 border-green-500 bg-green-50';
+      default: return 'border-l-4 border-gray-300 bg-gray-50';
+    }
+  };
+
+  return (
+    <PageLayout>
+      {/* Navigation Bar - The main navigation is already in the PageLayout via Sidebar */}
+      
+      {/* Hero Section - Filters Only */}
+      <div className="bg-[#f9f4e9] rounded-lg p-4 mb-6 shadow-sm">
+        <div className={`flex flex-col md:flex-row gap-4 ${isRtl ? 'md:flex-row-reverse' : ''}`}>
+          
+          {/* Date Range Picker */}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" className="flex items-center border-[#cba344] text-[#cba344]">
+                <Calendar className={`h-4 w-4 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+                <span>{timeFilter}</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align={isRtl ? "start" : "end"}>
+              <DropdownMenuItem onClick={() => setTimeFilter(t('dashboard.today'))}>
+                {t('dashboard.today')}
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTimeFilter(t('dashboard.last7Days'))}>
+                {t('dashboard.last7Days')}
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTimeFilter(t('dashboard.last30Days'))}>
+                {t('dashboard.last30Days')}
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTimeFilter(t('dashboard.last90Days'))}>
+                {t('dashboard.last90Days')}
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem onClick={() => setTimeFilter(t('dashboard.custom'))}>
+                {t('dashboard.custom')}
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+          
+          {/* Sentiment Filter */}
+          <Sheet open={filterOpen} onOpenChange={setFilterOpen}>
+            <SheetTrigger asChild>
+              <Button variant="outline" className="flex items-center border-[#cba344] text-[#cba344]">
+                <Filter className={`h-4 w-4 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+                {t('analysis.sentimentFilters')}
+              </Button>
+            </SheetTrigger>
+            <SheetContent side={isRtl ? 'right' : 'left'} className={`${isRtl ? 'text-right' : 'text-left'} bg-[#f9f4e9]`}>
+              <div className="space-y-6 py-6">
+                <h3 className={`text-lg font-medium ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+                  {t('analysis.sentimentFilters')}
+                </h3>
+                <p className="text-sm text-gray-500">{t('analysis.filterDescription')}</p>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-sm font-medium mb-2">{t('monitoring.platforms')}</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <input type="checkbox" id="twitter" className="mr-2" />
+                        <label htmlFor="twitter">{t('social.twitter')}</label>
+                      </div>
+                      <div className="flex items-center">
+                        <input type="checkbox" id="facebook" className="mr-2" />
+                        <label htmlFor="facebook">{t('social.facebook')}</label>
+                      </div>
+                      <div className="flex items-center">
+                        <input type="checkbox" id="instagram" className="mr-2" />
+                        <label htmlFor="instagram">{t('social.instagram')}</label>
+                      </div>
+                      <div className="flex items-center">
+                        <input type="checkbox" id="news" className="mr-2" />
+                        <label htmlFor="news">{t('monitoring.news')}</label>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-sm font-medium mb-2">{t('analysis.sentimentDistribution')}</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <input type="checkbox" id="positive" className="mr-2" />
+                        <label htmlFor="positive">{t('analysis.positive')}</label>
+                      </div>
+                      <div className="flex items-center">
+                        <input type="checkbox" id="neutral" className="mr-2" />
+                        <label htmlFor="neutral">{t('analysis.neutral')}</label>
+                      </div>
+                      <div className="flex items-center">
+                        <input type="checkbox" id="negative" className="mr-2" />
+                        <label htmlFor="negative">{t('analysis.negative')}</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="flex justify-between pt-4">
+                  <Button variant="outline" onClick={() => setFilterOpen(false)}>
+                    {t('common.cancel')}
+                  </Button>
+                  <Button 
+                    className="bg-[#cba344] hover:bg-[#b8943e] text-white" 
+                    onClick={() => setFilterOpen(false)}
+                  >
+                    {t('entities.applyFilters')}
+                  </Button>
+                </div>
+              </div>
+            </SheetContent>
+          </Sheet>
+          
+          {/* Report Download Button */}
+          <Button className={`bg-[#cba344] hover:bg-[#b8943e] text-white flex items-center`}>
+            <Download className={`h-4 w-4 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+            <span>{t('dashboard.downloadReport')}</span>
+          </Button>
+        </div>
+      </div>
+      
+      {/* KPI Cards Section */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        <KpiCard
+          title={t('dashboard.mentionsTotal')}
+          value="14,392"
+          change={12}
+          info={`${t('dashboard.comparedTo')} 12,839 ${t('dashboard.inPreviousPeriod')}`}
+          borderColor="border-[#cba344]"
+          rtl={isRtl}
+        />
+        
+        <KpiCard
+          title={t('analysis.positiveSentiment')}
+          value="68%"
+          change={5}
+          info={t('analysis.sentimentImprovement')}
+          progressValue={68}
+          progressColor="bg-green-500"
+          borderColor="border-green-500"
+          rtl={isRtl}
+        />
+        
+        <KpiCard
+          title={t('analysis.negativeSentiment')}
+          value="12%"
+          change={-2}
+          info={t('analysis.sentimentDecrease')}
+          progressValue={12}
+          progressColor="bg-red-500"
+          borderColor="border-red-500"
+          rtl={isRtl}
+        />
+        
+        <KpiCard
+          title={t('dashboard.shareOfVoice')}
+          value="37%"
+          change={8}
+          info={t('dashboard.marketShareIncrease')}
+          progressValue={37}
+          progressColor="bg-blue-500"
+          borderColor="border-blue-500"
+          rtl={isRtl}
+        />
+      </div>
+      
+      {/* Analytics Section */}
+      <div className="mb-8">
+        <h2 className={`text-xl font-bold mb-4 ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+          <div className="flex items-center">
+            <BarChart2 className={`h-5 w-5 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+            {t('dashboard.analyticsOverview')}
+          </div>
+        </h2>
+        
+        <div className="mb-4">
+          {/* Realtime Sentiment Trends based exactly on screenshot */}
+          <Card className="bg-white shadow-sm overflow-hidden">
+            <CardHeader className="pb-0">
+              <div className="flex items-center text-sm font-medium text-gray-700">
+                <BarChart2 className="h-4 w-4 mr-2 text-[#cba344]" />
+                {t('dashboard.realtimeSentimentTrends')}
+              </div>
+            </CardHeader>
+            <CardContent className="p-4">
+              <div>
+                <div className="flex justify-between items-center mb-3">
+                  <div>
+                    <h3 className="text-base font-medium mb-1">Realtime Sentiment Trends</h3>
+                    <p className="text-xs text-gray-500">dashboard.trackSentimentChanges</p>
+                  </div>
+                  <Badge variant="outline" className="bg-red-100 text-red-800 text-xs px-2 rounded-full">connection.offline</Badge>
+                </div>
+                
+                <div className="flex mt-3 mb-4 gap-4">
+                  <div className="flex items-center border rounded px-3 py-1.5 text-xs bg-gray-50">
+                    <span className="mr-2">dashboard.allPlatforms</span>
+                    <ChevronDown className="h-3 w-3" />
+                  </div>
+                  <div className="flex items-center border rounded px-3 py-1.5 text-xs bg-gray-50">
+                    <span className="mr-2">Last 7 Days</span>
+                    <ChevronDown className="h-3 w-3" />
+                  </div>
+                  <div className="ml-auto">
+                    <button className="p-1.5 rounded hover:bg-gray-100" title="Refresh">
+                      <RefreshCcw className="h-4 w-4 text-gray-500" />
+                    </button>
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {/* Left column: Sentiment Trend Chart */}
+                  <div className="border rounded p-3">
+                    <h4 className="text-xs font-medium mb-2">dashboard.sentimentTrend</h4>
+                    <div className="h-28 relative">
+                      {/* Y-axis labels */}
+                      <div className="absolute left-0 top-0 h-full flex flex-col justify-between text-[10px] text-gray-500 py-1">
+                        <span>80%</span>
+                        <span>60%</span>
+                      </div>
+                      
+                      {/* Chart area with mock line */}
+                      <div className="ml-8 h-full relative">
+                        {/* Horizontal grid lines */}
+                        <div className="absolute w-full h-1/2 border-b border-gray-100"></div>
+                        
+                        {/* Mock trend line (as SVG) */}
+                        <svg className="w-full h-full overflow-visible">
+                          <defs>
+                            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                              <stop offset="0%" stopColor="#4ade80" stopOpacity="0.2" />
+                              <stop offset="100%" stopColor="#4ade80" stopOpacity="0" />
+                            </linearGradient>
+                          </defs>
+                          
+                          {/* Area under the line */}
+                          <path 
+                            d="M0,40 C20,35 40,20 60,25 C80,30 100,15 120,20 C140,25 160,35 180,25 C200,15 220,10 240,5 L240,80 L0,80 Z" 
+                            fill="url(#lineGradient)" 
+                          />
+                          
+                          {/* The line itself */}
+                          <path 
+                            d="M0,40 C20,35 40,20 60,25 C80,30 100,15 120,20 C140,25 160,35 180,25 C200,15 220,10 240,5" 
+                            fill="none" 
+                            stroke="#4ade80" 
+                            strokeWidth="2" 
+                          />
+                          
+                          {/* End dot with highlight */}
+                          <circle cx="240" cy="5" r="4" fill="#fff" stroke="#4ade80" strokeWidth="2" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Right column: Overall Sentiment */}
+                  <div className="border rounded p-3">
+                    <h4 className="text-xs font-medium mb-3">sentiment.overallSentiment</h4>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center">
+                          <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                          <span className="text-xs">sentiment.positive</span>
+                        </div>
+                        <div className="flex items-center">
+                          <span className="text-xs font-medium">38%</span>
+                          <TrendingUp className="ml-1 h-3 w-3 text-green-500" />
+                        </div>
+                      </div>
+                      
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center">
+                          <div className="w-2 h-2 bg-amber-500 rounded-full mr-2"></div>
+                          <span className="text-xs">sentiment.neutral</span>
+                        </div>
+                        <span className="text-xs font-medium">43%</span>
+                      </div>
+                      
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center">
+                          <div className="w-2 h-2 bg-red-500 rounded-full mr-2"></div>
+                          <span className="text-xs">sentiment.negative</span>
+                        </div>
+                        <span className="text-xs font-medium">19%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+          
+          {/* Sentiment Distribution section based on screenshot */}
+          <Card className="bg-white shadow-sm overflow-hidden mt-4">
+            <CardHeader className="pb-0">
+              <div className="flex items-center text-sm font-medium text-gray-700">
+                <BarChart4 className="h-4 w-4 mr-2 text-[#cba344]" />
+                {t('analysis.sentimentDistribution')}
+              </div>
+            </CardHeader>
+            <CardContent className="px-4 pb-4 pt-2">
+              {/* Positive */}
+              <div className="mb-2">
+                <div className="flex justify-between items-center mb-1">
+                  <span className="text-xs">Positive</span>
+                  <span className="text-xs text-right">68%</span>
+                </div>
+                <div className="h-2.5 bg-green-100 rounded-sm overflow-hidden">
+                  <div className="h-full bg-green-500" style={{ width: '68%' }}></div>
+                </div>
+              </div>
+              
+              {/* Neutral */}
+              <div className="mb-2">
+                <div className="flex justify-between items-center mb-1">
+                  <span className="text-xs">Neutral</span>
+                  <span className="text-xs text-right">20%</span>
+                </div>
+                <div className="h-2.5 bg-gray-200 rounded-sm overflow-hidden">
+                  <div className="h-full bg-gray-400" style={{ width: '20%' }}></div>
+                </div>
+              </div>
+              
+              {/* Negative */}
+              <div className="mb-5">
+                <div className="flex justify-between items-center mb-1">
+                  <span className="text-xs">Negative</span>
+                  <span className="text-xs text-right">12%</span>
+                </div>
+                <div className="h-2.5 bg-red-100 rounded-sm overflow-hidden">
+                  <div className="h-full bg-red-500" style={{ width: '12%' }}></div>
+                </div>
+              </div>
+              
+              {/* Platform Sentiment */}
+              <div>
+                <h4 className="text-xs text-gray-500 mb-3">analysis.sentimentByPlatform</h4>
+                <div className="grid grid-cols-2 gap-y-3 gap-x-4 text-xs">
+                    <div>
+                      <div className="p-1 rounded bg-blue-100 mb-1 text-xs text-center">Twitter</div>
+                      <span className="text-green-600 font-medium text-xs">75%</span>
+                    </div>
+                    <div>
+                      <div className="p-1 rounded bg-blue-100 mb-1 text-xs text-center">Facebook</div>
+                      <span className="text-green-600 font-medium text-xs">64%</span>
+                    </div>
+                    <div>
+                      <div className="p-1 rounded bg-blue-100 mb-1 text-xs text-center">Instagram</div>
+                      <span className="text-green-600 font-medium text-xs">82%</span>
+                    </div>
+                    <div>
+                      <div className="p-1 rounded bg-blue-100 mb-1 text-xs text-center">News</div>
+                      <span className="text-yellow-600 font-medium text-xs">51%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+      
+      {/* Search Box Section - Always visible */}
+      <div className="mb-8">
+        <div className="flex flex-col space-y-4">
+          <h2 className={`text-xl font-bold ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+            <div className="flex items-center">
+              <Search className={`h-5 w-5 ${isRtl ? 'ml-2' : 'mr-2'} text-[#cba344]`} />
+              {t('dashboard.search')}
+            </div>
+          </h2>
+
+          {/* Keyword Search Box */}
+          <div className={`relative flex-grow ${isRtl ? 'text-right' : 'text-left'}`}>
+            <Search className={`absolute ${isRtl ? 'right-3' : 'left-3'} top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400`} />
+            <Input
+              type="text"
+              placeholder={t('dashboard.searchKeywords')}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className={`${isRtl ? 'pr-10 pl-4 text-right' : 'pl-10 pr-4 text-left'} py-2 w-full border-[#cba344] focus:ring-[#cba344]`}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Search Results Section - Only visible when searchQuery is not empty */}
+      {searchQuery.trim() !== '' && (
+        <div className="mb-8">
+          <h2 className={`text-xl font-bold mb-4 ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+            <div className="flex items-center">
+              <Search className={`h-5 w-5 ${isRtl ? 'ml-2' : 'mr-2'} text-[#cba344]`} />
+              {t('dashboard.searchResults')}: "{searchQuery}" {timeFilter ? `(${timeFilter})` : ''}
+            </div>
+          </h2>
+          
+          <Card className="bg-white shadow-sm">
+            <CardContent className="pt-6">
+              <SocialPostList 
+                posts={searchResults || []} 
+                isLoading={isSearching} 
+                emptyMessage={t('dashboard.noSearchResults')} 
+              />
+            </CardContent>
+          </Card>
+        </div>
+      )}
+      
+      {/* Insights Section */}
+      <div className="mb-8">
+        <h2 className={`text-xl font-bold mb-4 ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+          <div className="flex items-center">
+            <Sparkles className={`h-5 w-5 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+            {t('dashboard.keyInsights')}
+          </div>
+        </h2>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+          {/* Top Sources List */}
+          <Card className="bg-white shadow-sm overflow-hidden">
+            <CardHeader className="pb-2">
+              <CardTitle className="text-base flex items-center">
+                <List className="h-4 w-4 mr-2 text-[#cba344]" />
+                {t('dashboard.topSources')}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="px-4 py-2">
+              <div className="space-y-2">
+                {topSources.map((source) => (
+                  <div key={source.id} className="flex items-center justify-between p-2 border-b last:border-0">
+                    <div className="flex items-center">
+                      <Globe className="h-4 w-4 mr-2 text-blue-500" />
+                      <span>{source.name}</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <span className="font-semibold">{source.count}</span>
+                      <span className={`px-2 py-0.5 rounded-full text-xs ${source.change >= 0 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                        {source.change > 0 && '+'}{source.change}%
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+          
+          {/* Top Keywords Tag Cloud */}
+          <Card className="bg-white shadow-sm overflow-hidden">
+            <CardHeader className="pb-2">
+              <CardTitle className="text-base flex items-center">
+                <Tag className="h-4 w-4 mr-2 text-[#cba344]" />
+                {t('dashboard.topKeywords')}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-4">
+              <div className="flex flex-wrap gap-2 justify-center items-center min-h-[180px]">
+                {topKeywords.map((keyword) => (
+                  <span 
+                    key={keyword.id} 
+                    className={`${getTagSize(keyword.size)} px-2 py-1 rounded-full bg-[#f9f4e9] text-[#cba344] cursor-pointer hover:bg-[#cba344] hover:text-white transition-colors`}
+                  >
+                    {keyword.text}
+                  </span>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+      
+      {/* Alerts Section */}
+      <div className="mb-6">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className={`text-xl font-bold ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+            <div className="flex items-center">
+              <Bell className={`h-5 w-5 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+              {t('dashboard.realTimeAlerts')}
+            </div>
+          </h2>
+          <div className="flex items-center">
+            <span className="mr-2 text-sm text-gray-600">{alertsEnabled ? t('common.enabled') : t('common.disabled')}</span>
+            <Switch
+              checked={alertsEnabled}
+              onCheckedChange={setAlertsEnabled}
+              className="data-[state=checked]:bg-[#cba344]"
+            />
+          </div>
+        </div>
+        
+        <Card className="bg-white shadow-sm overflow-hidden">
+          <CardContent className="p-4">
+            {alertsEnabled ? (
+              <div className="space-y-3">
+                {recentAlerts.map((alert) => (
+                  <div key={alert.id} className={`p-3 rounded ${getAlertColor(alert.severity)} flex items-start`}>
+                    <div className="mr-3 mt-1 flex-shrink-0">
+                      {getAlertIcon(alert.type)}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex justify-between items-start mb-1">
+                        <h4 className="font-medium text-sm truncate mr-2">{alert.message}</h4>
+                        <span className="text-xs text-gray-500 whitespace-nowrap flex-shrink-0">{alert.time}</span>
+                      </div>
+                      <div className="flex items-center space-x-2 flex-wrap">
+                        <span className="text-xs border border-gray-300 rounded px-1.5 py-0.5 whitespace-nowrap">
+                          {alert.type}
+                        </span>
+                        <span className="text-xs text-gray-500 hidden sm:inline">|</span>
+                        <button className="text-xs text-blue-500 flex items-center whitespace-nowrap">
+                          <Bookmark className="h-3 w-3 mr-1 flex-shrink-0" />
+                          {t('common.save')}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-6 text-gray-500">
+                <Bell className="h-10 w-10 mx-auto mb-2 text-gray-300" />
+                <p>{t('dashboard.alertsDisabled')}</p>
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="mt-2 border-[#cba344] text-[#cba344]"
+                  onClick={() => setAlertsEnabled(true)}
+                >
+                  {t('dashboard.enableAlerts')}
+                </Button>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+      </div>
+      
+      {/* Government KPIs Section */}
+      <div className="mb-8">
+        <h2 className={`text-xl font-bold mb-4 ${isRtl ? 'text-right' : 'text-left'} text-[#cba344]`}>
+          <div className="flex items-center">
+            <BarChart4 className={`h-5 w-5 ${isRtl ? 'ml-2' : 'mr-2'}`} />
+            {t('performance.governmentKPIs')}
+          </div>
+        </h2>
+        
+        <Card className="bg-white shadow-sm">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-base flex items-center">
+              <Activity className="h-4 w-4 mr-2 text-[#cba344]" />
+              {t('performance.gem21Metrics')}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <KpiOverview compact={true} maxItems={4} showViewAllLink={true} rtl={isRtl} />
+          </CardContent>
+        </Card>
+      </div>
+      
+      {/* Footer */}
+      <div className="mt-12 pt-6 border-t border-gray-200">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-600">
+          <div className={isRtl ? 'text-right' : 'text-left'}>
+            <h4 className="font-semibold mb-2 text-[#cba344]">{t('footer.companyInfo')}</h4>
+            <ul className="space-y-1">
+              <li>© {new Date().getFullYear()} RHAL</li>
+              <li>{t('footer.allRightsReserved')}</li>
+              <li>{t('footer.versionInfo')}: 2.1.0</li>
+            </ul>
+          </div>
+          
+          <div className={isRtl ? 'text-right' : 'text-left'}>
+            <h4 className="font-semibold mb-2 text-[#cba344]">{t('footer.supportLinks')}</h4>
+            <ul className="space-y-1">
+              <li><Link href="/help" className="hover:underline">{t('footer.helpCenter')}</Link></li>
+              <li><Link href="/support" className="hover:underline">{t('footer.contactSupport')}</Link></li>
+              <li><Link href="/documentation" className="hover:underline">{t('footer.documentation')}</Link></li>
+            </ul>
+          </div>
+          
+          <div className={isRtl ? 'text-right' : 'text-left'}>
+            <h4 className="font-semibold mb-2 text-[#cba344]">{t('footer.legal')}</h4>
+            <ul className="space-y-1">
+              <li><Link href="/legal/terms" className="hover:underline">{t('footer.termsOfService')}</Link></li>
+              <li><Link href="/legal/privacy" className="hover:underline">{t('footer.privacyPolicy')}</Link></li>
+              <li><Link href="/legal/disclaimer" className="hover:underline">{t('footer.disclaimer')}</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </PageLayout>
+  );
+};
+
+export default Dashboard;

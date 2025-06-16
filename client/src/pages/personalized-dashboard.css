@@ -1,0 +1,242 @@
+/* Personalized Dashboard CSS */
+.personalized-dashboard-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Fix widget container styles */
+.widget-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.widget-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.widget-content {
+  flex: 1;
+  overflow: auto;
+  padding: 1rem;
+  height: calc(100% - 4rem);
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard grid improvements */
+.dashboard-grid {
+  min-height: 600px;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.edit-mode {
+  background-color: rgba(240, 240, 250, 0.3);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+/* High contrast mode for accessibility */
+.high-contrast .widget-container {
+  border: 2px solid #000;
+}
+
+.high-contrast .widget-header {
+  background-color: #f0f0f0;
+}
+
+/* RTL support */
+[dir="rtl"] .widget-header-title-icon {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+/* Fix for chart containers inside widgets */
+.widget-chart-container {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+/* Fix for sentiment analysis widget */
+.sentiment-analysis-widget {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pie-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 3rem);
+  min-height: 200px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  margin-right: 0.25rem;
+}
+
+/* Fix for keyword trends widget */
+.keyword-trends-widget {
+  height: 100%;
+}
+
+.trends-chart {
+  height: calc(100% - 3rem);
+  min-height: 180px;
+}
+
+/* Improve accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Widget focus states for keyboard navigation */
+.widget-container:focus-within {
+  outline: 2px solid #4c6ef5;
+  outline-offset: 2px;
+}
+
+/* Widget selector improvements */
+.widget-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.widget-option {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.widget-option:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.widget-option:focus {
+  outline: 2px solid #4c6ef5;
+  outline-offset: 2px;
+}
+
+/* Print styles for dashboard */
+@media print {
+  .dashboard-controls, 
+  .edit-button,
+  .add-widget-button {
+    display: none !important;
+  }
+  
+  .widget-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #ddd;
+    box-shadow: none !important;
+  }
+}
+
+/* Make width responsive */
+@media (max-width: 768px) {
+  .personalized-dashboard-container {
+    padding: 0.75rem;
+  }
+  
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .dashboard-controls {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+/* Focus and active states for better UX */
+button:focus-visible {
+  outline: 2px solid #4c6ef5;
+  outline-offset: 2px;
+}
+
+/* Ensure all interactive elements have proper hover states */
+.interactive-element {
+  transition: all 0.2s;
+}
+
+.interactive-element:hover {
+  filter: brightness(1.1);
+}
+
+/* Fix for the grid layout */
+.react-grid-layout {
+  position: relative;
+  width: 100%;
+}
+
+/* Fix issues with dragging */
+.react-draggable-dragging {
+  z-index: 10;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Fix issues with resizing */
+.react-resizable-handle {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M21 15v4a2 2 0 0 1-2 2h-4"%3E%3C/path%3E%3Cpath d="M15 21l-9-9"%3E%3C/path%3E%3Cpath d="M8 12H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4"%3E%3C/path%3E%3Cpath d="M9 3l9 9"%3E%3C/path%3E%3C/svg%3E');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+.react-resizable-handle-se {
+  right: 5px;
+  bottom: 5px;
+}

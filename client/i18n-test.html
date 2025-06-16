@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I18n Test Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .language-button {
+      background-color: #f0f0f0;
+      border: none;
+      padding: 8px 16px;
+      margin-right: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .language-button.active {
+      background-color: #0066cc;
+      color: white;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .progress-bar {
+      height: 8px;
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background-color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Media Intelligence Platform - I18n Test</h1>
+    <div class="card">
+      <h2>Language Management</h2>
+      <p>This page demonstrates the internationalization features we've implemented.</p>
+      
+      <div id="language-selector" style="margin-bottom: 20px;">
+        <button class="language-button active" data-lang="en">English</button>
+        <button class="language-button" data-lang="ar">العربية</button>
+      </div>
+      
+      <p>Current language: <strong id="current-lang">en</strong></p>
+      <p>Text direction: <strong id="text-direction">ltr</strong></p>
+      
+      <h3>Supported Languages</h3>
+      <table id="languages-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Name (English)</th>
+            <th>Name (Native)</th>
+            <th>RTL</th>
+            <th>Active</th>
+            <th>Default</th>
+            <th>Completeness</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Languages will be inserted here -->
+        </tbody>
+      </table>
+      
+      <h3>Translation Example</h3>
+      <p>Simple phrase: <span id="greeting">Hello</span></p>
+      <p>Complex element: <span id="welcome-message">Welcome to the Media Intelligence Platform</span></p>
+    </div>
+    
+    <div class="card">
+      <h2>Implementation Details</h2>
+      <p>We've implemented a comprehensive language registry system that manages:</p>
+      <ul>
+        <li>Language metadata (code, name, RTL support)</li>
+        <li>Language status (active, default)</li>
+        <li>Translation completeness tracking</li>
+        <li>Methods for adding, updating, and managing languages</li>
+      </ul>
+      <p>This system helps the application support multiple languages with proper internationalization.</p>
+    </div>
+  </div>
+
+  <script>
+    // Mock language registry - simplified version of our TypeScript implementation
+    const supportedLanguages = [
+      {
+        code: "en",
+        name: {
+          english: "English",
+          native: "English"
+        },
+        isRTL: false,
+        isActive: true,
+        isDefault: true,
+        completeness: 100
+      },
+      {
+        code: "ar",
+        name: {
+          english: "Arabic",
+          native: "العربية"
+        },
+        isRTL: true,
+        isActive: true,
+        completeness: 95
+      }
+    ];
+    
+    // Mock translations - simplified version
+    const translations = {
+      en: {
+        greeting: "Hello",
+        welcomeMessage: "Welcome to the Media Intelligence Platform"
+      },
+      ar: {
+        greeting: "مرحباً",
+        welcomeMessage: "مرحباً بكم في منصة ذكاء الإعلام"
+      }
+    };
+    
+    // Current language state
+    let currentLang = "en";
+    
+    // Update the UI with language data
+    function updateLanguageTable() {
+      const tableBody = document.querySelector("#languages-table tbody");
+      tableBody.innerHTML = "";
+      
+      supportedLanguages.forEach(lang => {
+        const row = document.createElement("tr");
+        if (lang.isDefault) {
+          row.style.backgroundColor = "#f0f8ff";
+        }
+        
+        row.innerHTML = `
+          <td>${lang.code}</td>
+          <td>${lang.name.english}</td>
+          <td>${lang.name.native}</td>
+          <td>${lang.isRTL ? 'Yes' : 'No'}</td>
+          <td>
+            <input type="checkbox" ${lang.isActive ? 'checked' : ''} ${lang.isDefault ? 'disabled' : ''}>
+          </td>
+          <td>
+            <input type="radio" name="default" ${lang.isDefault ? 'checked' : ''} ${!lang.isActive ? 'disabled' : ''}>
+          </td>
+          <td>
+            <div class="progress-bar">
+              <div class="progress-bar-fill" style="width: ${lang.completeness}%"></div>
+            </div>
+            <span>${lang.completeness}%</span>
+          </td>
+        `;
+        
+        tableBody.appendChild(row);
+      });
+    }
+    
+    // Update translations based on current language
+    function updateTranslations() {
+      document.getElementById("greeting").textContent = translations[currentLang].greeting;
+      document.getElementById("welcome-message").textContent = translations[currentLang].welcomeMessage;
+      document.getElementById("current-lang").textContent = currentLang;
+      
+      // Get language details
+      const lang = supportedLanguages.find(l => l.code === currentLang);
+      
+      // Update text direction
+      const direction = lang.isRTL ? "rtl" : "ltr";
+      document.getElementById("text-direction").textContent = direction;
+      document.documentElement.dir = direction;
+      document.documentElement.lang = currentLang;
+      
+      // Update language buttons
+      document.querySelectorAll(".language-button").forEach(button => {
+        if (button.dataset.lang === currentLang) {
+          button.classList.add("active");
+        } else {
+          button.classList.remove("active");
+        }
+      });
+    }
+    
+    // Initialize
+    function init() {
+      // Populate language table
+      updateLanguageTable();
+      
+      // Set up language switcher
+      document.querySelectorAll(".language-button").forEach(button => {
+        button.addEventListener("click", () => {
+          currentLang = button.dataset.lang;
+          updateTranslations();
+        });
+      });
+      
+      // Initial translation update
+      updateTranslations();
+    }
+    
+    // Start the app
+    window.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>

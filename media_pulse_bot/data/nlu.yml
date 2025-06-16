@@ -1,0 +1,470 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - hi there
+    - hello there
+    - greetings
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+    - catch you later
+    - have a good day
+    - bye bye
+    - talk to you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - okay
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - thanks a lot
+    - thank you very much
+    - great, thanks
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - very good
+    - great
+    - amazing
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I'm good
+
+- intent: mood_unhappy
+  examples: |
+    - sad
+    - very sad
+    - unhappy
+    - bad
+    - very bad
+    - awful
+    - terrible
+    - not very good
+    - not good
+    - frustrated
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - what are you?
+
+- intent: request_news
+  examples: |
+    - What's the latest news?
+    - Can you show me recent news articles?
+    - Show news about [politics](topic)
+    - Find articles about [healthcare](topic)
+    - Any news on [technology](topic)?
+    - Latest news from [CNN](source)
+    - News from [BBC](source) about [climate change](topic)
+    - Show me news from [yesterday](timeframe)
+    - What happened this [week](timeframe) in [sports](topic)?
+    - Articles from [last month](timeframe)
+
+- intent: request_sentiment_analysis
+  examples: |
+    - Analyze sentiment for topic [renewable energy](topic)
+    - What's the sentiment about [elections](topic)?
+    - How do people feel about [new product launch](topic)?
+    - Show sentiment analysis for [Twitter](platform) posts
+    - Analyze sentiment on [Facebook](platform) about [new tax policy](topic)
+    - Is the sentiment positive for [our brand](topic)?
+    - What's the public mood about [recent announcement](topic)?
+    - Sentiment report for [Instagram](platform) mentions
+    - How is our [brand reputation](topic) doing?
+    - Sentiment trends for [past week](timeframe)
+
+- intent: request_content_metrics
+  examples: |
+    - Show me content performance metrics
+    - How is our content performing?
+    - Performance stats for [blog posts](topic)
+    - Engagement metrics for [video content](topic)
+    - How many views did our [latest article](topic) get?
+    - Social media performance for [brand campaign](topic)
+    - Show metrics for [Twitter](platform) account
+    - Performance report for [last week](timeframe)
+    - Content reach on [Facebook](platform)
+    - Engagement rate for [Instagram](platform) posts
+
+- intent: ask_about_media_coverage
+  examples: |
+    - How much media coverage did we get?
+    - Media mentions for [new product](topic)
+    - Show press coverage for [company announcement](topic)
+    - Coverage analysis for [industry](topic)
+    - Media mentions by [publication type](topic)
+    - News coverage report for [event](topic)
+    - How many times was [keyword](keyword) mentioned?
+    - Media exposure for [brand](topic) in [last month](timeframe)
+    - Press mentions trend for [quarter](timeframe)
+    - Coverage comparison with competitors
+
+- intent: ask_about_platform
+  examples: |
+    - What platforms do you monitor?
+    - Can you analyze [Twitter](platform)?
+    - Do you support [Facebook](platform) analysis?
+    - Which social media platforms are supported?
+    - Can you track [Instagram](platform) posts?
+    - Is [LinkedIn](platform) included in your monitoring?
+    - Do you analyze news websites?
+    - What about [YouTube](platform) content?
+    - Can you monitor [TikTok](platform)?
+    - Which news sources do you track?
+    - ما هي المنصات التي تراقبها؟
+    - هل يمكنك تحليل [تويتر](platform)؟
+    - هل تدعم تحليل [فيسبوك](platform)؟
+    - ما هي منصات التواصل الاجتماعي المدعومة؟
+    - هل يمكنك تتبع منشورات [انستغرام](platform)؟
+
+- intent: get_kpi_report
+  examples: |
+    - Generate a KPI report for me
+    - I need a [performance](metric_type) report
+    - Create a report for [social media engagement](metric_type)
+    - Can you get me the [audience growth](metric_type) KPIs?
+    - KPI report for [last month](date_range) please
+    - Show me KPIs for [Q1](date_range)
+    - I want to see our [website traffic](metric_type) metrics
+    - Generate a [PDF](format) report for [media mentions](metric_type)
+    - Create an [Excel](format) KPI report for [brand sentiment](metric_type)
+    - What are our [conversion](metric_type) KPIs for [this quarter](date_range)?
+    - Generate a report on [excellence indicators](metric_type)
+    - أحتاج تقرير مؤشرات الأداء الرئيسية
+    - أنشئ تقريرًا عن [مشاركة وسائل التواصل الاجتماعي](metric_type)
+    - هل يمكنك إعداد تقرير [نمو الجمهور](metric_type)؟
+    - تقرير أداء [الشهر الماضي](date_range) من فضلك
+    - أريد أن أرى مقاييس [حركة الموقع](metric_type) الخاصة بنا
+    
+- intent: set_alert
+  examples: |
+    - Set up an alert for [keyword](keyword)
+    - Create alert when [brand name](keyword) is mentioned
+    - Alert me if [competitor](keyword) appears in news
+    - Set up monitoring for [crisis terms](keyword)
+    - I want alerts for [negative sentiment](keyword) posts
+    - Create [social media](platform) alerts for [product name](keyword)
+    - Notify me when [hashtag](keyword) is trending
+    - Set up daily alerts for [important topic](keyword)
+    - Create immediate notification for [PR crisis](keyword) mentions
+    - I need weekly alerts for [industry news](keyword)
+    - إعداد تنبيه للكلمة المفتاحية [كلمة مفتاحية](keyword)
+    - إنشاء تنبيه عند ذكر [اسم العلامة التجارية](keyword)
+    - تنبيهي إذا ظهر [المنافس](keyword) في الأخبار
+    - إعداد مراقبة [مصطلحات الأزمة](keyword)
+    - أريد تنبيهات لمنشورات [المشاعر السلبية](keyword)
+
+- intent: add_journalist
+  examples: |
+    - Add a new journalist to the database
+    - I need to add [John Smith](journalist_name) from [CNN](journalist_source)
+    - Register journalist [Sarah Jones](journalist_name) from [BBC](journalist_source)
+    - Create new media contact for [Al Jazeera](journalist_source)
+    - Add tech reporter [Mike Lee](journalist_name) to contacts
+    - Register [Jane Wilson](journalist_name) as [freelancer](journalist_source)
+    - I want to add a new press contact
+    - Create journalist profile for [Robert Chen](journalist_name)
+    - How do I add press contacts to the system?
+    - Add [Maria Garcia](journalist_name) to our media contacts list
+    - إضافة صحفي جديد إلى قاعدة البيانات
+    - أحتاج إلى إضافة [جون سميث](journalist_name) من [سي إن إن](journalist_source)
+    - تسجيل الصحفي [سارة جونز](journalist_name) من [بي بي سي](journalist_source)
+    - إنشاء جهة اتصال إعلامية جديدة لـ [الجزيرة](journalist_source)
+    - كيف أضيف جهات اتصال صحفية إلى النظام؟
+
+- intent: publish_post
+  examples: |
+    - Publish a social media post
+    - Post this content on [Twitter](post_platform): [Here is the content](post_content)
+    - Share this on [Facebook](post_platform): [Check our new product](post_content)
+    - Post to [Instagram](post_platform): [New announcement](post_content)
+    - Can you publish this content on our social media?
+    - Upload this post to all our accounts: [Special offer today](post_content)
+    - Publish to [LinkedIn](post_platform): [We're hiring!](post_content)
+    - Share news article on [Twitter](post_platform)
+    - Post this press release on social media
+    - Create a post about [product launch](post_content)
+    - نشر منشور على وسائل التواصل الاجتماعي
+    - نشر هذا المحتوى على [تويتر](post_platform): [هنا المحتوى](post_content)
+    - مشاركة هذا على [فيسبوك](post_platform): [تحقق من منتجنا الجديد](post_content)
+    - هل يمكنك نشر هذا المحتوى على وسائل التواصل الاجتماعي الخاصة بنا؟
+    - نشر على [لينكد إن](post_platform): [نحن نوظف!](post_content)
+
+- intent: schedule_post
+  examples: |
+    - Schedule a post for later
+    - Schedule this for [tomorrow at 2pm](post_schedule_time): [Check our webinar](post_content)
+    - Plan a post for [next Monday](post_schedule_time) on [Facebook](post_platform)
+    - Set up a scheduled post for [January 15th](post_schedule_time)
+    - Schedule content for [weekend](post_schedule_time) on all platforms
+    - I want to schedule [this announcement](post_content) for [next week](post_schedule_time)
+    - Create a scheduled post for [Instagram](post_platform) at [5pm](post_schedule_time)
+    - Plan social media calendar for [next month](post_schedule_time)
+    - Schedule this tweet for [tonight](post_schedule_time)
+    - Set up post scheduling for [product launch](post_content)
+    - جدولة منشور للاحقًا
+    - جدولة هذا لـ [غدًا الساعة 2 مساءً](post_schedule_time): [تحقق من ندوتنا عبر الإنترنت](post_content)
+    - تخطيط منشور لـ [الاثنين المقبل](post_schedule_time) على [فيسبوك](post_platform)
+    - إعداد منشور مجدول لـ [15 يناير](post_schedule_time)
+    - جدولة المحتوى لـ [عطلة نهاية الأسبوع](post_schedule_time) على جميع المنصات
+
+- intent: smart_report_customization
+  examples: |
+    - I want to customize our reports
+    - Create a custom [performance](report_type) report
+    - How do I customize the [social media](report_type) report?
+    - Change report layout for [weekly](date_range) reporting
+    - Add [sentiment analysis](metric_type) section to our reports
+    - Customize the [executive dashboard](report_type)
+    - I need a tailored report for [stakeholders](report_type)
+    - How to add custom metrics to reports?
+    - Change visualization in [media coverage](report_type) report
+    - Add [competitor analysis](metric_type) to our [monthly](date_range) report
+    - أريد تخصيص تقاريرنا
+    - إنشاء تقرير [أداء](report_type) مخصص
+    - كيف يمكنني تخصيص تقرير [وسائل التواصل الاجتماعي](report_type)؟
+    - تغيير تخطيط التقرير للإبلاغ [الأسبوعي](date_range)
+    - إضافة قسم [تحليل المشاعر](metric_type) إلى تقاريرنا
+    - تخصيص [لوحة معلومات المديرين](report_type)
+
+- intent: fill_kpis_help
+  examples: |
+    - How do I fill KPIs with actual data?
+    - Guide me on adding data to [engagement](kpi_category) KPIs
+    - Steps to update KPI values
+    - How to connect KPIs to data sources?
+    - Can't figure out how to update our [performance](kpi_category) metrics
+    - How to link [Google Analytics](kpi_category) to our KPIs?
+    - Process for updating [social media](kpi_category) KPIs
+    - Need help filling in [quarterly](date_range) KPI data
+    - How to automate KPI data entry?
+    - Steps to manually input KPI values
+    - كيف يمكنني ملء مؤشرات الأداء الرئيسية بالبيانات الفعلية؟
+    - إرشادي حول إضافة بيانات إلى مؤشرات أداء [المشاركة](kpi_category)
+    - خطوات لتحديث قيم مؤشرات الأداء الرئيسية
+    - كيف تربط مؤشرات الأداء الرئيسية بمصادر البيانات؟
+    - لا يمكنني معرفة كيفية تحديث مقاييس [الأداء](kpi_category) الخاصة بنا
+
+- intent: explain_app
+  examples: |
+    - What is Media Pulse?
+    - Tell me about this application
+    - What can this platform do?
+    - Explain the features of Media Pulse
+    - What is this tool used for?
+    - Give me an overview of this system
+    - How does Media Pulse help with media monitoring?
+    - What capabilities does this app have?
+    - Explain how this platform works
+    - What's the purpose of this application?
+    - ما هو ميديا بولس؟
+    - أخبرني عن هذا التطبيق
+    - ماذا يمكن لهذه المنصة أن تفعل؟
+    - اشرح ميزات ميديا بولس
+    - ما هو الغرض من هذا التطبيق؟
+    - كيف يساعد ميديا بولس في مراقبة وسائل الإعلام؟
+
+- intent: how_it_works
+  examples: |
+    - How does Media Pulse work?
+    - Explain the workflow of this platform
+    - What's the technology behind Media Pulse?
+    - How does the system process media data?
+    - How does sentiment analysis work here?
+    - Technical details of how this works
+    - Explain the architecture of the platform
+    - How does AI help in media monitoring?
+    - What happens when I add a new media source?
+    - How is data collected and analyzed?
+    - كيف يعمل ميديا بولس؟
+    - اشرح سير عمل هذه المنصة
+    - ما هي التقنية وراء ميديا بولس؟
+    - كيف يعالج النظام بيانات الوسائط؟
+    - كيف يعمل تحليل المشاعر هنا؟
+    - تفاصيل تقنية عن كيفية عمل هذا
+
+- intent: social_media_verification
+  examples: |
+    - How do I verify my social media account?
+    - Steps to connect [Twitter](verification_platform) account
+    - Connect my [Facebook](verification_platform) page to Media Pulse
+    - How to verify [Instagram](verification_platform) credentials?
+    - Help with [LinkedIn](verification_platform) authentication
+    - Can't connect my [YouTube](verification_platform) channel
+    - Process for adding social media accounts
+    - Social media authentication steps
+    - How to add company [TikTok](verification_platform) account?
+    - Trouble with social media verification
+    - كيف أتحقق من حساب وسائل التواصل الاجتماعي الخاص بي؟
+    - خطوات لربط حساب [تويتر](verification_platform)
+    - ربط صفحة [فيسبوك](verification_platform) الخاصة بي بـ ميديا بولس
+    - كيف أتحقق من بيانات اعتماد [انستغرام](verification_platform)؟
+    - مساعدة في مصادقة [لينكد إن](verification_platform)
+
+- intent: excellence_indicators_help
+  examples: |
+    - What are excellence indicators?
+    - Help with [strategic](excellence_category) excellence metrics
+    - How to use the excellence dashboard?
+    - Setting up [operational](excellence_category) indicators
+    - Can't understand [financial](excellence_category) excellence metrics
+    - How do excellence indicators work?
+    - Purpose of [innovation](excellence_category) metrics
+    - Setting targets for excellence indicators
+    - Help with excellence reporting
+    - Excellence indicators best practices
+    - ما هي مؤشرات التميز؟
+    - مساعدة في مقاييس التميز [الاستراتيجية](excellence_category)
+    - كيف تستخدم لوحة معلومات التميز؟
+    - إعداد مؤشرات [التشغيل](excellence_category)
+    - لا يمكنني فهم مقاييس التميز [المالية](excellence_category)
+    - كيف تعمل مؤشرات التميز؟
+
+- intent: media_center_help
+  examples: |
+    - How to use the Media Center?
+    - Help with press release management
+    - Guide to publishing [press releases](media_type)
+    - Managing journalist contacts in Media Center
+    - How to distribute media content?
+    - Creating [press kits](media_type) in the system
+    - Media Center workflow explanation
+    - How to organize [media assets](media_type)?
+    - Media relations management help
+    - Media outreach tracking in the platform
+    - كيفية استخدام المركز الإعلامي؟
+    - مساعدة في إدارة البيانات الصحفية
+    - دليل لنشر [البيانات الصحفية](media_type)
+    - إدارة جهات اتصال الصحفيين في المركز الإعلامي
+    - كيفية توزيع المحتوى الإعلامي؟
+    - إنشاء [مجموعات صحفية](media_type) في النظام
+
+- intent: archive_help
+  examples: |
+    - How do I access the archives?
+    - Retrieving old [reports](archive_category)
+    - Finding archived [media coverage](archive_category)
+    - Searching historical [social media posts](archive_category)
+    - Archive navigation help
+    - How long are [media mentions](archive_category) stored?
+    - Accessing last year's [analytics](archive_category)
+    - Archive search functionality
+    - Export data from archives
+    - Archive organization system
+    - كيف يمكنني الوصول إلى الأرشيف؟
+    - استرجاع [التقارير](archive_category) القديمة
+    - العثور على [التغطية الإعلامية](archive_category) المؤرشفة
+    - البحث في [منشورات وسائل التواصل الاجتماعي](archive_category) التاريخية
+    - مساعدة في التنقل في الأرشيف
+    - ما هي مدة تخزين [ذكر وسائل الإعلام](archive_category)؟
+
+- intent: settings_help
+  examples: |
+    - How do I change my [notification](settings_type) settings?
+    - Update [user](settings_type) preferences
+    - Change [language](settings_type) to Arabic
+    - Help with [API integration](settings_type) settings
+    - How to manage [team access](settings_type) permissions?
+    - Configuring [alert](settings_type) thresholds
+    - Changing [dashboard](settings_type) layout settings
+    - Setup [email notification](settings_type) frequency
+    - [Account](settings_type) settings location
+    - How to update [security](settings_type) settings?
+    - كيف يمكنني تغيير إعدادات [الإشعارات](settings_type) الخاصة بي؟
+    - تحديث تفضيلات [المستخدم](settings_type)
+    - تغيير [اللغة](settings_type) إلى العربية
+    - مساعدة في إعدادات [تكامل API](settings_type)
+    - كيفية إدارة أذونات [وصول الفريق](settings_type)؟
+    - تكوين حدود [التنبيه](settings_type)
+
+- intent: osint_help
+  examples: |
+    - What is OSINT in Media Pulse?
+    - How to use [open source intelligence](osint_source) features?
+    - Setting up [web monitoring](osint_source) for topics
+    - Help with [public data](osint_source) collection
+    - OSINT capabilities explanation
+    - How to track [public forums](osint_source)?
+    - Setting up [blogs](osint_source) monitoring
+    - Finding information from [public records](osint_source)
+    - OSINT tracking best practices
+    - Difference between social monitoring and OSINT
+    - ما هو OSINT في ميديا بولس؟
+    - كيفية استخدام ميزات [استخبارات المصادر المفتوحة](osint_source)؟
+    - إعداد [مراقبة الويب](osint_source) للمواضيع
+    - مساعدة في جمع [البيانات العامة](osint_source)
+    - شرح قدرات OSINT
+    - كيفية تتبع [المنتديات العامة](osint_source)؟
+    
+- intent: inform
+  examples: |
+    - PDF format please
+    - Excel format
+    - I want [sentiment](metric_type) data
+    - Here's the information: [content](post_content)
+    - For [Twitter](platform)
+    - Include [engagement metrics](metric_type)
+    - The keyword is [brand crisis](keyword)
+    - [Tomorrow](date_range)
+    - I want it for [next week](date_range)
+    - Schedule for [10 AM](post_schedule_time)
+    - The journalist name is [John Smith](journalist_name)
+    - From [CNN](journalist_source)
+    - My username is [username]
+    - My password is [password]
+    - For [Q1 2024](date_range)
+    - Including [competitor analysis](metric_type)
+    - بتنسيق PDF من فضلك
+    - تنسيق Excel
+    - أريد بيانات [المشاعر](metric_type)
+    - هذه هي المعلومات: [المحتوى](post_content)
+    - لـ [تويتر](platform)
+    - تضمين [مقاييس المشاركة](metric_type)
+    - الكلمة المفتاحية هي [أزمة العلامة التجارية](keyword)
+    - [غدًا](date_range)
+    - أريده لـ [الأسبوع المقبل](date_range)
+    - جدولة لـ [10 صباحًا](post_schedule_time)
+    - اسم الصحفي هو [جون سميث](journalist_name)
+    - من [سي إن إن](journalist_source)

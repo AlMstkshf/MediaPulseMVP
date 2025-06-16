@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to index all content
+Disallow: /login
+Disallow: /settings
+Disallow: /users
+Disallow: /support/tickets
+Disallow: /support/tickets/*
+
+# Tell search engines where to find the sitemap
+Sitemap: https://media-intelligence-platform.com/sitemap.xml

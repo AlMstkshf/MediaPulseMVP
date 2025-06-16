@@ -1,0 +1,173 @@
+client:536 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/?token=2YszueME49TP' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=2YszueME49TP' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-276SZO74.js?v=b14cc259:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:11 Initializing i18n...
+index.ts:36 i18n initialized successfully
+main.tsx:26 SaferApp rendered successfully
+theme-context.tsx:40 Setting document theme: light
+safe-websocket-context.tsx:145 [SafeWebSocketContext] Cleaning up WebSocket connection
+theme-context.tsx:40 Setting document theme: light
+safe-websocket-context.tsx:145 [SafeWebSocketContext] Cleaning up WebSocket connection
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:70 [SafeWebSocketContext] Connected to WebSocket server
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+SaferApp.tsx:43 Error caught by error boundary: Error: useWebSocket must be used within a WebSocketProvider
+    at useWebSocket (websocket-context.tsx:215:11)
+    at SocialMediaIcons (SocialMediaIcons.tsx:96:51)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-276SZO74.js?v=b14cc259:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-276SZO74.js?v=b14cc259:3699:24)
+    at invokeGuardedCallback (chunk-276SZO74.js?v=b14cc259:3733:39)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19765:15)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+handleError @ SaferApp.tsx:43
+chunk-276SZO74.js?v=b14cc259:521 Warning: Cannot update a component (`ErrorBoundary`) while rendering a different component (`SocialMediaIcons`). To locate the bad setState() call inside `SocialMediaIcons`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
+    at SocialMediaIcons (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/dashboard/SocialMediaIcons.tsx:84:43)
+    at div
+    at div
+    at _c9 (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/card.tsx:20:11)
+    at SocialMediaStats (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/dashboard/SocialMediaStats.tsx:26:21)
+    at div
+    at main
+    at div
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Dashboard (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/dashboard.tsx:42:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b14cc259:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b14cc259:379:17)
+    at main
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/SaferApp.tsx?v=iLHYVzteWswJrbfZT5Lxe:71:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at SafeWebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/safe-websocket-context.tsx:34:41)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b14cc259:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=b14cc259:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=b14cc259:2805:3)
+    at SaferApp (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/SaferApp.tsx?v=iLHYVzteWswJrbfZT5Lxe:149:20)
+printWarning @ chunk-276SZO74.js?v=b14cc259:521
+websocket-context.tsx:215 Uncaught Error: useWebSocket must be used within a WebSocketProvider
+    at useWebSocket (websocket-context.tsx:215:11)
+    at SocialMediaIcons (SocialMediaIcons.tsx:96:51)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-276SZO74.js?v=b14cc259:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-276SZO74.js?v=b14cc259:3699:24)
+    at invokeGuardedCallback (chunk-276SZO74.js?v=b14cc259:3733:39)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19765:15)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+SaferApp.tsx:43 Error caught by error boundary: ReferenceError: useState is not defined
+    at TutorialSection (TutorialSection.tsx:16:45)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-276SZO74.js?v=b14cc259:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-276SZO74.js?v=b14cc259:3699:24)
+    at invokeGuardedCallback (chunk-276SZO74.js?v=b14cc259:3733:39)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19765:15)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopConcurrent (chunk-276SZO74.js?v=b14cc259:19189:13)
+handleError @ SaferApp.tsx:43
+chunk-276SZO74.js?v=b14cc259:521 Warning: Cannot update a component (`ErrorBoundary`) while rendering a different component (`TutorialSection`). To locate the bad setState() call inside `TutorialSection`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
+    at TutorialSection (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/dashboard/TutorialSection.tsx:32:45)
+    at main
+    at div
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Dashboard (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/dashboard.tsx:42:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b14cc259:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b14cc259:379:17)
+    at main
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/SaferApp.tsx?v=iLHYVzteWswJrbfZT5Lxe:71:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at SafeWebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/safe-websocket-context.tsx:34:41)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b14cc259:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=b14cc259:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=b14cc259:2805:3)
+    at SaferApp (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/SaferApp.tsx?v=iLHYVzteWswJrbfZT5Lxe:149:20)
+printWarning @ chunk-276SZO74.js?v=b14cc259:521
+TutorialSection.tsx:16 Uncaught ReferenceError: useState is not defined
+    at TutorialSection (TutorialSection.tsx:16:45)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-276SZO74.js?v=b14cc259:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-276SZO74.js?v=b14cc259:3699:24)
+    at invokeGuardedCallback (chunk-276SZO74.js?v=b14cc259:3733:39)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19765:15)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopConcurrent (chunk-276SZO74.js?v=b14cc259:19189:13)
+SaferApp.tsx:43 Error caught by error boundary: Error: useWebSocket must be used within a WebSocketProvider
+    at useWebSocket (websocket-context.tsx:215:11)
+    at SocialMediaIcons (SocialMediaIcons.tsx:96:51)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19753:22)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopConcurrent (chunk-276SZO74.js?v=b14cc259:19189:13)
+    at renderRootConcurrent (chunk-276SZO74.js?v=b14cc259:19164:15)
+    at performConcurrentWorkOnRoot (chunk-276SZO74.js?v=b14cc259:18678:46)
+handleError @ SaferApp.tsx:43
+websocket-context.tsx:215 Uncaught Error: useWebSocket must be used within a WebSocketProvider
+    at useWebSocket (websocket-context.tsx:215:11)
+    at SocialMediaIcons (SocialMediaIcons.tsx:96:51)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19753:22)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopConcurrent (chunk-276SZO74.js?v=b14cc259:19189:13)
+    at renderRootConcurrent (chunk-276SZO74.js?v=b14cc259:19164:15)
+    at performConcurrentWorkOnRoot (chunk-276SZO74.js?v=b14cc259:18678:46)
+SaferApp.tsx:43 Error caught by error boundary: ReferenceError: useState is not defined
+    at TutorialSection (TutorialSection.tsx:16:45)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19753:22)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopConcurrent (chunk-276SZO74.js?v=b14cc259:19189:13)
+    at renderRootConcurrent (chunk-276SZO74.js?v=b14cc259:19164:15)
+    at performConcurrentWorkOnRoot (chunk-276SZO74.js?v=b14cc259:18678:46)
+    at workLoop (chunk-276SZO74.js?v=b14cc259:197:42)
+handleError @ SaferApp.tsx:43
+TutorialSection.tsx:16 Uncaught ReferenceError: useState is not defined
+    at TutorialSection (TutorialSection.tsx:16:45)
+    at renderWithHooks (chunk-276SZO74.js?v=b14cc259:11548:26)
+    at mountIndeterminateComponent (chunk-276SZO74.js?v=b14cc259:14926:21)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15914:22)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19753:22)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopConcurrent (chunk-276SZO74.js?v=b14cc259:19189:13)
+    at renderRootConcurrent (chunk-276SZO74.js?v=b14cc259:19164:15)
+    at performConcurrentWorkOnRoot (chunk-276SZO74.js?v=b14cc259:18678:46)
+    at workLoop (chunk-276SZO74.js?v=b14cc259:197:42)
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:107 [SafeWebSocketContext] WebSocket connection closed: 1006 
+safe-websocket-context.tsx:119 [SafeWebSocketContext] Attempting to reconnect...
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:70 [SafeWebSocketContext] Connected to WebSocket server
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-25T22:33:32.130Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] WebSocket connection closed: 1006 
+safe-websocket-context.tsx:119 [SafeWebSocketContext] Attempting to reconnect...
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:70 [SafeWebSocketContext] Connected to WebSocket server
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'connect', message: 'Connected to Media Intelligence WebSocket server', timestamp: '2025-04-25T22:34:00.719Z'}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-25T22:34:00.778Z'}

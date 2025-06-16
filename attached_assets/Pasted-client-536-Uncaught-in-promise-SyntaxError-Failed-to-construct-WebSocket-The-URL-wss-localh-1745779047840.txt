@@ -1,0 +1,28 @@
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=50JKxlHI8RJ5' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-276SZO74.js?v=76f26942:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:13 Initializing i18n...
+index.ts:26 Using stored language preference: ar
+index.ts:51 i18n initialized successfully
+main.tsx:26 SaferApp rendered successfully
+theme-context.tsx:40 Setting document theme: light
+safe-websocket-context.tsx:223 [SafeWebSocketContext] Cleaning up WebSocket connection
+theme-context.tsx:40 Setting document theme: light
+safe-websocket-context.tsx:223 [SafeWebSocketContext] Cleaning up WebSocket connection
+safe-websocket-context.tsx:68 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:74 [SafeWebSocketContext] Connected to WebSocket server
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'connect', message: 'Welcome to Media Intelligence live channel', connectionId: 'qnfvnaom6zl', connectionTime: '2025-04-27T18:35:50.744Z', activeUsers: 2, …}
+safe-websocket-context.tsx:101 [SafeWebSocketContext] Connection welcome message: Welcome to Media Intelligence live channel
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-27T18:35:51.368Z'}
+safe-websocket-context.tsx:111 [SafeWebSocketContext] Received pong from server at 2025-04-27T18:35:51.368Z
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-27T18:36:04.615Z', silent: true}
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-27T18:36:21.245Z'}
+safe-websocket-context.tsx:111 [SafeWebSocketContext] Received pong from server at 2025-04-27T18:36:21.245Z
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-27T18:36:34.616Z', silent: true}
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-27T18:36:51.242Z'}
+safe-websocket-context.tsx:111 [SafeWebSocketContext] Received pong from server at 2025-04-27T18:36:51.242Z
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-27T18:37:04.617Z', silent: true}
+safe-websocket-context.tsx:96 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-27T18:37:21.235Z'}
+safe-websocket-context.tsx:111 [SafeWebSocketContext] Received pong from server at 2025-04-27T18:37:21.235Z

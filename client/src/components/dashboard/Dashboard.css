@@ -1,0 +1,488 @@
+/* Dashboard layout styling */
+.dashboard-page {
+  padding: 1rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dashboard-content {
+  min-height: 400px;
+}
+
+.loading-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+/* Widget selector styling */
+.widget-selector-container {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: var(--background-secondary);
+  border-radius: 0.5rem;
+}
+
+.widget-selector h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.widget-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.widget-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 100px;
+}
+
+.widget-option:hover {
+  border-color: var(--primary);
+  background-color: var(--primary-light);
+}
+
+.widget-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.widget-name {
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--foreground);
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Individual widget styling */
+.dashboard-widget {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: var(--foreground);
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--background-secondary);
+}
+
+.widget-header h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--foreground);
+}
+
+.widget-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.widget-content {
+  flex: 1;
+  padding: 1rem;
+  overflow: auto;
+  color: var(--foreground);
+}
+
+/* Widget settings form */
+.widget-settings {
+  padding: 1rem;
+  color: var(--foreground);
+}
+
+.widget-settings h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--foreground);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--foreground);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  color: var(--foreground);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.form-actions button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.form-actions button:first-child {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+}
+
+.form-actions button:last-child {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--foreground);
+}
+
+/* Button styling */
+.edit-button, .save-button, .cancel-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.edit-button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.save-button {
+  background-color: #10b981; /* Green color for better visibility */
+  color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cancel-button {
+  background-color: #1f2937; /* Dark background */
+  border: 1px solid var(--border);
+  color: white; /* White text for better contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-button, .remove-button {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: var(--foreground);
+}
+
+.settings-button:hover, .remove-button:hover {
+  background-color: var(--background-hover);
+}
+
+/* Responsive styling for widgets */
+.widget-content h3, 
+.widget-content h4 {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--foreground);
+}
+
+.widget-content p {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: var(--foreground);
+}
+
+.widget-content ul {
+  padding-left: 1.25rem;
+  color: var(--foreground);
+}
+
+.widget-content li {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  color: var(--foreground);
+}
+
+/* Specific widget content styling */
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ellipsis-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .widget-options {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+  
+  .widget-option {
+    height: 90px;
+    padding: 0.5rem;
+  }
+  
+  .widget-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .widget-name {
+    font-size: 0.75rem;
+    max-width: 100px;
+  }
+  
+  .widget-content {
+    padding: 0.75rem;
+  }
+}
+
+/* Widget list item styling */
+.widget-list-item {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+  gap: 0.75rem;
+  align-items: flex-start;
+  color: var(--foreground);
+}
+
+.widget-list-item:last-child {
+  border-bottom: none;
+}
+
+.widget-list-item-icon {
+  flex-shrink: 0;
+  color: var(--muted-foreground);
+}
+
+.widget-list-item-content {
+  flex: 1;
+  min-width: 0; /* Enables truncation for the content */
+}
+
+.widget-list-item-title {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--foreground);
+}
+
+.widget-list-item-description {
+  color: var(--muted-foreground);
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.widget-list-meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  color: var(--muted-foreground);
+  margin-top: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.widget-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.widget-card {
+  background-color: var(--background-secondary);
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  color: var(--foreground);
+}
+
+.widget-card-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: var(--foreground);
+}
+
+.widget-card-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.widget-chart-container {
+  height: 200px;
+  width: 100%;
+}
+
+/* Fix for recharts legend text */
+.recharts-legend-item-text {
+  display: inline-block;
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  color: var(--foreground) !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: var(--foreground) !important;
+}
+
+.recharts-text {
+  fill: var(--foreground) !important;
+}
+
+/* Quick action buttons */
+.action-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--background-secondary);
+  border-radius: 0.375rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  height: 100px;
+  color: var(--foreground);
+}
+
+.action-button:hover {
+  border-color: var(--primary);
+  background-color: var(--primary-light);
+}
+
+.action-button-icon {
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.action-button-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--foreground);
+}
+
+/* Empty state styling */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted-foreground);
+}
+
+.empty-state-icon {
+  margin-bottom: 1rem;
+  opacity: 0.2;
+}
+
+.empty-state-text {
+  font-size: 0.9rem;
+}

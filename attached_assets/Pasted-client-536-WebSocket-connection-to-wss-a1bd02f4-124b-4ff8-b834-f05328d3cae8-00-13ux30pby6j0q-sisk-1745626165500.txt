@@ -1,0 +1,153 @@
+client:536 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/?token=flaxXpxVDjM3' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=flaxXpxVDjM3' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-276SZO74.js?v=b14cc259:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:11 Initializing i18n...
+index.ts:36 i18n initialized successfully
+main.tsx:26 SaferApp rendered successfully
+theme-context.tsx:40 Setting document theme: light
+safe-websocket-context.tsx:219 [SafeWebSocketContext] Cleaning up WebSocket connection
+theme-context.tsx:40 Setting document theme: light
+SaferApp.tsx:43 Error caught by error boundary: TypeError: Cannot read properties of undefined (reading 'add')
+    at HelmetDispatcher.init (react-helmet-async.js?v=b14cc259:819:21)
+    at HelmetDispatcher.render (react-helmet-async.js?v=b14cc259:823:10)
+    at finishClassComponent (chunk-276SZO74.js?v=b14cc259:14699:39)
+    at updateClassComponent (chunk-276SZO74.js?v=b14cc259:14664:32)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15930:22)
+    at HTMLUnknownElement.callCallback2 (chunk-276SZO74.js?v=b14cc259:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-276SZO74.js?v=b14cc259:3699:24)
+    at invokeGuardedCallback (chunk-276SZO74.js?v=b14cc259:3733:39)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19765:15)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+handleError @ SaferApp.tsx:43
+chunk-276SZO74.js?v=b14cc259:521 Warning: Cannot update a component (`ErrorBoundary`) while rendering a different component (`HelmetDispatcher`). To locate the bad setState() call inside `HelmetDispatcher`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
+    at HelmetDispatcher (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-helmet-async.js?v=b14cc259:779:5)
+    at _a2 (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-helmet-async.js?v=b14cc259:828:21)
+    at main
+    at div
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Tutorials (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/tutorials.tsx:29:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b14cc259:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b14cc259:379:17)
+    at main
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/SaferApp.tsx?v=aE-56S-uEGPlVc6WMpB2n:71:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at SafeWebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/safe-websocket-context.tsx:34:41)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b14cc259:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=b14cc259:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=b14cc259:2805:3)
+    at SaferApp (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/SaferApp.tsx?v=aE-56S-uEGPlVc6WMpB2n:149:20)
+printWarning @ chunk-276SZO74.js?v=b14cc259:521
+react-helmet-async.js?v=b14cc259:819 Uncaught TypeError: Cannot read properties of undefined (reading 'add')
+    at HelmetDispatcher.init (react-helmet-async.js?v=b14cc259:819:21)
+    at HelmetDispatcher.render (react-helmet-async.js?v=b14cc259:823:10)
+    at finishClassComponent (chunk-276SZO74.js?v=b14cc259:14699:39)
+    at updateClassComponent (chunk-276SZO74.js?v=b14cc259:14664:32)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15930:22)
+    at HTMLUnknownElement.callCallback2 (chunk-276SZO74.js?v=b14cc259:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-276SZO74.js?v=b14cc259:3699:24)
+    at invokeGuardedCallback (chunk-276SZO74.js?v=b14cc259:3733:39)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19765:15)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+SaferApp.tsx:43 Error caught by error boundary: TypeError: Cannot read properties of undefined (reading 'add')
+    at HelmetDispatcher.init (react-helmet-async.js?v=b14cc259:819:21)
+    at HelmetDispatcher.render (react-helmet-async.js?v=b14cc259:823:10)
+    at finishClassComponent (chunk-276SZO74.js?v=b14cc259:14699:39)
+    at updateClassComponent (chunk-276SZO74.js?v=b14cc259:14664:32)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15930:22)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19753:22)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopSync (chunk-276SZO74.js?v=b14cc259:19137:13)
+    at renderRootSync (chunk-276SZO74.js?v=b14cc259:19116:15)
+    at performSyncWorkOnRoot (chunk-276SZO74.js?v=b14cc259:18874:28)
+handleError @ SaferApp.tsx:43
+react-helmet-async.js?v=b14cc259:819 Uncaught TypeError: Cannot read properties of undefined (reading 'add')
+    at HelmetDispatcher.init (react-helmet-async.js?v=b14cc259:819:21)
+    at HelmetDispatcher.render (react-helmet-async.js?v=b14cc259:823:10)
+    at finishClassComponent (chunk-276SZO74.js?v=b14cc259:14699:39)
+    at updateClassComponent (chunk-276SZO74.js?v=b14cc259:14664:32)
+    at beginWork (chunk-276SZO74.js?v=b14cc259:15930:22)
+    at beginWork$1 (chunk-276SZO74.js?v=b14cc259:19753:22)
+    at performUnitOfWork (chunk-276SZO74.js?v=b14cc259:19198:20)
+    at workLoopSync (chunk-276SZO74.js?v=b14cc259:19137:13)
+    at renderRootSync (chunk-276SZO74.js?v=b14cc259:19116:15)
+    at performSyncWorkOnRoot (chunk-276SZO74.js?v=b14cc259:18874:28)
+safe-websocket-context.tsx:219 [SafeWebSocketContext] Cleaning up WebSocket connection
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:70 [SafeWebSocketContext] Connected to WebSocket server
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:97 [SafeWebSocketContext] Connection welcome message: Welcome to Media Intelligence live channel
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: Object
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-25T23:59:19.082Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-25T23:59:34.111Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-25T23:59:49.098Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-25T23:59:49.098Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:00:04.111Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:00:19.094Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:00:19.094Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:00:34.112Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:00:49.099Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:00:49.099Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:01:04.112Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:01:19.085Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:01:19.085Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:01:34.111Z', silent: true}
+safe-websocket-context.tsx:181 [SafeWebSocketContext] WebSocket connection closed: 1006 
+safe-websocket-context.tsx:193 [SafeWebSocketContext] Attempting to reconnect...
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:66 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws' failed: 
+(anonymous) @ safe-websocket-context.tsx:66
+(anonymous) @ safe-websocket-context.tsx:194
+safe-websocket-context.tsx:175 [SafeWebSocketContext] WebSocket error: Event {isTrusted: true, type: 'error', target: WebSocket, currentTarget: WebSocket, eventPhase: 2, …}
+(anonymous) @ safe-websocket-context.tsx:175
+safe-websocket-context.tsx:181 [SafeWebSocketContext] WebSocket connection closed: 1006 
+safe-websocket-context.tsx:193 [SafeWebSocketContext] Attempting to reconnect...
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:66 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws' failed: 
+(anonymous) @ safe-websocket-context.tsx:66
+(anonymous) @ safe-websocket-context.tsx:194
+safe-websocket-context.tsx:175 [SafeWebSocketContext] WebSocket error: Event {isTrusted: true, type: 'error', target: WebSocket, currentTarget: WebSocket, eventPhase: 2, …}
+(anonymous) @ safe-websocket-context.tsx:175
+safe-websocket-context.tsx:181 [SafeWebSocketContext] WebSocket connection closed: 1006 
+safe-websocket-context.tsx:193 [SafeWebSocketContext] Attempting to reconnect...
+safe-websocket-context.tsx:64 [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+safe-websocket-context.tsx:70 [SafeWebSocketContext] Connected to WebSocket server
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'connect', message: 'Welcome to Media Intelligence live channel', connectionId: 'q2tg81w943d', connectionTime: '2025-04-26T00:02:13.145Z', activeUsers: 1, …}
+safe-websocket-context.tsx:97 [SafeWebSocketContext] Connection welcome message: Welcome to Media Intelligence live channel
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:02:13.257Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:02:13.257Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:02:40.237Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:02:44.065Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:02:44.065Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:03:10.237Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:03:14.034Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:03:14.034Z
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:03:40.237Z', silent: true}
+safe-websocket-context.tsx:92 [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:03:44.028Z'}
+safe-websocket-context.tsx:107 [SafeWebSocketContext] Received pong from server at 2025-04-26T00:03:44.028Z
+safe-websocket-context.tsx:181 [SafeWebSocketContext] WebSocket connection closed: 1006 
+safe-websocket-context.tsx:193 [SafeWebSocketContext] Attempting to reconnect...
+ [SafeWebSocketContext] Connecting to WebSocket at wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws
+ [SafeWebSocketContext] Connected to WebSocket server
+ [SafeWebSocketContext] Message from server: {type: 'connect', message: 'Welcome to Media Intelligence live channel', connectionId: 'z2a30m4wfij', connectionTime: '2025-04-26T00:04:04.166Z', activeUsers: 2, …}
+ [SafeWebSocketContext] Connection welcome message: Welcome to Media Intelligence live channel
+ [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:04:04.215Z'}
+ [SafeWebSocketContext] Received pong from server at 2025-04-26T00:04:04.215Z
+ [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:04:28.090Z', silent: true}
+ [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:04:35.037Z'}
+ [SafeWebSocketContext] Received pong from server at 2025-04-26T00:04:35.037Z
+ [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:04:58.090Z', silent: true}
+ [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:05:04.223Z'}
+ [SafeWebSocketContext] Received pong from server at 2025-04-26T00:05:04.223Z
+ [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:05:28.091Z', silent: true}
+ [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:05:34.219Z'}
+ [SafeWebSocketContext] Received pong from server at 2025-04-26T00:05:34.219Z
+ [SafeWebSocketContext] Message from server: {type: 'heartbeat', timestamp: '2025-04-26T00:05:58.093Z', silent: true}
+ [SafeWebSocketContext] Message from server: {type: 'pong', timestamp: '2025-04-26T00:06:04.223Z'}
+ [SafeWebSocketContext] Received pong from server at 2025-04-26T00:06:04.223Z

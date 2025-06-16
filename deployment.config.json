@@ -1,0 +1,7 @@
+{
+  "name": "media-pulse",
+  "domain": "media-pulse.almstkshf.com",
+  "version": "1.0.0",
+  "startCommand": "npm run replit",
+  "deploymentInstructions": "\n# Media Pulse Deployment\n\n## Production Configuration\n- Domain: media-pulse.almstkshf.com\n- Start command: npm run replit\n- Environment: NODE_ENV=production\n\n## Important Notes\n- This application uses a unified server approach for Replit\n- Static files are served from the 'dist/public' directory\n- API routes should be configured to work on port 8080\n\n## Deployment Process\n1. Run './deploy-to-replit.sh' to prepare deployment\n2. Click 'Deploy' in Replit\n  "
+}

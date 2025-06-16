@@ -1,0 +1,72 @@
+You are given an existing React page at `src/pages/excellence-indicators.jsx` (route `/excellence-indicators`). **DO NOT create a new page**, only update this one.
+
+### 1. Clean up sections  
+- **Remove** the current “رضا الجمهور” section (it duplicates metrics).  
+- **Ensure** only the four GEM2.1 axes remain:  
+  1. Government Communication  
+  2. Innovation  
+  3. Smart Empowerment  
+  4. Data & Knowledge  
+
+### 2. Add missing KPIs  
+For each axis, fetch from `kpiService` and compute via the formulas you already have. Then render both the main KPIs and their sub-indicators (in an accordion under each main row):
+
+**Government Communication**  
+- Coverage Volume  
+- Positive Coverage Rate  
+- Media Sentiment Index  
+- Social Engagement Rate  
+- **Response Time to Inquiries**  
+- **Share of Voice**  
+
+**Innovation**  
+- No. of Implemented Innovations  
+- Idea Implementation Rate  
+- Employee Innovation Participation Rate  
+- **Innovation Awards Count**  
+- **Operational Efficiency Improvement**  
+- **Innovation Media Coverage %**  
+
+**Smart Empowerment**  
+- Digital Services %  
+- Digital Services Adoption Rate  
+- Smart Services User Satisfaction  
+- **Internal Processes Automation %**  
+- **No. of Smart Initiatives Implemented**  
+
+**Data & Knowledge** (new section!)  
+- Knowledge Sharing Sessions Count  
+- Avg. Training Hours per Employee  
+- Core Data Accuracy Rate  
+- Statistical Reports Published  
+- Data-Driven Decision Index  
+
+### 3. Inputs & Controls  
+At the top of the page, add:  
+- A **date range picker** (`startDate`, `endDate`)  
+- A **axis selector** dropdown (Communication, Innovation, Smart, Data)  
+When changed, **refetch** data and **recompute** all metrics.
+
+### 4. Outputs  
+At the bottom of each axis section, add:  
+- **Refresh** button (calls fetch again)  
+- **Export CSV** button (downloads all KPI + sub-indicator rows)  
+- **Export PDF** button (prints only that section)
+
+### 5. UI & i18n  
+- Use existing Tailwind theme (`#f9f4e9`, `#cba344`), 2xl rounded, p-4, soft shadows.  
+- Use shared components: `<KpiTable>`, `<Accordion>`, `<DatePicker>`, `<Dropdown>`, `<Button>`.  
+- Wrap all strings in `t('excellence.key')` and update only:  
+  - `/locales/en/excellence.json`  
+  - `/locales/ar/excellence.json`  
+  Do not duplicate Arabic text in the English file.
+
+### 6. Testing & Documentation  
+- Add unit tests in `__tests__/excellence-indicators.test.jsx` for:  
+  - Presence of all main and sub-indicators  
+  - Date range & axis selector triggers fetch  
+  - Export CSV/PDF functionality  
+  - i18n rendering in both languages  
+- Update `README.md` under “Institutional Excellence” detailing the new inputs, missing KPIs, and export buttons.
+
+**Output:** Provide a unified diff patch showing exactly which lines in which files to add, remove, or change. ```

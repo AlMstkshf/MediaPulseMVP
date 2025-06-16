@@ -1,0 +1,26 @@
+In the Replit shell, install React Query and Zod support:
+npm install @tanstack/react-query zod @hookform/resolvers
+
+Create a new file at src/hooks/use-media.ts and scaffold a useMediaItems hook that calls your real /api/media-items endpoint with useQuery, returns data, isLoading and error, and throws on HTTP failures.
+
+Create a new file at src/hooks/use-social.ts and scaffold useSocialPosts, useKeywords, useCreateKeyword, and useDeleteKeyword hooks, each wrapping the corresponding REST API routes in React Query mutations or queries, handling JSON parsing errors and invalid HTTP responses.
+
+In every component that calls a hook, replace the placeholder sample data arrays with the real hook outputs and render a concise error message plus a retry button when the hook’s error is truthy.
+
+Refactor all “Create”/“Update” buttons to be disabled whenever any of the related mutations’ isLoading is true, and to show a small spinner icon next to the label during the mutation.
+
+Wire up toast notifications in every hook success and failure callback so that users see success or error messages after create, update or delete operations.
+
+Extract the dialog open/close state management in GovEntityDialog into a custom useDialog hook that resets the form state on close, then replace the inline useState logic with calls to useDialog().
+
+In your WebSocket context, ensure you send a “subscribe” message for social_media_activity when connected, and send an “unsubscribe” when the component unmounts; handle incoming messages by invalidating the matching React Query cache key.
+
+Add inline field-level validation by disabling the form submit until form.formState.isValid is true, and show error messages next to each invalid field using the Zod resolver.
+
+After every create, update or delete mutation, call queryClient.invalidateQueries on the full list and detail queries so the UI stays in sync, and verify with queryClient.getQueryData that the cache is updated.
+
+Finally, run your linter and formatter in Replit to apply auto‐fixes and ensure consistent style:
+
+npm run lint -- --fix
+
+npm run format

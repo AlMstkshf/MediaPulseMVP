@@ -1,0 +1,123 @@
+client:536 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/?token=OQmRkt75D0U6' failed: 
+setupWebSocket @ client:536
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=OQmRkt75D0U6' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+chunk-276SZO74.js?v=1da3d993:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:11 Initializing i18n...
+index.ts:36 i18n initialized successfully
+main.tsx:23 App rendered successfully
+websocket-context.tsx:33 Attempting to connect to WebSocket at wss://localhost:3000/ws
+websocket-context.tsx:123 Closing WebSocket connection
+websocket-context.tsx:124 WebSocket connection to 'wss://localhost:3000/ws' failed: WebSocket is closed before the connection is established.
+(anonymous) @ websocket-context.tsx:124
+websocket-context.tsx:33 Attempting to connect to WebSocket at wss://localhost:3000/ws
+websocket-context.tsx:89 WebSocket error: Event
+(anonymous) @ websocket-context.tsx:89
+websocket-context.tsx:99 WebSocket connection closed: 1006 
+localhost:3000/api/ai-assistant/tips?context=dashboard:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED
+websocket-context.tsx:35 WebSocket connection to 'wss://localhost:3000/ws' failed: 
+(anonymous) @ websocket-context.tsx:35
+websocket-context.tsx:89 WebSocket error: Event
+(anonymous) @ websocket-context.tsx:89
+websocket-context.tsx:99 WebSocket connection closed: 1006 
+chunk-276SZO74.js?v=1da3d993:521 Warning: validateDOMNesting(...): <div> cannot appear as a descendant of <p>.
+    at div
+    at Badge (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/badge.tsx:35:18)
+    at p
+    at div
+    at button
+    at _c (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/button.tsx:47:11)
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DVHSTOKX.js?v=1da3d993:42:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DVHSTOKX.js?v=1da3d993:42:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-JYL32WHJ.js?v=1da3d993:1929:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:143:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:942:13
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at Popper (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-JYL32WHJ.js?v=1da3d993:1921:11)
+    at Menu (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:97:11)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at DropdownMenu (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:908:5)
+    at div
+    at header
+    at Header (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/Header.tsx:38:23)
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Dashboard (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/dashboard.tsx:42:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:379:17)
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=mLNIkjbC7bqmsSMvRO80P:67:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at WebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/websocket-context.tsx:27:37)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=1da3d993:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1da3d993:2805:3)
+    at App (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=mLNIkjbC7bqmsSMvRO80P:145:20)
+printWarning @ chunk-276SZO74.js?v=1da3d993:521
+chunk-276SZO74.js?v=1da3d993:521 Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.
+    at a
+    at a
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:337:18
+    at NavItem (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/Sidebar.tsx:35:20)
+    at li
+    at ul
+    at nav
+    at div
+    at aside
+    at Sidebar (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/Sidebar.tsx:86:20)
+    at div
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Dashboard (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/dashboard.tsx:42:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:379:17)
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=mLNIkjbC7bqmsSMvRO80P:67:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at WebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/websocket-context.tsx:27:37)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=1da3d993:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1da3d993:2805:3)
+    at App (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=mLNIkjbC7bqmsSMvRO80P:145:20)
+printWarning @ chunk-276SZO74.js?v=1da3d993:521
+websocket-context.tsx:112 Attempting to reconnect...
+SocialMediaIcons.tsx:167 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws' failed: WebSocket is closed before the connection is established.
+(anonymous) @ SocialMediaIcons.tsx:167
+SocialMediaIcons.tsx:158 WebSocket error: Event
+socket.onerror @ SocialMediaIcons.tsx:158
+SocialMediaIcons.tsx:162 WebSocket disconnected
+SocialMediaIcons.tsx:102 WebSocket connected
+websocket-context.tsx:112 Attempting to reconnect...
+localhost:3000/api/sentiment-reports:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED
+localhost:3000/api/social-posts:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED
+localhost:3000/api/keywords:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED
+localhost:3000/api/media:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED
+localhost:3000/api/tutorials:1 
+            
+            
+           Failed to load resource: net::ERR_CONNECTION_REFUSED

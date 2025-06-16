@@ -1,0 +1,355 @@
+client:536 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/?token=sRWuadZAQKOc' failed: 
+setupWebSocket @ client:536
+(anonymous) @ client:531
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=sRWuadZAQKOc' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+setupWebSocket @ client:536
+fallback @ client:509
+(anonymous) @ client:555
+chunk-276SZO74.js?v=1da3d993:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+index.ts:11 Initializing i18n...
+index.ts:36 i18n initialized successfully
+main.tsx:23 App rendered successfully
+websocket-context.tsx:33 Attempting to connect to WebSocket at wss://localhost:5000/ws
+websocket-context.tsx:123 Closing WebSocket connection
+websocket-context.tsx:124 WebSocket connection to 'wss://localhost:5000/ws' failed: WebSocket is closed before the connection is established.
+(anonymous) @ websocket-context.tsx:124
+safelyCallDestroy @ chunk-276SZO74.js?v=1da3d993:16748
+commitHookEffectListUnmount @ chunk-276SZO74.js?v=1da3d993:16875
+invokePassiveEffectUnmountInDEV @ chunk-276SZO74.js?v=1da3d993:18363
+invokeEffectsInDev @ chunk-276SZO74.js?v=1da3d993:19701
+commitDoubleInvokeEffectsInDEV @ chunk-276SZO74.js?v=1da3d993:19682
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19503
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18783
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+websocket-context.tsx:33 Attempting to connect to WebSocket at wss://localhost:5000/ws
+websocket-context.tsx:89 WebSocket error: Event {isTrusted: true, type: 'error', target: WebSocket, currentTarget: WebSocket, eventPhase: 2, …}
+(anonymous) @ websocket-context.tsx:89
+websocket-context.tsx:99 WebSocket connection closed: 1006 
+queryClient.ts:21 
+            
+            
+           GET http://localhost:5000/api/ai-assistant/tips?context=dashboard net::ERR_CONNECTION_REFUSED
+apiRequest @ queryClient.ts:21
+queryFn @ use-ai-assistant.tsx:24
+fetchFn @ @tanstack_react-query.js?v=1da3d993:840
+run @ @tanstack_react-query.js?v=1da3d993:494
+start @ @tanstack_react-query.js?v=1da3d993:536
+fetch @ @tanstack_react-query.js?v=1da3d993:926
+executeFetch_fn @ @tanstack_react-query.js?v=1da3d993:2211
+onSubscribe @ @tanstack_react-query.js?v=1da3d993:1898
+subscribe @ @tanstack_react-query.js?v=1da3d993:24
+(anonymous) @ @tanstack_react-query.js?v=1da3d993:3022
+subscribeToStore @ chunk-276SZO74.js?v=1da3d993:11984
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=1da3d993:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=1da3d993:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=1da3d993:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=1da3d993:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18783
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+websocket-context.tsx:35 WebSocket connection to 'wss://localhost:5000/ws' failed: 
+(anonymous) @ websocket-context.tsx:35
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+invokePassiveEffectMountInDEV @ chunk-276SZO74.js?v=1da3d993:18324
+invokeEffectsInDev @ chunk-276SZO74.js?v=1da3d993:19701
+commitDoubleInvokeEffectsInDEV @ chunk-276SZO74.js?v=1da3d993:19686
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19503
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18783
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+websocket-context.tsx:89 WebSocket error: Event {isTrusted: true, type: 'error', target: WebSocket, currentTarget: WebSocket, eventPhase: 2, …}
+(anonymous) @ websocket-context.tsx:89
+websocket-context.tsx:99 WebSocket connection closed: 1006 
+websocket-context.tsx:112 Attempting to reconnect...
+chunk-276SZO74.js?v=1da3d993:521 Warning: validateDOMNesting(...): <div> cannot appear as a descendant of <p>.
+    at div
+    at Badge (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/badge.tsx:35:18)
+    at p
+    at div
+    at button
+    at _c (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/button.tsx:47:11)
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DVHSTOKX.js?v=1da3d993:42:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=1da3d993:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DVHSTOKX.js?v=1da3d993:42:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-JYL32WHJ.js?v=1da3d993:1929:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:143:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:942:13
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at Popper (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-JYL32WHJ.js?v=1da3d993:1921:11)
+    at Menu (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:97:11)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at DropdownMenu (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dropdown-menu.js?v=1da3d993:908:5)
+    at div
+    at header
+    at Header (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/Header.tsx:38:23)
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Dashboard (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/dashboard.tsx:42:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:379:17)
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=4ivAaYcKVBYS3GnWORb4J:67:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at WebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/websocket-context.tsx:27:37)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=1da3d993:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1da3d993:2805:3)
+    at App (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=4ivAaYcKVBYS3GnWORb4J:145:20)
+printWarning @ chunk-276SZO74.js?v=1da3d993:521
+error @ chunk-276SZO74.js?v=1da3d993:505
+validateDOMNesting @ chunk-276SZO74.js?v=1da3d993:8256
+createInstance @ chunk-276SZO74.js?v=1da3d993:8328
+completeWork @ chunk-276SZO74.js?v=1da3d993:16290
+completeUnitOfWork @ chunk-276SZO74.js?v=1da3d993:19224
+performUnitOfWork @ chunk-276SZO74.js?v=1da3d993:19206
+workLoopConcurrent @ chunk-276SZO74.js?v=1da3d993:19189
+renderRootConcurrent @ chunk-276SZO74.js?v=1da3d993:19164
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18678
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+chunk-276SZO74.js?v=1da3d993:521 Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.
+    at a
+    at a
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:337:18
+    at NavItem (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/Sidebar.tsx:35:20)
+    at li
+    at ul
+    at nav
+    at div
+    at aside
+    at Sidebar (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/Sidebar.tsx:86:20)
+    at div
+    at div
+    at PageLayout (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/layout/PageLayout.tsx:24:23)
+    at Dashboard (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/dashboard.tsx:42:17)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1da3d993:379:17)
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=4ivAaYcKVBYS3GnWORb4J:67:26)
+    at ThemeProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/theme-context.tsx:25:3)
+    at WebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/websocket-context.tsx:27:37)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=1da3d993:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=1da3d993:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1da3d993:2805:3)
+    at App (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=4ivAaYcKVBYS3GnWORb4J:145:20)
+printWarning @ chunk-276SZO74.js?v=1da3d993:521
+error @ chunk-276SZO74.js?v=1da3d993:505
+validateDOMNesting @ chunk-276SZO74.js?v=1da3d993:8256
+createInstance @ chunk-276SZO74.js?v=1da3d993:8328
+completeWork @ chunk-276SZO74.js?v=1da3d993:16290
+completeUnitOfWork @ chunk-276SZO74.js?v=1da3d993:19224
+performUnitOfWork @ chunk-276SZO74.js?v=1da3d993:19206
+workLoopConcurrent @ chunk-276SZO74.js?v=1da3d993:19189
+renderRootConcurrent @ chunk-276SZO74.js?v=1da3d993:19164
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18678
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+SocialMediaIcons.tsx:167 WebSocket connection to 'wss://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/ws' failed: WebSocket is closed before the connection is established.
+(anonymous) @ SocialMediaIcons.tsx:167
+safelyCallDestroy @ chunk-276SZO74.js?v=1da3d993:16748
+commitHookEffectListUnmount @ chunk-276SZO74.js?v=1da3d993:16875
+invokePassiveEffectUnmountInDEV @ chunk-276SZO74.js?v=1da3d993:18363
+invokeEffectsInDev @ chunk-276SZO74.js?v=1da3d993:19701
+commitDoubleInvokeEffectsInDEV @ chunk-276SZO74.js?v=1da3d993:19682
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19503
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+SocialMediaIcons.tsx:158 WebSocket error: Event {isTrusted: true, type: 'error', target: WebSocket, currentTarget: WebSocket, eventPhase: 2, …}
+socket.onerror @ SocialMediaIcons.tsx:158
+SocialMediaIcons.tsx:162 WebSocket disconnected
+SocialMediaIcons.tsx:102 WebSocket connected
+websocket-context.tsx:112 Attempting to reconnect...
+queryClient.ts:42 
+            
+            
+           GET http://localhost:5000/api/sentiment-reports net::ERR_CONNECTION_REFUSED
+(anonymous) @ queryClient.ts:42
+fetchFn @ @tanstack_react-query.js?v=1da3d993:840
+run @ @tanstack_react-query.js?v=1da3d993:494
+start @ @tanstack_react-query.js?v=1da3d993:536
+fetch @ @tanstack_react-query.js?v=1da3d993:926
+executeFetch_fn @ @tanstack_react-query.js?v=1da3d993:2211
+onSubscribe @ @tanstack_react-query.js?v=1da3d993:1898
+subscribe @ @tanstack_react-query.js?v=1da3d993:24
+(anonymous) @ @tanstack_react-query.js?v=1da3d993:3022
+subscribeToStore @ chunk-276SZO74.js?v=1da3d993:11984
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=1da3d993:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=1da3d993:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=1da3d993:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=1da3d993:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+queryClient.ts:42 
+            
+            
+           GET http://localhost:5000/api/social-posts net::ERR_CONNECTION_REFUSED
+(anonymous) @ queryClient.ts:42
+fetchFn @ @tanstack_react-query.js?v=1da3d993:840
+run @ @tanstack_react-query.js?v=1da3d993:494
+start @ @tanstack_react-query.js?v=1da3d993:536
+fetch @ @tanstack_react-query.js?v=1da3d993:926
+executeFetch_fn @ @tanstack_react-query.js?v=1da3d993:2211
+onSubscribe @ @tanstack_react-query.js?v=1da3d993:1898
+subscribe @ @tanstack_react-query.js?v=1da3d993:24
+(anonymous) @ @tanstack_react-query.js?v=1da3d993:3022
+subscribeToStore @ chunk-276SZO74.js?v=1da3d993:11984
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=1da3d993:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=1da3d993:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=1da3d993:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=1da3d993:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+queryClient.ts:42 
+            
+            
+           GET http://localhost:5000/api/keywords net::ERR_CONNECTION_REFUSED
+(anonymous) @ queryClient.ts:42
+fetchFn @ @tanstack_react-query.js?v=1da3d993:840
+run @ @tanstack_react-query.js?v=1da3d993:494
+start @ @tanstack_react-query.js?v=1da3d993:536
+fetch @ @tanstack_react-query.js?v=1da3d993:926
+executeFetch_fn @ @tanstack_react-query.js?v=1da3d993:2211
+onSubscribe @ @tanstack_react-query.js?v=1da3d993:1898
+subscribe @ @tanstack_react-query.js?v=1da3d993:24
+(anonymous) @ @tanstack_react-query.js?v=1da3d993:3022
+subscribeToStore @ chunk-276SZO74.js?v=1da3d993:11984
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=1da3d993:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=1da3d993:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=1da3d993:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=1da3d993:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+queryClient.ts:42 
+            
+            
+           GET http://localhost:5000/api/media net::ERR_CONNECTION_REFUSED
+(anonymous) @ queryClient.ts:42
+fetchFn @ @tanstack_react-query.js?v=1da3d993:840
+run @ @tanstack_react-query.js?v=1da3d993:494
+start @ @tanstack_react-query.js?v=1da3d993:536
+fetch @ @tanstack_react-query.js?v=1da3d993:926
+executeFetch_fn @ @tanstack_react-query.js?v=1da3d993:2211
+onSubscribe @ @tanstack_react-query.js?v=1da3d993:1898
+subscribe @ @tanstack_react-query.js?v=1da3d993:24
+(anonymous) @ @tanstack_react-query.js?v=1da3d993:3022
+subscribeToStore @ chunk-276SZO74.js?v=1da3d993:11984
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=1da3d993:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=1da3d993:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=1da3d993:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=1da3d993:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384
+queryClient.ts:42 
+            
+            
+           GET http://localhost:5000/api/tutorials net::ERR_CONNECTION_REFUSED
+(anonymous) @ queryClient.ts:42
+fetchFn @ @tanstack_react-query.js?v=1da3d993:840
+run @ @tanstack_react-query.js?v=1da3d993:494
+start @ @tanstack_react-query.js?v=1da3d993:536
+fetch @ @tanstack_react-query.js?v=1da3d993:926
+executeFetch_fn @ @tanstack_react-query.js?v=1da3d993:2211
+onSubscribe @ @tanstack_react-query.js?v=1da3d993:1898
+subscribe @ @tanstack_react-query.js?v=1da3d993:24
+(anonymous) @ @tanstack_react-query.js?v=1da3d993:3022
+subscribeToStore @ chunk-276SZO74.js?v=1da3d993:11984
+commitHookEffectListMount @ chunk-276SZO74.js?v=1da3d993:16915
+commitPassiveMountOnFiber @ chunk-276SZO74.js?v=1da3d993:18156
+commitPassiveMountEffects_complete @ chunk-276SZO74.js?v=1da3d993:18129
+commitPassiveMountEffects_begin @ chunk-276SZO74.js?v=1da3d993:18119
+commitPassiveMountEffects @ chunk-276SZO74.js?v=1da3d993:18109
+flushPassiveEffectsImpl @ chunk-276SZO74.js?v=1da3d993:19490
+flushPassiveEffects @ chunk-276SZO74.js?v=1da3d993:19447
+performSyncWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18868
+flushSyncCallbacks @ chunk-276SZO74.js?v=1da3d993:9119
+commitRootImpl @ chunk-276SZO74.js?v=1da3d993:19432
+commitRoot @ chunk-276SZO74.js?v=1da3d993:19277
+finishConcurrentRender @ chunk-276SZO74.js?v=1da3d993:18805
+performConcurrentWorkOnRoot @ chunk-276SZO74.js?v=1da3d993:18718
+workLoop @ chunk-276SZO74.js?v=1da3d993:197
+flushWork @ chunk-276SZO74.js?v=1da3d993:176
+performWorkUntilDeadline @ chunk-276SZO74.js?v=1da3d993:384

@@ -1,0 +1,48 @@
+App.tsx:40 Warning: Cannot update a component (`ErrorBoundary`) while rendering a different component (`SelectItem`). To locate the bad setState() call inside `SelectItem`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=b642730e:844:7
+    at _c11 (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/select.tsx:208:13)
+    at div
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DVHSTOKX.js?v=b642730e:42:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=b642730e:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=b642730e:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-WM6SXSWM.js?v=b642730e:39:15
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=b642730e:755:13
+    at div
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=b642730e:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=b642730e:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-WM6SXSWM.js?v=b642730e:39:15
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b642730e:38:15)
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=b642730e:298:58
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=b642730e:79:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-GR3B7I3S.js?v=b642730e:56:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DVHSTOKX.js?v=b642730e:42:13
+    at https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-QSIPOHEG.js?v=b642730e:260:22
+    at SelectPortal
+    at _c7 (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/select.tsx:123:12)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b642730e:38:15)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b642730e:38:15)
+    at CollectionProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-WM6SXSWM.js?v=b642730e:29:13)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b642730e:38:15)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b642730e:38:15)
+    at Popper (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-FZ3EWJ2E.js?v=b642730e:1921:11)
+    at Select (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=b642730e:86:5)
+    at div
+    at div
+    at div
+    at _c9 (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/ui/card.tsx:20:11)
+    at div
+    at GovEntityList (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/components/entities/GovEntityList.tsx:33:41)
+    at div
+    at EntityMonitoringPage (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/pages/entity-monitoring.tsx:28:27)
+    at Route (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b642730e:323:16)
+    at Switch (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=b642730e:379:17)
+    at Suspense
+    at ErrorBoundary (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=09XeIzt71sbM-5LkN6-di:64:26)
+    at WebSocketProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/lib/websocket-context.tsx:27:37)
+    at AuthProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/hooks/use-auth.tsx:23:32)
+    at Provider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-3RXG37ZK.js?v=b642730e:38:15)
+    at TooltipProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=b642730e:62:5)
+    at QueryClientProvider (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=b642730e:2805:3)
+    at App (https://a1bd02f4-124b-4ff8-b834-f05328d3cae8-00-13ux30pby6j0q.sisko.replit.dev/src/App.tsx?v=09XeIzt71sbM-5LkN6-di:142:20)
