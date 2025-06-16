@@ -7,7 +7,7 @@ import { setupVite, serveStatic, log } from "./vite";
 import { seedDatabase } from "./seed";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import { PORT, HOST } from "./config";
+import { PORT as CONFIG_PORT, HOST } from "./config"; // Renamed to avoid conflict
 import fs from 'fs';
 import { setupViteMiddleware } from "./vite-middleware";
 
@@ -89,6 +89,7 @@ app.use(cors({
     });
 
     if (exactMatch) {
+      console.log(`CORS allowed: Exact match for origin ${origin}`);
       callback(null, origin); // Return the actual origin instead of true for credentials to work
     } else {
       // For Replit development environment, allow all origins when running in development mode
@@ -166,7 +167,8 @@ app.use((req, res, next) => {
       // For all other hosts, don't set the domain (browser will use the current domain)
     }
 
-    console.log(`Setting cookie for host: ${host}, domain: ${cookieDomain}`);
+    console.log(`Cookie Middleware: Setting cookie for host: ${host}, domain: ${cookieDomain}, isSecure: ${isSecure}`);
+    console.log(`Cookie Middleware: Final secureOptions: ${JSON.stringify(secureOptions)}`);
 
     // Create a new options object with security defaults
     const secureOptions = {
@@ -661,16 +663,20 @@ app.use((req, res, next) => {
 
   // We need to use a port that's not already in use
   // Since Vite is using 3000 in development, we'll use 4000 for the API
+  // Log initial port environment variable
+  log(`Initial process.env.PORT: ${process.env.PORT}`);
+
+  // We need to use a port that's not already in use
+  // Since Vite is using 3000 in development, we'll use 4000 for the API
   const serverPort = process.env.NODE_ENV === 'production' ? 3000 : 4000;
   
   // Set environment variable for consistency
   process.env.PORT = serverPort.toString();
 
   // Log the port configuration for debugging
-  log(`Port configuration: Using port ${serverPort} (${process.env.NODE_ENV || 'development'} mode)`);
-  if (process.env.PORT) {
-    log(`Using port from environment variable: ${process.env.PORT}`);
-  }
+  log(`Port configuration: Determined serverPort: ${serverPort} (${process.env.NODE_ENV || 'development'} mode)`);
+  log(`Updated process.env.PORT: ${process.env.PORT}`);
+  log(`Port from config.ts: ${CONFIG_PORT}`); // Log the port from config.ts
 
   const host = "0.0.0.0"; // Listen on all network interfaces for Replit compatibility
 
